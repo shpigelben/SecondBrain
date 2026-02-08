@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - and:
+            - subject.contains("project Euler")
+            - type.contains("problem")
+            - file.folder == "3. Problems"
+            - field.contains("math")
+    order:
+      - file.name
+      - date
+      - status
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 332
+      note.date: 274

@@ -1,0 +1,169 @@
+{
+	"nodes":[
+		{
+			"id":"61f642140c73aa3d",
+			"type":"text",
+			"text":"# Nuclear Zeeman Effect\nA nucleus with nuclear spin $I$ has multiplicity of states $2I+1$. The states are degenerate, but in the presence of a magnetic field $B_0$ They separate and each spin state has energy of\n$$ E_{i} =-m_{i} \\frac{\\gamma hB_{0}}{2\\pi} $$\n$\\gamma$ is known as the **magnetogyric ratio** which is isotope specific. The energy difference between adjacent energy states (given that the spin is half $1/2$) is\n$$\\Delta E = \\frac{\\gamma h B_{0}}{2 \\pi} = h\\nu_{L}$$\nThe energy gaps correspond to the Larmor precession",
+			"styleAttributes":{},
+			"x":-1599,
+			"y":-1453,
+			"width":502,
+			"height":808,
+			"color":"6"
+		},
+		{
+			"id":"2a181a3eb43a4582",
+			"type":"text",
+			"text":"# Larmor Frequency\n\n$$\\nu_{L} = \\frac{{\\gamma B_{0}}}{2\\pi}$$\nThe precession frequency is independent of the quantum number $m$, therefore all nuclear state precess in the same manner",
+			"styleAttributes":{},
+			"x":-2316,
+			"y":-1616,
+			"width":450,
+			"height":326,
+			"color":"5"
+		},
+		{
+			"id":"986fe9b55cc5c7e2",
+			"type":"text",
+			"text":"# Photon Absorption\n\nUpon absorbing a photon with an appropriate energy, the atom \"conserves energy\" by transitioning to a higher energy state. For an atom in a magnetic field, this can be the transition from a state with lower spin state, say $m=-1/2$ to $m=1/2$\n![[nuclear spins in a magnetic field|center|500]]\nEssentially, doing a \"flip\". The photon frequency has to equal the Larmor frequency in order to be absorbed",
+			"styleAttributes":{},
+			"x":-883,
+			"y":-1557,
+			"width":752,
+			"height":753
+		},
+		{
+			"id":"103ec429d411fc3d",
+			"type":"text",
+			"text":"# Pauli Exclusion & Orbitals\nWhen considering the state of an electron around a charged nucleus, its state is described by 4 quantum numbers. 3 determine the type of the orbital is occupies, the last is the spin which has two values. Therefore each orbital, can be occupied by two electrons with different spins (Pauli's Exclusion Principle)\n$$\\Large\\ket{\\underbrace{nlm}_{\\text{orbital}} ,\\underbrace{s}_{\\uparrow | \\downarrow} \\ }$$",
+			"styleAttributes":{},
+			"x":-2891,
+			"y":-1049,
+			"width":575,
+			"height":621,
+			"color":"6"
+		},
+		{
+			"id":"ba956117862535b3",
+			"type":"text",
+			"text":"# Energy Population - EP\n**net absorption** - lower EP > higher EP\n**saturation** - lower EP = higher EP $\\Rightarrow$ absorption = stimulated emission\nin  thermodynamic equilibrium at temperature $T$, the probability of finding the system at an energy state $E_i$ , using a [[../../2. Notes/Canonical Ensemble]] is\n$$  \\mathbb{P}(E=E_{i}) = \\frac{1}{\\mathcal{Z}}\\exp{(-\\beta E_{i})} $$\nTherefore, the population ratio of two energies $E_i$ and $E_j$ is\n$$ \\frac{\\mathbb{P}(E=E_{i})}{\\mathbb{P}(E=E_{j})} =\\Large e^{-\\beta(E_{i}-E_{j})}=e^{\\frac{\\Delta E_{ij}}{k_{\\small B}T}} $$\nIn the case of nuclear spins in a magnetic field the population ratio is given by\n\n$$\\frac{\\mathbb{P}\\left( m=-\\frac{1}{2} \\right)}{\\mathbb{P}\\left( m = \\frac{1}{2} \\right)} = \\exp{\\left(- \\frac{\\gamma \\hbar B_{0}}{k_{\\small B}T} \\right)}  $$",
+			"styleAttributes":{},
+			"x":-3025,
+			"y":-289,
+			"width":709,
+			"height":798,
+			"color":"5"
+		},
+		{
+			"id":"244dfc336e5b474a",
+			"type":"text",
+			"text":"# Photon Energy\n$$E = h\\nu = \\frac{hc}{\\lambda}$$\n$$\\begin{align}\nh &= 6.63\\times 10^{-34} \\ \\left[\\frac{J}{photon}\\right] \\\\\n&=   6.63\\times 10^{-34}\\cdot N_{A} \\left[\\frac{J}{mol}\\right] \\\\ \n& \\approx 4\\times 10^{-13}  \\ \\left[\\frac{J}{mol}\\right] \n\\end{align} $$\nTotal intensity of a beam is proportional to the number of photons it delivers per unit time\n$$I\\propto N_{\\gamma}$$",
+			"styleAttributes":{},
+			"x":-883,
+			"y":-571,
+			"width":484,
+			"height":586,
+			"color":"3"
+		},
+		{
+			"id":"925ffaaecbaa90a8",
+			"type":"text",
+			"text":"The multiplicity of states of every subspace of the total angular momentum $J$ is $2J+1$.\n\nIf $J = \\frac{1}{2} + \\frac{3}{2}$ The state multiplicities are $2$ and $4$ respectively",
+			"styleAttributes":{},
+			"x":-1348,
+			"y":-428,
+			"width":409,
+			"height":315,
+			"color":"6"
+		},
+		{
+			"id":"bd9737070b66999d",
+			"type":"text",
+			"text":"[[../../2. Notes/Addition of Angular Momenta]] \nTotal angular momentum for valence $e^-$ \n- LS coupling (for lighter elements)$$J = L\\oplus S \n= \\left( \\sum\\limits_{i}\\ell_{i} \\right)\\oplus \\left( \\sum\\limits_{i}s_{i} \\right)$$\n- JJ coupling $$J = \\sum\\limits_{i}j_{i} = \\sum\\limits_{i}(\\ell_{i}\\oplus s_{i})$$\nTotal angular momentum of the atom is given by the addition of $J$ and the nuclear spin $I$\n$$ F = J\\oplus I $$",
+			"styleAttributes":{},
+			"x":-2088,
+			"y":-499,
+			"width":477,
+			"height":683,
+			"color":"6"
+		},
+		{
+			"id":"0a8ab449de938b14",
+			"type":"text",
+			"text":"# Relaxation Processes\nHow long after the immersion in magnetic field, does it take for a collection of nuclei in the sample to reequilibrate ?\n\n## Spin-Lattice T1\nlongitudinal.\nGiven a starting population $P(0)$ the population $P(t)$  of a certain state, reaches equilibrium population $P_{eq}$  following this exponential relation\n$$ \\frac{{P_{eq}-P(t)}}{P_{eq}-P(0)}= \\exp\\left( {-\\frac{t}{T_{1}}}   \\right)$$\n## Spin-Spin T2\ntransverse.\n$T_2$ refers to the relaxation time of the projection of the magnetization $\\mathbf{M}$ on the $xy$ plane after the rotating field $B_1$ has been turned off.",
+			"styleAttributes":{},
+			"x":-264,
+			"y":-571,
+			"width":501,
+			"height":684,
+			"color":"#3d77ff"
+		},
+		{
+			"id":"88f27db6a71d404a",
+			"type":"text",
+			"text":"- Larger $B_0$ and $\\gamma$ (and/or)\n- Lower Temperature\nResult in larger population differences.\nThe more significant this difference the more significant the absorption and therefore the more concise the NMR spectroscopy",
+			"styleAttributes":{},
+			"x":-2088,
+			"y":209,
+			"width":428,
+			"height":395,
+			"color":"5"
+		},
+		{
+			"id":"5340f180a1182e03",
+			"type":"text",
+			"text":"# Spectroscopy\nIn spectroscopy we use light to probe the energy levels of a sample.\nBy sandwiching the sample between a light source and a detector, we can observe the absorption spectrum of the sample and from it deduce its energetic structure.",
+			"styleAttributes":{},
+			"x":104,
+			"y":-964,
+			"width":719,
+			"height":319
+		},
+		{
+			"id":"279a4e87ae666959",
+			"type":"text",
+			"text":"[[../../2. Notes/Uncertainty Principle]]\n$$\\begin{align}\n\\Delta E \\Delta t \\geq h \\\\ \\\\\n\\Delta \\nu \\Delta t \\geq 1\n\\end{align}$$\nIn order to properly probe the absorption of light, we must use the right pulse width.",
+			"styleAttributes":{},
+			"x":-1348,
+			"y":33,
+			"width":397,
+			"height":352,
+			"color":"2"
+		},
+		{
+			"id":"1001d0cd6696fc2e",
+			"type":"text",
+			"text":"Photons of frequency $\\nu$ can only be absorbed by molecules that vibrate (maybe also rotate) in the same frequency",
+			"styleAttributes":{},
+			"x":-785,
+			"y":278,
+			"width":288,
+			"height":257,
+			"color":"1"
+		},
+		{
+			"id":"08c8580006ed529e",
+			"type":"text",
+			"text":"# Pulse Experiments\n- envelope of the pulse is a square wave",
+			"styleAttributes":{},
+			"x":-111,
+			"y":535,
+			"width":567,
+			"height":264
+		}
+	],
+	"edges":[
+		{"id":"68ede747fcc94dba","fromNode":"925ffaaecbaa90a8","fromSide":"left","toNode":"bd9737070b66999d","toSide":"right","color":"1"},
+		{"id":"957a022532ebb823","fromNode":"244dfc336e5b474a","fromSide":"bottom","toNode":"1001d0cd6696fc2e","toSide":"top","color":"3"},
+		{"id":"73742358dfcfae5f","fromNode":"61f642140c73aa3d","fromSide":"bottom","toNode":"bd9737070b66999d","toSide":"top","color":"6"},
+		{"id":"c52fd07bd61d7ccc","fromNode":"925ffaaecbaa90a8","fromSide":"top","toNode":"61f642140c73aa3d","toSide":"bottom","color":"6"},
+		{"id":"67a95214dc1adf8e","fromNode":"2a181a3eb43a4582","fromSide":"right","toNode":"61f642140c73aa3d","toSide":"left","color":"5"},
+		{"id":"549f7543544888cb","fromNode":"986fe9b55cc5c7e2","fromSide":"left","toNode":"61f642140c73aa3d","toSide":"right"},
+		{"id":"dee5c752d23739f6","fromNode":"986fe9b55cc5c7e2","fromSide":"bottom","toNode":"244dfc336e5b474a","toSide":"top","color":"3"},
+		{"id":"cc8acda10955aa18","fromNode":"986fe9b55cc5c7e2","fromSide":"top","toNode":"2a181a3eb43a4582","toSide":"top","color":"3","label":"spin flip\ndoesn't effect\nprecession\nfrequency"},
+		{"id":"f60db4f86f04d41f","fromNode":"61f642140c73aa3d","fromSide":"left","toNode":"ba956117862535b3","toSide":"right","color":"5"},
+		{"id":"12e0342c45438c47","fromNode":"ba956117862535b3","fromSide":"right","toNode":"88f27db6a71d404a","toSide":"left","color":"3"},
+		{"id":"37e20b215e9675bb","fromNode":"5340f180a1182e03","fromSide":"bottom","toNode":"0a8ab449de938b14","toSide":"right"}
+	],
+	"metadata":{"version":"1.0-1.0"}
+}

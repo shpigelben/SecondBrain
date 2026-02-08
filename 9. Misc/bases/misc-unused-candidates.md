@@ -1,0 +1,281 @@
+# 9. Misc Unused Candidates
+
+- Generated: 2026-02-08
+- Method: inbound-reference scan from markdown/canvas/excalidraw/json-style file links
+- Note: `unused` here means "not referenced by links"; files may still be intentionally kept.
+
+## .DS_Store
+- total: 1
+- referenced: 0
+- unreferenced candidates: 1
+- `9. Misc/.DS_Store`
+
+## Canvases
+- total: 9
+- referenced: 7
+- unreferenced candidates: 2
+- `9. Misc/Canvases/NMR Spectroscopy.canvas`
+- `9. Misc/Canvases/Operators.canvas`
+
+## Excalidraw
+- total: 63
+- referenced: 5
+- unreferenced candidates: 58
+- `9. Misc/Excalidraw/Abeles.excalidraw.md`
+- `9. Misc/Excalidraw/Algorithms & DS (Linked Lists).md`
+- `9. Misc/Excalidraw/Cooper Pairs.md`
+- `9. Misc/Excalidraw/Double Slit Illustrations.md`
+- `9. Misc/Excalidraw/Drawing 2023-12-02 21.43.55.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-01-25 13.19.46.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-01-30 15.33.17.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-01-31 09.54.57.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-01-31 10.03.41.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-02-12 09.00.10.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-02-12 09.47.12.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-04-07 19.53.06.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-04-09 01.57.20.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-04-19 17.56.21.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-06-03 13.12.58.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-06-10 18.06.22.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-06-25 13.58.39.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-07-01 11.55.20.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-07-13 10.38.16.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-07-23 23.08.07.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-07-26 17.44.42.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-08-10 20.15.26.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-10-10 10.33.08.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-11-18 13.48.24.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-12-12 17.01.16.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2024-12-18 12.41.29.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-01-28 13.10.36.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-02-04 14.43.47.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-02-17 16.47.40.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-04-07 23.36.02.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-04-09 11.13.45.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-04-09 17.40.45.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-04-27 22.21.50.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-05-22 00.26.05.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-05-24 01.06.33.excalidraw.md`
+- `9. Misc/Excalidraw/Drawing 2025-10-08 11.31.29.excalidraw.md`
+- `9. Misc/Excalidraw/EMISSION TYPE COMPARISON.md`
+- `9. Misc/Excalidraw/Fermion Occupation.md`
+- `9. Misc/Excalidraw/Fresnel Diffraction.md`
+- `9. Misc/Excalidraw/Fresnel.excalidraw.md`
+- `9. Misc/Excalidraw/Halleffect.md`
+- `9. Misc/Excalidraw/Holographic Interferometry -excaliber.md`
+- `9. Misc/Excalidraw/Holography Sketch.md`
+- `9. Misc/Excalidraw/HolographyVSphotography - excaliber.md`
+- `9. Misc/Excalidraw/LCAO atomic orbitals.md`
+- `9. Misc/Excalidraw/Magnetization Trajectory.md`
+- `9. Misc/Excalidraw/Michelson mirrors.md`
+- `9. Misc/Excalidraw/NMR - magnetization.md`
+- `9. Misc/Excalidraw/NMR - spin echo.md`
+- `9. Misc/Excalidraw/NMR - spin.md`
+- `9. Misc/Excalidraw/NMR FID signal.md`
+- `9. Misc/Excalidraw/Ptable.md`
+- `9. Misc/Excalidraw/Slide Attempt.md`
+- `9. Misc/Excalidraw/Speckles.md`
+- `9. Misc/Excalidraw/Voronoi Cell.md`
+- `9. Misc/Excalidraw/lens-magnification.md`
+- `9. Misc/Excalidraw/pinhole_camera.excalidraw.md`
+- `9. Misc/Excalidraw/two incident plane waves.md`
+
+## attachments
+- total: 516
+- referenced: 327
+- unreferenced candidates: 189
+- `9. Misc/attachments/unused/0C8153F6-D665-4363-9176-7F9EC9B83803_1_105_c.jpeg`
+- `9. Misc/attachments/unused/1024px-Black_body.svg.png`
+- `9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg`
+- `9. Misc/attachments/unused/95D82FB8-891C-4B00-B1A5-9E11AF372DA6_1_105_c.jpeg`
+- `9. Misc/attachments/unused/998987fa9d018dde896b9780e480a09fade9e6d7bb6ecc5fbfd9fe386b2ab10c.png`
+- `9. Misc/attachments/unused/9JdWoys.jpg`
+- `9. Misc/attachments/unused/A44E9928-8F6B-4E27-A283-AD8854B52E1F_1_105_c.jpeg`
+- `9. Misc/attachments/unused/BCS1.png`
+- `9. Misc/attachments/unused/Biological_classification_L_Pengo_vflip.svg.png`
+- `9. Misc/attachments/unused/Bragg.png`
+- `9. Misc/attachments/unused/Drawing 2021-11-15 14.34.51.excalidraw.png`
+- `9. Misc/attachments/unused/Drawing 2021-12-04 03.45.38.excalidraw.png`
+- `9. Misc/attachments/unused/F90E3C56-F687-46D6-884B-C2A1BBEDBAF4_1_105_c.jpeg`
+- `9. Misc/attachments/unused/Faraday_Discussion_paper[1651].pdf`
+- `9. Misc/attachments/unused/IMG_1028.jpeg`
+- `9. Misc/attachments/unused/IMG_1030.jpeg`
+- `9. Misc/attachments/unused/IMG_1031.jpeg`
+- `9. Misc/attachments/unused/Light Generated Bubbles for Microscopic Propulsion.pdf`
+- `9. Misc/attachments/unused/Light Spectrum.png`
+- `9. Misc/attachments/unused/MOC.svg`
+- `9. Misc/attachments/unused/MealyBug-DNA_520x292-520x292.jpg`
+- `9. Misc/attachments/unused/Murmurations-byPaulChaikin-Lede-ezgif.com-video-to-gif-converter.gif`
+- `9. Misc/attachments/unused/Nanofabrication.pdf`
+- `9. Misc/attachments/unused/Open Composition of Carnot Engines.png`
+- `9. Misc/attachments/unused/OsmosisPNG.png`
+- `9. Misc/attachments/unused/Pasted Image 20221215015848_347.svg`
+- `9. Misc/attachments/unused/Pasted Image 20221215104757_220.svg`
+- `9. Misc/attachments/unused/Pasted Image 20230208081721_227.png`
+- `9. Misc/attachments/unused/Pasted Image 20230208083649_870.png`
+- `9. Misc/attachments/unused/Pasted Image 20230208083747_238.png`
+- `9. Misc/attachments/unused/Pasted Image 20230208083935_236.png`
+- `9. Misc/attachments/unused/Pasted Image 20230208084128_217.png`
+- `9. Misc/attachments/unused/Pasted Image 20230320092616_496.jpg`
+- `9. Misc/attachments/unused/Pasted Image 20240613114108_924.png`
+- `9. Misc/attachments/unused/Pasted Image 20240613114518_574.png`
+- `9. Misc/attachments/unused/Pasted Image 20240626171523_339.png`
+- `9. Misc/attachments/unused/Pasted Image 20240626174559_915.png`
+- `9. Misc/attachments/unused/Pasted Image 20240713103943_120.png`
+- `9. Misc/attachments/unused/Pasted Image 20240810204010_564.png`
+- `9. Misc/attachments/unused/Pasted Image 20240810204505_362.png`
+- `9. Misc/attachments/unused/Pasted Image 20240908122741_031.png`
+- `9. Misc/attachments/unused/Pasted Image 20241205213334_982.png`
+- `9. Misc/attachments/unused/Pasted Image 20241212170329_077.png`
+- `9. Misc/attachments/unused/Pasted Image 20250204153755_168.png`
+- `9. Misc/attachments/unused/Pasted Image 20250204153825_303.png`
+- `9. Misc/attachments/unused/Pasted Image 20250204154047_724.png`
+- `9. Misc/attachments/unused/Pasted Image 20250205114236_210.png`
+- `9. Misc/attachments/unused/Pasted Image 20250205114236_222.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401161412_109.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401163305_111.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401180037_227.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401180232_932.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401180739_210.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401180813_160.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401180923_549.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401181023_498.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401181116_469.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401181205_563.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401181732_934.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401182204_674.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401183536_069.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401184023_740.png`
+- `9. Misc/attachments/unused/Pasted Image 20250401184504_199.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144759_726.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144812_067.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144825_866.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144846_998.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144923_390.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404144951_101.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404145642_212.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404145808_200.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404145831_456.png`
+- `9. Misc/attachments/unused/Pasted Image 20250404150012_269.png`
+- `9. Misc/attachments/unused/Pasted Image 20250520223240_241.png`
+- `9. Misc/attachments/unused/Pasted Image 20250520233809_920.png`
+- `9. Misc/attachments/unused/Pasted image 20211205175631.png`
+- `9. Misc/attachments/unused/Pasted image 20211210165218.png`
+- `9. Misc/attachments/unused/Pasted image 20220118113337.png`
+- `9. Misc/attachments/unused/Pasted image 20220325222109.png`
+- `9. Misc/attachments/unused/Pasted image 20220331180019.png`
+- `9. Misc/attachments/unused/Pasted image 20220401000003 1.png`
+- `9. Misc/attachments/unused/Pasted image 20220401000003.png`
+- `9. Misc/attachments/unused/Pasted image 20220402201301.png`
+- `9. Misc/attachments/unused/Pasted image 20220404130009.png`
+- `9. Misc/attachments/unused/Pasted image 20220410170528.png`
+- `9. Misc/attachments/unused/Pasted image 20220416210942.png`
+- `9. Misc/attachments/unused/Pasted image 20220502222726.png`
+- `9. Misc/attachments/unused/Pasted image 20220518204617.png`
+- `9. Misc/attachments/unused/Pasted image 20220518204931.png`
+- `9. Misc/attachments/unused/Pasted image 20221001184631.png`
+- `9. Misc/attachments/unused/Pasted image 20221203125806.png`
+- `9. Misc/attachments/unused/Pasted image 20230401124432.png`
+- `9. Misc/attachments/unused/Pasted image 20230401155215.png`
+- `9. Misc/attachments/unused/Pasted image 20230401164852.png`
+- `9. Misc/attachments/unused/Pasted image 20230401164929.png`
+- `9. Misc/attachments/unused/Pasted image 20230401174356.png`
+- `9. Misc/attachments/unused/Pasted image 20230401174407.png`
+- `9. Misc/attachments/unused/Pasted image 20230401183841.png`
+- `9. Misc/attachments/unused/Pasted image 20230417201809.png`
+- `9. Misc/attachments/unused/Pasted image 20230417215015.png`
+- `9. Misc/attachments/unused/Pasted image 20230417233525.png`
+- `9. Misc/attachments/unused/Pasted image 20230425002502.png`
+- `9. Misc/attachments/unused/Pasted image 20230515134509.png`
+- `9. Misc/attachments/unused/Pasted image 20230523171048.png`
+- `9. Misc/attachments/unused/Pasted image 20230523171058.png`
+- `9. Misc/attachments/unused/Pasted image 20230524083513.png`
+- `9. Misc/attachments/unused/Pasted image 20230920154759.png`
+- `9. Misc/attachments/unused/Pasted image 20230920154823.png`
+- `9. Misc/attachments/unused/Pasted image 20231029002916.png`
+- `9. Misc/attachments/unused/Pasted image 20231211225339.png`
+- `9. Misc/attachments/unused/Pasted image 20231224101810.png`
+- `9. Misc/attachments/unused/Pasted image 20240113174645.png`
+- `9. Misc/attachments/unused/Pasted image 20240115185943.png`
+- `9. Misc/attachments/unused/Pasted image 20240121214946.png`
+- `9. Misc/attachments/unused/Pasted image 20240121221951.png`
+- `9. Misc/attachments/unused/Pasted image 20240124151200.png`
+- `9. Misc/attachments/unused/Pasted image 20240125133415.png`
+- `9. Misc/attachments/unused/Pasted image 20240130005221.png`
+- `9. Misc/attachments/unused/Pasted image 20240205223027.png`
+- `9. Misc/attachments/unused/Pasted image 20240212105530.png`
+- `9. Misc/attachments/unused/Pasted image 20240222001049.png`
+- `9. Misc/attachments/unused/Pasted image 20240308191349.png`
+- `9. Misc/attachments/unused/Pasted image 20240326005348.png`
+- `9. Misc/attachments/unused/Pasted image 20240326010247.png`
+- `9. Misc/attachments/unused/Pasted image 20240408024629.png`
+- `9. Misc/attachments/unused/Pasted image 20240416142210.png`
+- `9. Misc/attachments/unused/Pasted image 20240422041205.png`
+- `9. Misc/attachments/unused/Pasted image 20240603182651.png`
+- `9. Misc/attachments/unused/Pasted image 20240606134424.png`
+- `9. Misc/attachments/unused/Pasted image 20240606134434.png`
+- `9. Misc/attachments/unused/Pasted image 20240608235039.png`
+- `9. Misc/attachments/unused/Pasted image 20240610230551.png`
+- `9. Misc/attachments/unused/Pasted image 20240613114236.png`
+- `9. Misc/attachments/unused/Pasted image 20240722222335.png`
+- `9. Misc/attachments/unused/Pasted image 20240811112233.png`
+- `9. Misc/attachments/unused/Pasted image 20240811112347.png`
+- `9. Misc/attachments/unused/Pasted image 20240811112416.png`
+- `9. Misc/attachments/unused/Pasted image 20240811132334.png`
+- `9. Misc/attachments/unused/Pasted image 20240811132426.png`
+- `9. Misc/attachments/unused/Pasted image 20240811132455.png`
+- `9. Misc/attachments/unused/Pasted image 20240811163800.png`
+- `9. Misc/attachments/unused/Pasted image 20240904112552.png`
+- `9. Misc/attachments/unused/Pasted image 20240926172853.png`
+- `9. Misc/attachments/unused/Pasted image 20241013105922.png`
+- `9. Misc/attachments/unused/Pasted image 20241021094539.png`
+- `9. Misc/attachments/unused/Pasted image 20241021101200.png`
+- `9. Misc/attachments/unused/Pasted image 20241027201518.png`
+- `9. Misc/attachments/unused/Pasted image 20241118134743.png`
+- `9. Misc/attachments/unused/Pasted image 20241118134750.png`
+- `9. Misc/attachments/unused/Pasted image 20241118135120.png`
+- `9. Misc/attachments/unused/Pasted image 20250129143352.png`
+- `9. Misc/attachments/unused/Pasted image 20250129170236.png`
+- `9. Misc/attachments/unused/Pasted image 20250520124716.png`
+- `9. Misc/attachments/unused/Pasted image 20250520125152.png`
+- `9. Misc/attachments/unused/Pasted image 20250520130243.png`
+- `9. Misc/attachments/unused/Pasted image 20250522003734.png`
+- `9. Misc/attachments/unused/Pasted image 20251024063457.png`
+- `9. Misc/attachments/unused/Pasted image 20251029172425.png`
+- `9. Misc/attachments/unused/Pasted image 20251102073535.png`
+- `9. Misc/attachments/unused/Quantum-mechanical effects in photoluminescence from thin crystalline gold films.pdf`
+- `9. Misc/attachments/unused/QuantumGravity_2880x1620-2880x1620.jpg`
+- `9. Misc/attachments/unused/Recording 20221126173159.webm`
+- `9. Misc/attachments/unused/Recording 20230507190531.webm`
+- `9. Misc/attachments/unused/Relativity Map.png`
+- `9. Misc/attachments/unused/SVG.svg`
+- `9. Misc/attachments/unused/Screen Recording 2024-07-01 at 11.50.50.gif`
+- `9. Misc/attachments/unused/Tangent Space.excalidraw.png`
+- `9. Misc/attachments/unused/Thermodynamic Process.png`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (1).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (2).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (3).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (4).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (5).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23 (6).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.23.jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (1).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (2).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (3).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (4).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (5).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24 (6).jpeg`
+- `9. Misc/attachments/unused/WhatsApp Image 2025-05-20 at 10.04.24.jpeg`
+- `9. Misc/attachments/unused/a-Reciprocal-lattice-rods-for-a-two-dimensional-periodic-lattice-The-reciprocal.png`
+- `9. Misc/attachments/unused/ff35f1758301a9f0f6dbbcaf1277656e79289a3f70e2674a75a1a9c40b127fd1.png`
+- `9. Misc/attachments/unused/ibl_specular_lobe.png`
+- `9. Misc/attachments/unused/interband_transitions(cut).pdf`
+- `9. Misc/attachments/unused/optics banner.png`
+- `9. Misc/attachments/unused/van-der-waals3.svg`
+- `9. Misc/attachments/unused/zbasis-counting.gif`
+
+## bases
+- total: 2
+- referenced: 1
+- unreferenced candidates: 1
+- `9. Misc/bases/unresolved-links-report.md`

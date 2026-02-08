@@ -1,0 +1,263 @@
+{
+	"edges":[],
+	"metadata":{"version":"1.0-1.0"},
+	"nodes":[
+		{
+			"id":"e00731f198e80b38",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-1640,
+			"y":-1920,
+			"width":2520,
+			"height":640,
+			"label":"General Topics of interest"
+		},
+		{
+			"id":"c17b38f1ddc5c91a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-1640,
+			"y":-1160,
+			"width":1160,
+			"height":1100,
+			"label":"Nuclear Waste Solar Sail"
+		},
+		{
+			"id":"9bc04e6a445d2470",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-1620,
+			"y":80,
+			"width":1180,
+			"height":680,
+			"label":"Atomic & Optical Physics"
+		},
+		{
+			"id":"034bfe700e245572",
+			"styleAttributes":{},
+			"text":" # AMO & Quantum Optics\n\n1. Quasi-probabilities\n2. [Dicke Model](https://www.wikiwand.com/en/articles/Dicke_model)",
+			"type":"text",
+			"x":160,
+			"y":-1860,
+			"width":400,
+			"height":210
+		},
+		{
+			"id":"404c2a4350e092dc",
+			"styleAttributes":{},
+			"text":"# Classical Mechanics\n\n1. Specific impulse\n2. Orbits under constant force ([Solar Sail](2.%20Notes/Solar%20Sail.md))\n3. self gravitation",
+			"type":"text",
+			"x":-720,
+			"y":-1860,
+			"width":400,
+			"height":180
+		},
+		{
+			"id":"3b3113c965dc0121",
+			"styleAttributes":{},
+			"text":"What would happen if an attractive force (say gravitational force) suddenly became repulsive at a certain point in time?",
+			"type":"text",
+			"x":-720,
+			"y":-1650,
+			"width":400,
+			"height":110
+		},
+		{
+			"id":"0931bb994007c3f3",
+			"styleAttributes":{},
+			"text":"Hole through the earth\n1. What would happen to the atmosphere as a result?\n2. How long would a \"free-fall\" trip take from one end to the other?",
+			"type":"text",
+			"x":-720,
+			"y":-1524,
+			"width":400,
+			"height":164
+		},
+		{
+			"id":"51692286a2f19431",
+			"styleAttributes":{},
+			"text":"# Vector Calculus\n1. Write about Bezier Curves and their relation to splines\n2.  insert math notes from complex analysis into obsidian",
+			"type":"text",
+			"x":-260,
+			"y":-1860,
+			"width":370,
+			"height":238
+		},
+		{"id":"775ad4ac742c6c78","type":"text","text":"ternary logic","x":160,"y":-2160,"width":250,"height":60},
+		{
+			"file":"2. Notes/Solar Sail.md",
+			"id":"13c68dc7de2c6d3e",
+			"styleAttributes":{},
+			"type":"file",
+			"x":-1600,
+			"y":-1100,
+			"width":560,
+			"height":960
+		},
+		{
+			"id":"309dba5dfde6c3d9",
+			"styleAttributes":{},
+			"text":"# Dynamical Systems\n\n1. General recap\n2. Turing patterns\n3. spinodal decomposition\n4. neuronal & network dynamics",
+			"type":"text",
+			"x":-1140,
+			"y":-1860,
+			"width":360,
+			"height":320
+		},
+		{
+			"id":"dd40ccd37437c3de",
+			"styleAttributes":{},
+			"text":"# Electrodynamics\n\n1. radiation of moving charges.\n2. radiation pressure ([Solar Sail](2.%20Notes/Solar%20Sail.md))",
+			"type":"text",
+			"x":-1560,
+			"y":-1860,
+			"width":360,
+			"height":160
+		},
+		{
+			"id":"c8662036f0800def",
+			"styleAttributes":{},
+			"text":"Is it possible to create a \"non-reversible\" filter using photonic crystals, such that light of certain wavelengths penetrates from one direction, but not the other?",
+			"type":"text",
+			"x":-1560,
+			"y":-1680,
+			"width":360,
+			"height":200
+		},
+		{
+			"file":"9. Misc/Canvases/MSc Research.canvas",
+			"id":"f41e5d2412f11e7a",
+			"styleAttributes":{},
+			"type":"file",
+			"x":-5120,
+			"y":-1680,
+			"width":2240,
+			"height":1770,
+			"color":"6"
+		},
+		{
+			"id":"91b1857844fd2376",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"text":"# Topic of Interest By Priority\n\n1. Electrodynamics\n2. Optics & Photonics\n3. Thermodynamics\n4. Dynamical Systems\n5. Atomic & Molecular Physics\n6. Stochastic Processes\n7. Chemical Processes\n8. Special Relativity\n9. Hydrodynamics",
+			"type":"text",
+			"x":-360,
+			"y":-1162,
+			"width":400,
+			"height":505,
+			"color":"3"
+		},
+		{
+			"id":"df9729b1466796a6",
+			"styleAttributes":{},
+			"text":"# Side Projects\n\n- [ ] solving an orbital mechanics problem numerically (gravitational force + radiation pressure force) and analyze using dynamical systems methods.\n- [ ] Evolving a distribution in phase space\n- [ ] solving the ray equation numerically\n- [ ] Real about [Capacitance & Grounding](Capacitance%20&%20Grounding.md)\n- [ ] Explore the propagation of pulses in dielectric media as opposed to metals.\n\t- [ ] Figure out the amplitude of an EMP pulse\n\t- [ ] understand, given the amplitude of a pulse, how thick would metal walls (Faraday cage) have to be in order to provide protection\n- [ ] A code that takes daily food intake in grams (over a week) and returns average daily distribution of food as well as weekly macronutrient distribution and micronutrient amounts relative to recommended daily amounts. Also - fat profile (omega3 to omega6 ratios, and types of fats consumed saturated, monounsaturated and polyunsaturated).\n- [ ] Error propagation for \"non-differentiable\" functions (e.g functions that are made in function).\n- [ ] **Dynamical Billiards** - implementation attempt using the ray equation and seeing if maybe a complex refractive index can mimic a metal and result in specular reflection.\n\n- [ ] 2D gas in discrete cells\n- [ ] OOP - make the particle an object?\n\t- [ ] each cell (state) can occupy one molecule at a time\n\t- [ ] time evolution\n\t- [ ] reaching equilibrium\n\t- [ ] assessing entropy\n\n- [ ] Modes of coupled oscillators can be excited given the right frequencies. In principle - the more DOFs such a system has the more available resonant frequencies for exciting the modes of the system. Does an infinite chain of coupled oscillators have infinite number of modes?\n- [ ] Physics of lightning bolts\n- [ ] [Ultra Violet Index](../../3.%20Problems/Ultra%20Violet%20Index.md)\n- [ ] Solving the wave equation numerically on a general boundary (perhaps created by Bezier curves).\n",
+			"type":"text",
+			"x":1077,
+			"y":-1930,
+			"width":520,
+			"height":2020,
+			"color":"4"
+		},
+		{
+			"id":"a2043195115b5503",
+			"lockedHeight":true,
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"text":"$$\n\\begin{align}\n\\delta S = \\delta \\int\\limits \\mathcal{L} \\, dt &=\\delta \\int\\limits (K-V) \\, dt \\stackrel{!}{=}0  \\\\\n&\\Downarrow \\\\\n\\delta \\int\\limits K \\, dt &= \\delta \\int\\limits V \\, dt \n\\end{align}\n$$\n",
+			"type":"text",
+			"x":160,
+			"y":-1162,
+			"width":480,
+			"height":200,
+			"color":"6"
+		},
+		{
+			"id":"9b56d3f7a0fa7184",
+			"styleAttributes":{},
+			"text":"Relativistic Scattering of photon from a mass M body",
+			"type":"text",
+			"x":-1000,
+			"y":-1100,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"b554bb6e36706079",
+			"styleAttributes":{},
+			"text":"Questions for Stackexchange:\n1.  Would the equations of motion change in a curved space? Circular motion.\n2. Do all quantities stem from space and time? (Are we able to mesasure only space and time)",
+			"type":"text",
+			"x":0,
+			"y":-480,
+			"width":480,
+			"height":280
+		},
+		{
+			"id":"2e1e5d555f705f4a",
+			"styleAttributes":{},
+			"text":"- [Lecture 2 - Resonance II](https://www.youtube.com/watch?v=TcvY8Nt0ZGA&list=PLUl4u3cNGP62FPGcyFJkzhqq9c5cHCK32&index=3&ab_channel=MITOpenCourseWare)\n\t- [Q factor (Wikipedia)](https://www.wikiwand.com/en/articles/Q_factor)\n\t- [Whispering Gallery Modes ( Wikipedia)](https://www.wikiwand.com/en/articles/Whispering-gallery_wave)\n\t- A comparison between a 2-level system and the QHO. The two systems behave the same in the approximation of weak driving.\n\t- He said that if one excites a QHO, naturally states will \"leak\" to higher levels. This allegedly happens when the driving is not weak and the approximation between the two system no longer holds.\n\t- Two level system - can be saturated, a QHO can be driven to arbitrarily high energies.",
+			"type":"text",
+			"x":-1600,
+			"y":120,
+			"width":560,
+			"height":380
+		},
+		{
+			"id":"16c1374197a00efa",
+			"styleAttributes":{},
+			"text":"[Orbital Mechanics](../../3.%20Problems/Orbital%20Mechanics.md)",
+			"type":"text",
+			"x":-1000,
+			"y":-940,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"467b1bb32b7a5392",
+			"styleAttributes":{},
+			"text":"Maxwell stress tensor",
+			"type":"text",
+			"x":-1000,
+			"y":-1020,
+			"width":480,
+			"height":60
+		},
+		{
+			"file":"3. Problems/Interview Questions.md",
+			"id":"497aa6bddc173d2d",
+			"styleAttributes":{},
+			"type":"file",
+			"x":-90,
+			"y":-2800,
+			"width":400,
+			"height":400,
+			"color":"6"
+		},
+		{
+			"id":"27dd418f63edbb25",
+			"styleAttributes":{},
+			"text":"Dynamical Billiards",
+			"type":"text",
+			"x":390,
+			"y":-2800,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"21b29850a165a378",
+			"styleAttributes":{},
+			"text":"Superellipse",
+			"type":"text",
+			"x":390,
+			"y":-2700,
+			"width":250,
+			"height":60
+		},
+		{
+			"file":"9. Misc/attachments/Pasted image 20241229092326.png",
+			"id":"b684dfefaeda45bd",
+			"styleAttributes":{},
+			"type":"file",
+			"x":714,
+			"y":-2800,
+			"width":313,
+			"height":400
+		}
+	]
+}

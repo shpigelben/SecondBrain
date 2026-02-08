@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "role": "user",
+      "content": "hello\n"
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": "Hello"
+    }
+  ],
+  [
+    {
+      "role": "assistant",
+      "content": "How can I assist you today?"
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": "Based on my notes, where is a good information regarding scattering of light from charged particles?\n"
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": "Based on my notes, where is a good information regarding scattering of light from charged particles?"
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": "Hello\n"
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ]
+]

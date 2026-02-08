@@ -1,0 +1,82 @@
+{
+	"nodes":[
+		{"id":"fb598759a7c999c2","type":"group","x":740,"y":-540,"width":680,"height":790,"label":"Climate Change"},
+		{"id":"4de21350b0dff15d","type":"group","x":1560,"y":-540,"width":680,"height":480,"label":"Untitled group"},
+		{
+			"id":"b8a3d4d3c5695efb",
+			"type":"text",
+			"text":"# Philosophy & Religion",
+			"styleAttributes":{},
+			"x":1580,
+			"y":-530,
+			"width":440,
+			"height":80
+		},
+		{
+			"id":"e69ff9d337ff6221",
+			"type":"text",
+			"text":"# Rafael Main Playlist\n- [Python Playlist](https://www.youtube.com/watch?v=Qb5MU4aMLvA&list=PLRFJiCXId1ClZESVpDW-dKXAMhTWEFDWj&index=5)\n- [Radiometry and Reflectance](https://www.youtube.com/playlist?list=PL2zRqk16wsdpyQNZ6WFlGQtDICpzzQ925)\n- [Image formation, sensing and binary images](https://www.youtube.com/playlist?list=PL2zRqk16wsdr9X5rgF-d0pkzPdkHZ4KiT)\n- [Computer Graphics](https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E)\n\n",
+			"styleAttributes":{},
+			"x":-1110,
+			"y":-260,
+			"width":500,
+			"height":200,
+			"color":"5"
+		},
+		{"id":"e87fb0a4ef8b0464","type":"link","url":"https://www.youtube.com/watch?v=Mqzs5VSjObE","x":760,"y":-520,"width":640,"height":360},
+		{"id":"b80d808e09a55aff","type":"link","url":"https://www.youtube.com/watch?v=sg6-_6crLlM&t=111s","x":760,"y":-130,"width":640,"height":360},
+		{"id":"3d0cd65981eed229","type":"link","url":"https://www.youtube.com/watch?v=7KYwi2F5Ce4","x":-1860,"y":-10,"width":680,"height":350},
+		{"id":"d7a7819ed8fb8130","type":"link","url":"https://www.youtube.com/watch?v=7NF3CdXkm68&t=1s","x":-1070,"y":280,"width":420,"height":240},
+		{"id":"ae94abaef102e4ad","type":"link","url":"https://www.youtube.com/watch?v=7CtwuZJ18_Q&list=PLubYOWSl9mIvTio-1bXWnhE9LdeXfox1z","x":-1070,"y":-760,"width":420,"height":240},
+		{"id":"42900444941c650a","type":"link","url":"https://www.youtube.com/watch?v=hJ8RTeK6CYM","x":-1600,"y":-760,"width":440,"height":240},
+		{"id":"6c2d9e2839ca0c4f","type":"link","url":"https://www.youtube.com/watch?v=Esu8BXLBmZ4","x":1580,"y":-450,"width":640,"height":360}
+	],
+	"edges":[
+		{
+			"id":"8b1eaa95a7a02094",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e69ff9d337ff6221",
+			"fromSide":"left",
+			"toNode":"3d0cd65981eed229",
+			"toSide":"top",
+			"label":"might be related?"
+		},
+		{
+			"id":"5446c8f52c5aea1a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e69ff9d337ff6221",
+			"fromSide":"bottom",
+			"toNode":"d7a7819ed8fb8130",
+			"toSide":"top",
+			"label":"Yotam Sent"
+		},
+		{
+			"id":"8153f28bceff547d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e69ff9d337ff6221",
+			"fromSide":"top",
+			"toNode":"ae94abaef102e4ad",
+			"toSide":"bottom",
+			"label":"Might be related.\nWanted to watch\nfor a long time."
+		},
+		{
+			"id":"1406f23c9db8b711",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ae94abaef102e4ad",
+			"fromSide":"left",
+			"toNode":"42900444941c650a",
+			"toSide":"right"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

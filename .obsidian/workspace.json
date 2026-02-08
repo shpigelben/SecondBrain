@@ -1,0 +1,370 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "9. Misc/Canvases/MSc Research.canvas",
+                "viewState": {
+                  "x": 762.5,
+                  "y": 1130,
+                  "zoom": -2.9238678353964183
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "MSc Research"
+            }
+          },
+          {
+            "id": "7e5c2c0fe86f349d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "b1c1536c3f938ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MOCs/Research MOC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Research MOC"
+            }
+          },
+          {
+            "id": "a991fd178ec5653f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Notes/Poynting Theorem.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Poynting Theorem"
+            }
+          },
+          {
+            "id": "2fcc4659f59fdfa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0f8b706c61e0aa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4197ade6c28db97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce5758ae7297a0ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "889e77fee553c568",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7fbeb3be0205d813",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5
+  },
+  "right": {
+    "id": "c9f99b832eeb0654",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddf1501bcac9f0ab",
+        "type": "tabs",
+        "dimension": 43.07479224376731,
+        "children": [
+          {
+            "id": "4c8df7b8dcda96e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Home"
+            }
+          },
+          {
+            "id": "a2b1942a4872db41",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3. Problems/12. Highly Divisible Triangular Number.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.340462908484119,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 12. Highly Divisible Triangular Number"
+            }
+          },
+          {
+            "id": "b6c7bd068e71b80b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "14b1c5c10fc6944f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d105c75b7b4cd347",
+        "type": "tabs",
+        "dimension": 56.92520775623269,
+        "children": [
+          {
+            "id": "574cf1bf0654653c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+          },
+          {
+            "id": "758b55859e1c9c00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Notes/Fresnel Equations.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Fresnel Equations"
+            }
+          },
+          {
+            "id": "f30556d01e4c01bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. Problems/12. Highly Divisible Triangular Number.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 12. Highly Divisible Triangular Number"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": true,
+      "random-note:Open random note": false,
+      "templates:Insert template": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian-stille:Toggle Stille": false
+    }
+  },
+  "active": "2fcc4659f59fdfa8",
+  "lastOpenFiles": [
+    "1. MOCs/Mathematical Modelling MOC.md",
+    "1. MOCs/Math MOC.md",
+    "1. MOCs/Machine & Deep Learning MOC.md",
+    "1. MOCs/Fluid Mechanics MOC.md",
+    "1. MOCs/Electrodynamics MOC.md",
+    "1. MOCs/Dynamical Systems MOC.md",
+    "1. MOCs/Control Theory MOC.md",
+    "1. MOCs/Condensed Matter Physics MOC.md",
+    "1. MOCs/Computational Geometry MOC.md",
+    "1. MOCs/Classical Mechanics MOC.md",
+    "1. MOCs/Atomic & Molecular Physics MOC.md",
+    "1. MOCs/Astrophysics MOC.md",
+    "1. MOCs/Algorithms & Data Structures MOC.md",
+    "9. Misc/bases/unresolved-links-report.md",
+    "try.ipynb",
+    "9. Misc/Excalidraw/Holography Sketch.md",
+    "9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg",
+    "9. Misc/attachments/unused/0C8153F6-D665-4363-9176-7F9EC9B83803_1_105_c.jpeg",
+    "Home.md",
+    "9. Misc/bases/misc-unused-candidates.md",
+    "9. Misc/attachments/unused/Light Generated Bubbles for Microscopic Propulsion.pdf",
+    "9. Misc/attachments/unused/Light Spectrum.png",
+    "9. Misc/attachments/unused/Pasted image 20240308191349.png",
+    "9. Misc/attachments/unused/Pasted image 20240811163800.png",
+    "9. Misc/attachments/unused/Pasted image 20240904112552.png",
+    "9. Misc/attachments/unused/Pasted Image 20240908122741_031.png",
+    "9. Misc/attachments/unused/Pasted image 20240926172853.png",
+    "9. Misc/attachments/unused/Pasted image 20241013105922.png",
+    "9. Misc/attachments/unused/Pasted image 20241021094539.png",
+    "9. Misc/attachments/unused/Quantum-mechanical effects in photoluminescence from thin crystalline gold films.pdf",
+    "9. Misc/attachments/unused/interband_transitions(cut).pdf",
+    "9. Misc/attachments/unused/Nanofabrication.pdf",
+    "9. Misc/attachments/unused/Faraday_Discussion_paper[1651].pdf",
+    "9. Misc/attachments/unused/Recording 20230507190531.webm",
+    "9. Misc/attachments/unused/Recording 20221126173159.webm",
+    "9. Misc/attachments/unused",
+    "2. Notes/Selection Rules.md",
+    "2. Notes/Voronoi Diagram.md",
+    "2. Notes/The Electromagnetic Interaction.md",
+    "2. Notes/Spatial Correlation.md",
+    "1. MOCs/Python MOC.md",
+    "2. Notes/Fresnel Equations.md",
+    "2. Notes/ITO Based Desalination.md",
+    "2. Notes/Two Temperature Model.md",
+    "2. Notes/Poynting Theorem.md",
+    "9. Misc/Canvases/Electric Response.canvas",
+    "9. Misc/Canvases/MSc Research.canvas",
+    "9. Misc/Canvases/Current Learning Path.canvas",
+    "MSc Research/Metal PL/resources/2 - Hot Photoluminescence Supplamentary.pdf",
+    "9. Misc/Canvases/Work In Progress.canvas",
+    "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
+    "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
+    "9. Misc/Canvases/Optics Canvas.canvas",
+    "4. Misc/Canvases/Acoustic Transducers.canvas",
+    "4. Misc/Canvases/Anderson Localization Project.canvas",
+    "4. Misc/Canvases/Lasers.canvas"
+  ]
+}

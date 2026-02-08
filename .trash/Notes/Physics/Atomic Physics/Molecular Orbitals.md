@@ -1,0 +1,1 @@
+![[Quintuple_bond_orbital_diagram.png]]

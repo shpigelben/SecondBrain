@@ -1,0 +1,256 @@
+{
+	"nodes":[
+		{
+			"id":"2cad7796aa4c8bae",
+			"type":"group",
+			"styleAttributes":{},
+			"x":-220,
+			"y":960,
+			"width":380,
+			"height":450,
+			"color":"6",
+			"label":"Over R"
+		},
+		{
+			"id":"720bb1d6f671fc54",
+			"type":"group",
+			"styleAttributes":{},
+			"x":-220,
+			"y":1480,
+			"width":380,
+			"height":450,
+			"color":"6",
+			"label":"Over C"
+		},
+		{
+			"id":"3853b221b35d0fdc",
+			"type":"group",
+			"styleAttributes":{},
+			"x":160,
+			"y":-40,
+			"width":320,
+			"height":400,
+			"color":"6",
+			"label":"Same over the Reals"
+		},
+		{
+			"id":"d83bfb26be16cb20",
+			"type":"group",
+			"styleAttributes":{},
+			"x":160,
+			"y":-580,
+			"width":320,
+			"height":400,
+			"color":"6",
+			"label":"Same over the Reals"
+		},
+		{
+			"id":"ed6107900ce2914a",
+			"type":"text",
+			"text":"$$\n\\textbf{Orthogonal Matrix}\n$$\n\n$$\nA^{T} = A^{-1}\n$$\n\n",
+			"styleAttributes":{},
+			"x":190,
+			"y":-540,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"d6e2a444a6da727f",
+			"type":"text",
+			"text":"$$\n\\textbf{Unitary Matrix}\n$$\n$$\nA^{\\dagger} = A^{-1}\n$$\n\n",
+			"styleAttributes":{},
+			"x":190,
+			"y":-360,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"e9f70e74bc1ae2f3",
+			"type":"text",
+			"text":"$$\n\\textbf{Normal over }\\mathbb{C}\n$$\n$$\nA^{\\dagger}A = AA^{\\dagger}\n$$\n\n\n",
+			"styleAttributes":{},
+			"x":-320,
+			"y":-180,
+			"width":240,
+			"height":140,
+			"color":"2"
+		},
+		{
+			"id":"68bbd7fd957cdfb3",
+			"type":"text",
+			"text":"$$\n\\textbf{Involuntory Matrix}\n$$\n$$\nAA = A^{2} = I\n$$",
+			"styleAttributes":{},
+			"x":720,
+			"y":-360,
+			"width":320,
+			"height":140,
+			"color":"5"
+		},
+		{
+			"id":"02bca5093c346987",
+			"type":"text",
+			"text":"$$\n\\textbf{Normal over }\\mathbb{R}\n$$\n$$\nA^{T}A = AA^{T}\n$$\n\n\n",
+			"styleAttributes":{},
+			"x":-560,
+			"y":-180,
+			"width":220,
+			"height":140,
+			"color":"2"
+		},
+		{
+			"id":"a8e9499a6ffc9d12",
+			"type":"text",
+			"text":"Both **Unitary** & **Hermitian** over $\\mathbb{C}$ Or **Orthogonal** and **Symmetric** over $\\mathbb{R}$.",
+			"styleAttributes":{},
+			"x":735,
+			"y":-180,
+			"width":290,
+			"height":140,
+			"color":"#383838"
+		},
+		{
+			"id":"38dadfc5c9e058a7",
+			"type":"text",
+			"text":"$$\n\\textbf{Hermitian Matrix}\n$$\n\n$$\nA = A^{\\dagger}\n$$\n\n",
+			"styleAttributes":{},
+			"x":190,
+			"y":0,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"70637b56fdcfe254",
+			"type":"text",
+			"text":"$$\n\\textbf{Symmetric Matrix}\n$$\n\n$$\nA = A^{T}\n$$\n\n",
+			"styleAttributes":{},
+			"x":-160,
+			"y":1210,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"51e67f3fc029a215",
+			"type":"text",
+			"text":"$$\n\\textbf{Orthogonal Matrix}\n$$\n\n$$\nA^{T} = A^{-1}\n$$\n\n",
+			"styleAttributes":{},
+			"x":-160,
+			"y":1000,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"383966b92e225471",
+			"type":"text",
+			"text":"$$\n\\textbf{Normal over }\\mathbb{R}\n$$\n$$\nA^{T}A = AA^{T}\n$$\n\n\n",
+			"styleAttributes":{},
+			"x":-550,
+			"y":1120,
+			"width":220,
+			"height":140,
+			"color":"2"
+		},
+		{
+			"id":"ed5fd21998ee2873",
+			"type":"text",
+			"text":"$$\n\\textbf{Involuntory Matrix}\n$$\n$$\nAA = A^{2} = I\n$$",
+			"styleAttributes":{},
+			"x":448,
+			"y":1635,
+			"width":320,
+			"height":140,
+			"color":"5"
+		},
+		{
+			"id":"08b4af69f95c784e",
+			"type":"text",
+			"text":"Unitary & Hermitian",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":221,
+			"y":1665,
+			"width":160,
+			"height":80,
+			"color":"6"
+		},
+		{
+			"id":"1a2de2e55553912b",
+			"type":"text",
+			"text":"$$\n\\textbf{Involuntory Matrix}\n$$\n$$\nAA = A^{2} = I\n$$",
+			"styleAttributes":{},
+			"x":450,
+			"y":1115,
+			"width":320,
+			"height":140,
+			"color":"5"
+		},
+		{
+			"id":"0f16c0c0506cc9c9",
+			"type":"text",
+			"text":"$$\n\\textbf{Unitary Matrix}\n$$\n$$\nA^{\\dagger} = A^{-1}\n$$\n\n",
+			"styleAttributes":{},
+			"x":-160,
+			"y":1530,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"0eadb54e904b680c",
+			"type":"text",
+			"text":"$$\n\\textbf{Symmetric Matrix}\n$$\n\n$$\nA = A^{T}\n$$\n\n",
+			"styleAttributes":{},
+			"x":190,
+			"y":180,
+			"width":260,
+			"height":140
+		},
+		{
+			"id":"9f7c848d3fc9042e",
+			"type":"text",
+			"text":"Unitary & Hermitian",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":227,
+			"y":1145,
+			"width":160,
+			"height":80,
+			"color":"6"
+		},
+		{
+			"id":"43e61e1369a504f9",
+			"type":"text",
+			"text":"$$\n\\textbf{Normal over }\\mathbb{C}\n$$\n$$\nA^{\\dagger}A = AA^{\\dagger}\n$$\n\n\n",
+			"styleAttributes":{},
+			"x":-540,
+			"y":1635,
+			"width":220,
+			"height":140,
+			"color":"2"
+		},
+		{
+			"id":"34d89c3185005a6b",
+			"type":"text",
+			"text":"$$\n\\textbf{Hermitian Matrix}\n$$\n\n$$\nA = A^{\\dagger}\n$$\n\n",
+			"styleAttributes":{},
+			"x":-160,
+			"y":1740,
+			"width":260,
+			"height":140
+		}
+	],
+	"edges":[
+		{"id":"900db26833f1ef53","fromNode":"38dadfc5c9e058a7","fromSide":"left","toNode":"e9f70e74bc1ae2f3","toSide":"right","label":"Hermitian\n=> Normal"},
+		{"id":"5850ce86f9ef4383","fromNode":"d6e2a444a6da727f","fromSide":"left","toNode":"e9f70e74bc1ae2f3","toSide":"right","label":"Unitary\n=> Normal"},
+		{"id":"fe51da4a211572fd","fromNode":"3853b221b35d0fdc","fromSide":"right","toNode":"a8e9499a6ffc9d12","toSide":"left"},
+		{"id":"c59af928af4db17b","fromNode":"d83bfb26be16cb20","fromSide":"right","toNode":"a8e9499a6ffc9d12","toSide":"left"},
+		{"id":"3275c54f758e69a1","fromNode":"a8e9499a6ffc9d12","fromSide":"top","toNode":"68bbd7fd957cdfb3","toSide":"bottom"},
+		{"id":"4558a809f6af6ec7","fromNode":"ed6107900ce2914a","fromSide":"left","toNode":"02bca5093c346987","toSide":"top"},
+		{"id":"e880a3a022fd96db","fromNode":"0eadb54e904b680c","fromSide":"left","toNode":"02bca5093c346987","toSide":"bottom"},
+		{"id":"b702a75988fc967e","fromNode":"70637b56fdcfe254","fromSide":"left","toNode":"383966b92e225471","toSide":"right"},
+		{"id":"70f66a59ab8ccd4f","fromNode":"51e67f3fc029a215","fromSide":"left","toNode":"383966b92e225471","toSide":"right"},
+		{"id":"1b133cb7990ec99c","fromNode":"0f16c0c0506cc9c9","fromSide":"left","toNode":"43e61e1369a504f9","toSide":"right"},
+		{"id":"975fe59814274d8e","fromNode":"34d89c3185005a6b","fromSide":"left","toNode":"43e61e1369a504f9","toSide":"right"},
+		{"id":"f3421496ba3e29dc","fromNode":"720bb1d6f671fc54","fromSide":"right","toNode":"08b4af69f95c784e","toSide":"left","toEnd":"none"},
+		{"id":"e208827922220dbd","fromNode":"08b4af69f95c784e","fromSide":"right","toNode":"ed5fd21998ee2873","toSide":"left"},
+		{"id":"6947b564282c60c8","fromNode":"2cad7796aa4c8bae","fromSide":"right","toNode":"9f7c848d3fc9042e","toSide":"left","toEnd":"none"},
+		{"id":"fd5665300d42c6a6","fromNode":"9f7c848d3fc9042e","fromSide":"right","toNode":"1a2de2e55553912b","toSide":"left"}
+	],
+	"metadata":{"version":"1.0-1.0"}
+}

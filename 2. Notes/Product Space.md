@@ -1,9 +1,6 @@
-#note #physics #quantum #math #algebra 
-
 Consider two separate, independent Hilbert spaces 
 - $A$ with states $\ket{a}$  
 - $B$ with states $\ket{b}$
-
 ___
 # Outer Product
 An outer product takes two vectors $u$ and $v$ from two spaces $U$ and $V$ and combine them into a new vector that lives in a __product space__ $W$ with dimensions $\dim{W} = \dim{U}\cdot\dim{V}$

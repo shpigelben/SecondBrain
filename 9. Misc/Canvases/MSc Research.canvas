@@ -58,11 +58,11 @@
 			"id":"3fc9c19fb58794fd",
 			"styleAttributes":{},
 			"type":"file",
+			"subpath":"#page=1",
 			"x":1600,
 			"y":420,
 			"width":400,
-			"height":400,
-			"subpath":"#page=1"
+			"height":400
 		},
 		{
 			"file":"9. Misc/attachments/sivan-dubi-2021-theory-of-hot-photoluminescence-from-drude-metals.pdf",
@@ -74,16 +74,6 @@
 			"y":420,
 			"width":400,
 			"height":400
-		},
-		{
-			"file":"MSc Research/Metal PL/notes/Non-equilibrium Emission in Metals.md",
-			"id":"af3796f78695bed2",
-			"styleAttributes":{},
-			"type":"file",
-			"x":-40,
-			"y":320,
-			"width":660,
-			"height":640
 		},
 		{
 			"file":"2. Notes/ITO Based Desalination.md",
@@ -135,6 +125,16 @@
 			"y":160,
 			"width":1080,
 			"height":2240
+		},
+		{
+			"file":"MSc Research/Metal PL/notes/Non-equilibrium Emission in Metals.md",
+			"id":"af3796f78695bed2",
+			"styleAttributes":{},
+			"type":"file",
+			"x":160,
+			"y":420,
+			"width":660,
+			"height":640
 		}
 	]
 }

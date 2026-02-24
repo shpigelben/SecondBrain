@@ -1,5 +1,3 @@
-#note #physics #particle-physics #derivative 
-
 We recall that the [[Dirac Equation]] acts on an entity that lives in a four-dimensional [[Hilbert space]] and is knowns a a __Dirac spinor__. We begin the discussion of the solutions to the Dirac equation in the most natural place the free particle solutions
 $$\psi(\mathbf{r},t)=u(E,\mathbf{p})e^{i(\mathbf{p}\cdot \mathbf{r}-Et)} =u(E,\mathbf{p})\large e^{-ip^{\mu}r_{\mu}} \tag{1}$$
 The $u(E,\mathbf{p})$ are four-component Dirac spinors. The position and time dependencies appear only in the complex exponential part, so that when the [[Dirac Equation#Covariant Form of the Dirac Equation|Dirac gamma matrices]] act on the components of $\psi$ the act only on that part 
@@ -10,9 +8,8 @@ $$\begin{align*}
 (\gamma^{\mu}p_{\mu}-m)\psi&=0\\
 (\gamma^{\mu}p_{\mu}-m)u&=0 \tag{2}
 \end{align*}$$
-___
 # Particle at Rest
-For a particle at rest with $\mathbf{p=0}$, the free-particle wavefunction is simply 
+For a particle at rest with $\mathbf{p=0}$, the free-particle wave-function is simply 
 $$\psi(E,\mathbf{0})=u(E,\mathbf{0})e^{-iEt}$$
 And so equation (2) reduces to the following eigenvalue equation
 $$E \gamma^{0}u=m u  \quad \to \quad E \begin{pmatrix}1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1\end{pmatrix}\begin{pmatrix}\phi_{1} \\ \phi_{2} \\ \phi_{3} \\ \phi_{4}\end{pmatrix}=m\begin{pmatrix}\phi_{1} \\ \phi_{2} \\ \phi_{3} \\ \phi_{4}\end{pmatrix}$$
@@ -33,7 +30,7 @@ $$\begin{align*}
 &\ket{\psi_{2}}=N \ket{2}e^{-imt} \leadsto \ket{\downarrow}_{E} \quad &\ket{\psi_{4}}=N \ket{4}e^{imt} \leadsto \ket{\downarrow}_{-E}
 \end{align*}$$
 Since the spinors are also eigenstates of $\hat{S}_{z}$ the positive energy solutions correspond to positive energy spins up and down and vice versa
-___
+
 # General Free Particle Solution
 For a particle with non-zero momentum the solution appears as it does in $(1)$ and it therefore satisfies $(2)$.
 $$\begin{align*}
@@ -58,7 +55,7 @@ $$u_{3}(E,\mathbf{p})=N_{3}\begin{pmatrix} \frac{p_{z}}{E-m} \\ \frac{p_{x}+ip_{
 A general solution in the form $\psi_{i}=u_{i}(E,\mathbf{p})\large e^{-ip^{\mu}r_{\mu}}$ which is plugged in the Dirac equation will produce a the relativistic dispersion relation
 $$E^{2}=m^{2}+p^{2}$$
 It holds for both positive and negative energies. In the $\mathbf{p}\to 0$ limit we regain the solutions for particles at rest for which $u_{1,2}$ correspond to positive energy particles, and $u_{3,4}$ correspond to negative energy antiparticles. It is also possible to arrive at these solutions by boosting the solution of particle at rest into a frame with velocity corresponding to the "desired" momentum $\mathbf{p}$. Having particles that correspond to negative energies is necessary for the independence of the four solutions
-___
+
 # Wavefunction Normalization
 Normalization to the $2E$ particles per unit volume ([[../Lorentz Invariant Phase Space (LIPS)|Lorentz Invariant normalization]] ?)
 $${u_{1}}^{\dagger}u_{1}= |N|^{2} \left(1 + \frac{p_{x}^{2}+p_{y}^{2}+p_{z}^{2}}{(E+m)^{2}}\right)=|N|^{2} \frac{2E}{E+m}$$

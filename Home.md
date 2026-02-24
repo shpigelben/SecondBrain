@@ -1,7 +1,7 @@
 ---
 banner: "![[home_banner.png]]"
 ---
-![MOCs](1.%20MOCs/MOCs.base)
+†ˇ![MOCs](1.%20MOCs/MOCs.base)
 ![Current Learning Path](9.%20Misc/Canvases/Current%20Learning%20Path.canvas)
 # Rafael Preliminaries
 

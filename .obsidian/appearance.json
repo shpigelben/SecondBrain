@@ -2,13 +2,15 @@
   "accentColor": "#ffbd2e",
   "theme": "moonstone",
   "cssTheme": "AnuPpuccin",
-  "baseFontSize": 20,
-  "textFontFamily": "ITC Garamond Std,Palatino,FiraCode Nerd Font,Palatino Linotype",
+  "baseFontSize": 16,
+  "textFontFamily": "Palatino,Palatino Linotype,ITC Garamond Std,FiraCode Nerd Font",
   "interfaceFontFamily": "Sathu,Inter",
   "enabledCssSnippets": [
     "hide_properties",
     "Annupucin-extended-colorschemes",
     "inlineTitle",
+    "mathjax font",
+    "titles",
     "alignImage"
   ],
   "showViewHeader": false,

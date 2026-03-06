@@ -5,46 +5,25 @@
 		{"id":"239d66402b6f4397","type":"group","x":680,"y":-520,"width":680,"height":540,"color":"5","label":"Research"},
 		{"id":"04cf082949301956","type":"group","x":560,"y":160,"width":540,"height":520,"color":"#ffbd2e","label":"Plan"},
 		{
-			"id":"232e0fef5cfbe9a7",
+			"id":"e5ce63332d27e535",
 			"type":"text",
-			"text":"Satisfied?\n",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":600,
-			"y":440,
-			"width":160,
-			"height":100,
+			"text":"new project?",
+			"styleAttributes":{"textAlign":"center","shape":"diamond"},
+			"x":0,
+			"y":-950,
+			"width":195,
+			"height":120,
 			"color":"2"
 		},
 		{
-			"id":"8be8eb53eea74aee",
+			"id":"fece88006c63c9fe",
 			"type":"text",
-			"text":"Review",
-			"styleAttributes":{},
-			"x":626,
-			"y":320,
-			"width":107,
-			"height":60
-		},
-		{
-			"id":"fc62a61b9ff1d1fd",
-			"type":"text",
-			"text":"Review\n",
+			"text":"give repo access",
 			"styleAttributes":{"textAlign":"center"},
-			"x":618,
-			"y":1080,
-			"width":120,
-			"height":70
-		},
-		{
-			"id":"63ebbd8884207e6d",
-			"type":"text",
-			"text":"send to agent",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":847,
-			"y":1085,
-			"width":193,
-			"height":60,
-			"color":"6"
+			"x":360,
+			"y":-920,
+			"width":191,
+			"height":60
 		},
 		{
 			"id":"a6840b6d7f452547",
@@ -67,6 +46,38 @@
 			"width":220,
 			"height":60,
 			"color":"#0d0d0d"
+		},
+		{
+			"id":"55fac87ece1ab569",
+			"type":"text",
+			"text":"create initial context",
+			"styleAttributes":{"textAlign":"center"},
+			"x":0,
+			"y":-640,
+			"width":185,
+			"height":70
+		},
+		{
+			"id":"7105c5ce0f7aeadb",
+			"type":"text",
+			"text":"send to agent",
+			"styleAttributes":{"shape":"pill"},
+			"x":905,
+			"y":-630,
+			"width":165,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"cf1ff7e7b83571d6",
+			"type":"text",
+			"text":"send to agent",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":736,
+			"y":60,
+			"width":165,
+			"height":60,
+			"color":"6"
 		},
 		{
 			"id":"dfc8b182dcafcf3c",
@@ -101,45 +112,35 @@
 			"color":"#000000"
 		},
 		{
-			"id":"09560de3d28d909a",
+			"id":"81a0f85361dcc0ed",
 			"type":"text",
-			"text":"inline annotations",
+			"text":"`log_j.md`",
 			"styleAttributes":{"textAlign":"center"},
-			"x":868,
-			"y":460,
-			"width":210,
+			"x":960,
+			"y":880,
+			"width":140,
 			"height":60
 		},
 		{
-			"id":"3b5d9e1e86304e32",
+			"id":"e17170481ac0c19d",
 			"type":"text",
-			"text":"send to agent",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":890,
-			"y":320,
-			"width":165,
-			"height":60,
+			"text":"\nReview the inline annotations in research.md. Update the document to fully address each annotation. Append a 'Changelog' section briefly summarizing what you changed and why.",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"x":1520,
+			"y":-390,
+			"width":560,
+			"height":160,
 			"color":"6"
 		},
 		{
-			"id":"e2e52923fc67b55f",
+			"id":"e4e128fbb51e85a3",
 			"type":"text",
-			"text":"\n`plan.md`",
-			"styleAttributes":{"textAlign":"center"},
-			"x":750,
-			"y":180,
-			"width":134,
-			"height":80
-		},
-		{
-			"id":"cf1ff7e7b83571d6",
-			"type":"text",
-			"text":"send to agent",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":736,
-			"y":60,
-			"width":165,
-			"height":60,
+			"text":"\nAnalyze the provided repository. Generate a `research.md` file that outlines your understanding. You MUST include \n1. The core architecture and tech stack\n2. Key dependencies and their purposes \n3. The data flow of the primary application \n4. Any obvious technical constraints or missing edge cases. Do not write any code yet.\n",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"x":1520,
+			"y":-720,
+			"width":520,
+			"height":240,
 			"color":"6"
 		},
 		{
@@ -165,59 +166,14 @@
 			"color":"6"
 		},
 		{
-			"id":"ade6764698b44a78",
+			"id":"e2e52923fc67b55f",
 			"type":"text",
-			"text":"\n\n **ROLE & OBJECTIVE** You are executing a phased software implementation. You must strictly isolate your attention to the current phase to prevent context degradation and scope creep.\n\n **OPERATIONAL WORKFLOW** Follow these steps in exact order: \n **1. State Assessment**\n - Analyze `plan.md` to identify the next uncompleted Phase.\n - Identify the explicitly listed 'Dependencies' for this target Phase.\n \n**2. Context Isolation**\n - If the target Phase has dependencies, retrieve and read ONLY the specific `log_[X].md` files that match those dependencies.   \n- Do NOT request, infer, or hallucinate the contents of any other historical log files.\n- _(Note: If this is Phase 1, or there are no explicit dependencies, bypass this step)._\n \n **3. Execution** \n - Write the code and execute the tests required ONLY for the target Phase.\n - Do not write code for future phases, even if it seems efficient to do so now.\n\n **4. Developer Diary (Logging)**\n - Create a NEW file in the logs directory named `log_[TargetPhaseNumber].md` (e.g., `log_4.md`).\n - Write a developer diary for human collaborators. You must include:\n     - **Architecture:** How the new components interact with existing dependencies.\n     - **Reasoning:** Why you chose this specific implementation path.\n     - **Logic Map:** A clear breakdown of any complex logic or edge cases handled, ensuring the user can maintain an accurate mental model.\n    - **Test Results:** The outcome of the phase's validation steps.\n \n **5. Halt Condition**\n - Stop all execution immediately after generating the log file.\n - Output a brief confirmation that the phase is complete and await explicit user approval before proceeding to the next phase.\n\n",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":1520,
-			"y":540,
-			"width":760,
-			"height":440,
-			"color":"6"
-		},
-		{
-			"id":"6b03a8cd2f7a8d76",
-			"type":"text",
-			"text":"\nReview the latest annotations in log.md and the provided test/error outputs. Identify the root cause, implement code fixes for the current phase, and update log.md detailing the solution.\n",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":1520,
-			"y":1020,
-			"width":560,
-			"height":200,
-			"color":"6"
-		},
-		{
-			"id":"e17170481ac0c19d",
-			"type":"text",
-			"text":"\nReview the inline annotations in research.md. Update the document to fully address each annotation. Append a 'Changelog' section briefly summarizing what you changed and why.",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":1520,
-			"y":-390,
-			"width":560,
-			"height":160,
-			"color":"6"
-		},
-		{
-			"id":"e4e128fbb51e85a3",
-			"type":"text",
-			"text":"\nAnalyze the provided repository. Generate a `research.md` file that outlines your understanding. You MUST include \n1. The core architecture and tech stack\n2. Key dependencies and their purposes \n3. The data flow of the primary application \n4. Any obvious technical constraints or missing edge cases. Do not write any code yet.\n",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":1520,
-			"y":-720,
-			"width":520,
-			"height":240,
-			"color":"6"
-		},
-		{
-			"id":"1083a6c75e1a5cd0",
-			"type":"text",
-			"text":"send to agent",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":595,
-			"y":735,
-			"width":165,
-			"height":60,
-			"color":"6"
+			"text":"\n`plan.md`",
+			"styleAttributes":{"textAlign":"center"},
+			"x":750,
+			"y":180,
+			"width":134,
+			"height":80
 		},
 		{
 			"id":"1b8290a64731c9c2",
@@ -228,79 +184,6 @@
 			"y":920,
 			"width":193,
 			"height":100
-		},
-		{
-			"id":"81a0f85361dcc0ed",
-			"type":"text",
-			"text":"`log_j.md`",
-			"styleAttributes":{"textAlign":"center"},
-			"x":960,
-			"y":880,
-			"width":140,
-			"height":60
-		},
-		{
-			"id":"7105c5ce0f7aeadb",
-			"type":"text",
-			"text":"send to agent",
-			"styleAttributes":{"shape":"pill"},
-			"x":905,
-			"y":-630,
-			"width":165,
-			"height":60,
-			"color":"6"
-		},
-		{
-			"id":"55fac87ece1ab569",
-			"type":"text",
-			"text":"create initial context",
-			"styleAttributes":{"textAlign":"center"},
-			"x":0,
-			"y":-640,
-			"width":185,
-			"height":70
-		},
-		{
-			"id":"e5ce63332d27e535",
-			"type":"text",
-			"text":"new project?",
-			"styleAttributes":{"textAlign":"center","shape":"diamond"},
-			"x":0,
-			"y":-950,
-			"width":195,
-			"height":120,
-			"color":"2"
-		},
-		{
-			"id":"fece88006c63c9fe",
-			"type":"text",
-			"text":"give repo access",
-			"styleAttributes":{"textAlign":"center"},
-			"x":360,
-			"y":-920,
-			"width":191,
-			"height":60
-		},
-		{
-			"id":"d2fa9f40197dc1bb",
-			"type":"text",
-			"text":"Satisfied?\n",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":598,
-			"y":1200,
-			"width":160,
-			"height":100,
-			"color":"2"
-		},
-		{
-			"id":"02ec47d59cb0866c",
-			"type":"text",
-			"text":"annotate `log.md`",
-			"styleAttributes":{"textAlign":"center"},
-			"x":841,
-			"y":1220,
-			"width":205,
-			"height":60
 		},
 		{
 			"id":"4b8f47a3435f8fac",
@@ -323,6 +206,123 @@
 			"width":132,
 			"height":70,
 			"color":"5"
+		},
+		{
+			"id":"fc62a61b9ff1d1fd",
+			"type":"text",
+			"text":"Review\n",
+			"styleAttributes":{"textAlign":"center"},
+			"x":618,
+			"y":1080,
+			"width":120,
+			"height":70
+		},
+		{
+			"id":"63ebbd8884207e6d",
+			"type":"text",
+			"text":"send to agent",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":847,
+			"y":1085,
+			"width":193,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"d2fa9f40197dc1bb",
+			"type":"text",
+			"text":"Satisfied?\n",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":598,
+			"y":1200,
+			"width":160,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"232e0fef5cfbe9a7",
+			"type":"text",
+			"text":"Satisfied?\n",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":600,
+			"y":440,
+			"width":160,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"8be8eb53eea74aee",
+			"type":"text",
+			"text":"Review",
+			"styleAttributes":{},
+			"x":626,
+			"y":320,
+			"width":107,
+			"height":60
+		},
+		{
+			"id":"09560de3d28d909a",
+			"type":"text",
+			"text":"inline annotations",
+			"styleAttributes":{"textAlign":"center"},
+			"x":868,
+			"y":460,
+			"width":210,
+			"height":60
+		},
+		{
+			"id":"02ec47d59cb0866c",
+			"type":"text",
+			"text":"annotate `log.md`",
+			"styleAttributes":{"textAlign":"center"},
+			"x":841,
+			"y":1220,
+			"width":205,
+			"height":60
+		},
+		{
+			"id":"1083a6c75e1a5cd0",
+			"type":"text",
+			"text":"send to agent",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":595,
+			"y":735,
+			"width":165,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"3b5d9e1e86304e32",
+			"type":"text",
+			"text":"send to agent",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":890,
+			"y":320,
+			"width":165,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"ade6764698b44a78",
+			"type":"text",
+			"text":"\n\n **ROLE & OBJECTIVE** You are executing a phased software implementation. You must strictly isolate your attention to the current phase to prevent context degradation and scope creep.\n\n **OPERATIONAL WORKFLOW** Follow these steps in exact order: \n **1. State Assessment**\n - Analyze `plan.md` to identify the next uncompleted Phase.\n - Identify the explicitly listed 'Dependencies' for this target Phase.\n \n**2. Context Isolation**\n - If the target Phase has dependencies, retrieve and read ONLY the specific `log_[X].md` files that match those dependencies.   \n- Do NOT request, infer, or hallucinate the contents of any other historical log files.\n- _(Note: If this is Phase 1, or there are no explicit dependencies, bypass this step)._\n \n **3. Execution** \n - Write the code and execute the tests required ONLY for the target Phase.\n - Do not write code for future phases, even if it seems efficient to do so now.\n\n **4. Developer Diary (Logging)**\n - Create a NEW file in the logs directory named `log_[TargetPhaseNumber].md` (e.g., `log_4.md`).\n - Write a developer diary for human collaborators. You must include:\n     - **Architecture:** How the new components interact with existing dependencies.\n     - **Reasoning:** Why you chose this specific implementation path.\n     - **Logic Map:** A clear breakdown of any complex logic or edge cases handled, ensuring the user can maintain an accurate mental model.\n    - **Test Results:** The outcome of the phase's validation steps.\n \n **5. Halt Condition**\n - Stop all execution immediately after generating the log file.\n - Output a brief confirmation that the phase is complete and await explicit user approval before proceeding to the next phase.\n\n",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"x":1520,
+			"y":540,
+			"width":760,
+			"height":440,
+			"color":"6"
+		},
+		{
+			"id":"6b03a8cd2f7a8d76",
+			"type":"text",
+			"text":"\nReview the latest annotations in log.md and the provided test/error outputs. Identify the root cause, implement code fixes for the current phase, and update log.md detailing the solution.\n",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"x":1520,
+			"y":1020,
+			"width":560,
+			"height":200,
+			"color":"6"
 		}
 	],
 	"edges":[

@@ -30,11 +30,11 @@ views:
         - file.tags.contains("priority")
     imageAspectRatio: 0.3
     image: note.cover
-  - type: cards
+  - type: table
     name: Research
     filters:
       and:
-        - nature.contains("research")
+        - file.hasProperty("research")
     image: note.cover
     imageAspectRatio: 0.65
     cardSize: 350

@@ -1,6 +1,7 @@
 {
 	"nodes":[
 		{"id":"ff27006b5740dfa6","type":"group","x":2521,"y":-3180,"width":3277,"height":3600,"label":"Idea Canvas"},
+		{"id":"455110fe7a38ad3d","type":"group","x":1461,"y":-5960,"width":4340,"height":2580,"label":"Research"},
 		{
 			"id":"f9ecda6fdd2e079e",
 			"styleAttributes":{},
@@ -11,7 +12,6 @@
 			"height":640,
 			"label":"General Topics of interest"
 		},
-		{"id":"455110fe7a38ad3d","type":"group","x":1461,"y":-5960,"width":4340,"height":2580,"label":"Research"},
 		{
 			"id":"09fec0f901cc0372",
 			"styleAttributes":{},
@@ -68,36 +68,6 @@
 			"y":-2010,
 			"width":400,
 			"height":110
-		},
-		{
-			"id":"28e304030ee8877b",
-			"styleAttributes":{},
-			"text":"Hole through the earth\n1. What would happen to the atmosphere as a result?\n2. How long would a \"free-fall\" trip take from one end to the other?",
-			"type":"text",
-			"x":3461,
-			"y":-1884,
-			"width":400,
-			"height":164
-		},
-		{
-			"file":"2. Notes/Solar Sail.md",
-			"id":"312253a9400c5443",
-			"styleAttributes":{},
-			"type":"file",
-			"x":2581,
-			"y":-1460,
-			"width":560,
-			"height":960
-		},
-		{
-			"id":"f63c97d30d38360f",
-			"styleAttributes":{},
-			"text":"Relativistic Scattering of photon from a mass M body",
-			"type":"text",
-			"x":3181,
-			"y":-1460,
-			"width":480,
-			"height":60
 		},
 		{
 			"id":"151c1ced4f82ef27",
@@ -223,20 +193,9 @@
 			"color":"5"
 		},
 		{"id":"b99b0aa6c4c2eef3","type":"link","url":"https://www.youtube.com/watch?v=7CtwuZJ18_Q&list=PLubYOWSl9mIvTio-1bXWnhE9LdeXfox1z","x":1905,"y":1271,"width":375,"height":199},
-		{"id":"557fe8ba6259f53f","type":"link","url":"https://www.youtube.com/watch?v=7NF3CdXkm68&t=1s","x":1905,"y":2132,"width":375,"height":199},
 		{"id":"00b4483ba6f2fa8c","type":"text","text":"[Machine & Deep Learning MOC](../../1.%20MOCs/Machine%20&%20Deep%20Learning%20MOC.md)","x":400,"y":-160,"width":183,"height":60},
 		{"id":"3995936dfe5899fa","type":"text","text":"[Algorithms & Data Structures MOC](1.%20MOCs/Algorithms%20&%20Data%20Structures%20MOC.md)","x":400,"y":-40,"width":183,"height":60,"color":"4"},
 		{"id":"d2b10c2f7f519cfc","type":"text","text":"[Radiometry & Photometry](2.%20Notes/Radiometry%20&%20Photometry.md)","x":400,"y":-400,"width":183,"height":60},
-		{
-			"id":"088064024390d6fe",
-			"styleAttributes":{},
-			"text":"- [Lecture 2 - Resonance II](https://www.youtube.com/watch?v=TcvY8Nt0ZGA&list=PLUl4u3cNGP62FPGcyFJkzhqq9c5cHCK32&index=3&ab_channel=MITOpenCourseWare)\n\t- [Q factor (Wikipedia)](https://www.wikiwand.com/en/articles/Q_factor)\n\t- [Whispering Gallery Modes ( Wikipedia)](https://www.wikiwand.com/en/articles/Whispering-gallery_wave)\n\t- A comparison between a 2-level system and the QHO. The two systems behave the same in the approximation of weak driving.\n\t- He said that if one excites a QHO, naturally states will \"leak\" to higher levels. This allegedly happens when the driving is not weak and the approximation between the two system no longer holds.\n\t- Two level system - can be saturated, a QHO can be driven to arbitrarily high energies.",
-			"type":"text",
-			"x":2581,
-			"y":-240,
-			"width":560,
-			"height":380
-		},
 		{"id":"78358a9e0c316a13","type":"text","text":"Graph Theory","x":400,"y":80,"width":183,"height":60},
 		{"id":"678183809e454c76","type":"text","text":"Computer Vision","x":400,"y":-280,"width":183,"height":60},
 		{"id":"7285c67b75e2baa2","type":"text","text":"Geometric Algebra","x":660,"y":-400,"width":183,"height":60},
@@ -258,37 +217,34 @@
 			"height":180
 		},
 		{
-			"id":"f79087cb6ddfb7f5",
+			"file":"9. Misc/attachments/Marini - 2013.pdf",
+			"id":"17e037ae82969cb7",
 			"styleAttributes":{},
-			"text":"Questions for Stackexchange:\n1.  Would the equations of motion change in a curved space? Circular motion.\n2. Do all quantities stem from space and time? (Are we able to mesasure only space and time)",
-			"type":"text",
-			"x":4181,
-			"y":-840,
-			"width":480,
-			"height":280
-		},
-		{
-			"id":"f459f02bb9cac265",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"text":"# Topic of Interest By Priority\n\n1. Electrodynamics\n2. Optics & Photonics\n3. Thermodynamics\n4. Dynamical Systems\n5. Atomic & Molecular Physics\n6. Stochastic Processes\n7. Chemical Processes\n8. Special Relativity\n9. Hydrodynamics",
-			"type":"text",
+			"type":"file",
 			"x":3821,
-			"y":-1522,
+			"y":-4920,
 			"width":400,
-			"height":505,
-			"color":"3"
+			"height":400
 		},
 		{
-			"id":"e80c140ac848e3c3",
-			"lockedHeight":true,
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"text":"$$\n\\begin{align}\n\\delta S = \\delta \\int\\limits \\mathcal{L} \\, dt &=\\delta \\int\\limits (K-V) \\, dt \\stackrel{!}{=}0  \\\\\n&\\Downarrow \\\\\n\\delta \\int\\limits K \\, dt &= \\delta \\int\\limits V \\, dt \n\\end{align}\n$$\n",
-			"type":"text",
-			"x":4341,
-			"y":-1522,
-			"width":480,
-			"height":200,
-			"color":"6"
+			"file":"9. Misc/attachments/Faraday_Discussion_paper.pdf",
+			"id":"7d7783a6e8e1200b",
+			"styleAttributes":{},
+			"type":"file",
+			"x":3261,
+			"y":-4920,
+			"width":400,
+			"height":400
+		},
+		{
+			"file":"9. Misc/attachments/Hot Photoluminescence Supplamentary.pdf",
+			"id":"c83ea04714f6839b",
+			"styleAttributes":{},
+			"type":"file",
+			"x":3261,
+			"y":-4460,
+			"width":400,
+			"height":400
 		},
 		{
 			"id":"06355e81ecaa4ab9",
@@ -309,26 +265,6 @@
 			"y":-2220,
 			"width":360,
 			"height":320
-		},
-		{
-			"id":"8b2e3f80d9d5d0f7",
-			"styleAttributes":{},
-			"text":" # AMO & Quantum Optics\n\n1. Quasi-probabilities\n2. [Dicke Model](https://www.wikiwand.com/en/articles/Dicke_model)",
-			"type":"text",
-			"x":4341,
-			"y":-2220,
-			"width":400,
-			"height":210
-		},
-		{
-			"id":"9ac4629a04501447",
-			"styleAttributes":{},
-			"text":"Is it possible to create a \"non-reversible\" filter using photonic crystals, such that light of certain wavelengths penetrates from one direction, but not the other?",
-			"type":"text",
-			"x":2621,
-			"y":-2040,
-			"width":360,
-			"height":200
 		},
 		{
 			"id":"501bba116a75b82d",
@@ -382,26 +318,6 @@
 			"height":60
 		},
 		{
-			"file":"9. Misc/attachments/Marini - 2013.pdf",
-			"id":"17e037ae82969cb7",
-			"styleAttributes":{},
-			"type":"file",
-			"x":3821,
-			"y":-4920,
-			"width":400,
-			"height":400
-		},
-		{
-			"file":"9. Misc/attachments/Faraday_Discussion_paper.pdf",
-			"id":"7d7783a6e8e1200b",
-			"styleAttributes":{},
-			"type":"file",
-			"x":3261,
-			"y":-4920,
-			"width":400,
-			"height":400
-		},
-		{
 			"file":"3. Problems/Interview Questions.md",
 			"id":"71977e0ccde1fc4c",
 			"styleAttributes":{},
@@ -414,14 +330,97 @@
 		},
 		{"id":"36451f8aadee487f","type":"text","text":"ternary logic","x":4341,"y":-2520,"width":250,"height":60},
 		{
-			"file":"9. Misc/attachments/Hot Photoluminescence Supplamentary.pdf",
-			"id":"c83ea04714f6839b",
+			"id":"28e304030ee8877b",
+			"styleAttributes":{},
+			"text":"Hole through the earth\n1. What would happen to the atmosphere as a result?\n2. How long would a \"free-fall\" trip take from one end to the other?",
+			"type":"text",
+			"x":3461,
+			"y":-1884,
+			"width":400,
+			"height":164
+		},
+		{
+			"file":"2. Notes/Solar Sail.md",
+			"id":"312253a9400c5443",
 			"styleAttributes":{},
 			"type":"file",
-			"x":3261,
-			"y":-4460,
+			"x":2581,
+			"y":-1460,
+			"width":560,
+			"height":960
+		},
+		{
+			"id":"f63c97d30d38360f",
+			"styleAttributes":{},
+			"text":"Relativistic Scattering of photon from a mass M body",
+			"type":"text",
+			"x":3181,
+			"y":-1460,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"088064024390d6fe",
+			"styleAttributes":{},
+			"text":"- [Lecture 2 - Resonance II](https://www.youtube.com/watch?v=TcvY8Nt0ZGA&list=PLUl4u3cNGP62FPGcyFJkzhqq9c5cHCK32&index=3&ab_channel=MITOpenCourseWare)\n\t- [Q factor (Wikipedia)](https://www.wikiwand.com/en/articles/Q_factor)\n\t- [Whispering Gallery Modes ( Wikipedia)](https://www.wikiwand.com/en/articles/Whispering-gallery_wave)\n\t- A comparison between a 2-level system and the QHO. The two systems behave the same in the approximation of weak driving.\n\t- He said that if one excites a QHO, naturally states will \"leak\" to higher levels. This allegedly happens when the driving is not weak and the approximation between the two system no longer holds.\n\t- Two level system - can be saturated, a QHO can be driven to arbitrarily high energies.",
+			"type":"text",
+			"x":2581,
+			"y":-240,
+			"width":560,
+			"height":380
+		},
+		{
+			"id":"f79087cb6ddfb7f5",
+			"styleAttributes":{},
+			"text":"Questions for Stackexchange:\n1.  Would the equations of motion change in a curved space? Circular motion.\n2. Do all quantities stem from space and time? (Are we able to mesasure only space and time)",
+			"type":"text",
+			"x":4181,
+			"y":-840,
+			"width":480,
+			"height":280
+		},
+		{
+			"id":"f459f02bb9cac265",
+			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
+			"text":"# Topic of Interest By Priority\n\n1. Electrodynamics\n2. Optics & Photonics\n3. Thermodynamics\n4. Dynamical Systems\n5. Atomic & Molecular Physics\n6. Stochastic Processes\n7. Chemical Processes\n8. Special Relativity\n9. Hydrodynamics",
+			"type":"text",
+			"x":3821,
+			"y":-1522,
 			"width":400,
-			"height":400
+			"height":505,
+			"color":"3"
+		},
+		{
+			"id":"e80c140ac848e3c3",
+			"lockedHeight":true,
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"text":"$$\n\\begin{align}\n\\delta S = \\delta \\int\\limits \\mathcal{L} \\, dt &=\\delta \\int\\limits (K-V) \\, dt \\stackrel{!}{=}0  \\\\\n&\\Downarrow \\\\\n\\delta \\int\\limits K \\, dt &= \\delta \\int\\limits V \\, dt \n\\end{align}\n$$\n",
+			"type":"text",
+			"x":4341,
+			"y":-1522,
+			"width":480,
+			"height":200,
+			"color":"6"
+		},
+		{
+			"id":"8b2e3f80d9d5d0f7",
+			"styleAttributes":{},
+			"text":" # AMO & Quantum Optics\n\n1. Quasi-probabilities\n2. [Dicke Model](https://www.wikiwand.com/en/articles/Dicke_model)",
+			"type":"text",
+			"x":4341,
+			"y":-2220,
+			"width":400,
+			"height":210
+		},
+		{
+			"id":"9ac4629a04501447",
+			"styleAttributes":{},
+			"text":"Is it possible to create a \"non-reversible\" filter using photonic crystals, such that light of certain wavelengths penetrates from one direction, but not the other?",
+			"type":"text",
+			"x":2621,
+			"y":-2040,
+			"width":360,
+			"height":200
 		}
 	],
 	"edges":[
@@ -444,19 +443,8 @@
 			"fromNode":"9bb112af13496f06",
 			"fromSide":"left",
 			"toNode":"dd1dceebbe739420",
-			"toSide":"top",
+			"toSide":"right",
 			"label":"might be related?"
-		},
-		{
-			"id":"b63e3dec0e9d41a4",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"9bb112af13496f06",
-			"fromSide":"bottom",
-			"toNode":"557fe8ba6259f53f",
-			"toSide":"top",
-			"label":"Yotam Sent"
 		},
 		{
 			"id":"d11dc6a2a07008ea",
@@ -496,5 +484,9 @@
 		{"id":"0e4b5f060bd8c2ed","fromNode":"bf88d0dfc1262d83","fromSide":"right","toNode":"3afbec5d6ff5ddbc","toSide":"left"},
 		{"id":"28746527c2ffb2ec","fromNode":"bf7700d9a3bb2868","fromSide":"bottom","toNode":"3afbec5d6ff5ddbc","toSide":"top"},
 		{"id":"e3bba369a2de09a3","fromNode":"bf7700d9a3bb2868","fromSide":"left","toNode":"bf88d0dfc1262d83","toSide":"top"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

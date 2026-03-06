@@ -5,7 +5,7 @@ $$
 \nabla n =  \frac{ \partial n }{ \partial \rho } \hat{\mathbf{\rho}} = -mn_{0} \Delta\left( \frac{\rho}{a} \right)^{m-1}
 $$
 
-with the Eikonal equation (approximating $s\approx z$) we get
+with the [Eikonal Equation](Eikonal%20Equation.md) (approximating $s\approx z$) we get
 
 $$
 \nabla n = \frac{ \partial  }{ \partial s } \left[ n\frac{ \partial \mathbf{r} }{ \partial s }  \right] \approx \frac{ \partial  }{ \partial z } \left[ n\frac{ \partial \mathbf{r} }{ \partial z }  \right] = \frac{ \partial  }{ \partial z } \left[ n\left( \frac{ \partial \rho }{ \partial z }\hat{\boldsymbol{\rho}} + \hat{\mathbf{z}}  \right) \right]

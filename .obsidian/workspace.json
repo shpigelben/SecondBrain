@@ -4,25 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "92576df7e20591cb",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e32c06f786e2dd27",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "There is a phenomenon.md",
+                "file": "2. Notes/Ionic Bonding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "There is a phenomenon"
+              "title": "Ionic Bonding"
+            }
+          },
+          {
+            "id": "eb751e0176ba9be7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "9. Misc/Canvases/Current Learning Path.canvas",
+                "viewState": {
+                  "x": 1635.242852835588,
+                  "y": 1697.691959955148,
+                  "zoom": -1.8902921569053528
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Current Learning Path"
+            }
+          },
+          {
+            "id": "e5e256b8d35aa820",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
+                "viewState": {
+                  "x": -719.869364589622,
+                  "y": -235.39814733338773,
+                  "zoom": -2.049241307656196
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Condensed Matter Mind Map"
+            }
+          },
+          {
+            "id": "1ad005f148421683",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metal Photoluminescence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Metal Photoluminescence"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,16 +99,6 @@
             }
           },
           {
-            "id": "889e77fee553c568",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
             "id": "7fbeb3be0205d813",
             "type": "leaf",
             "state": {
@@ -75,11 +115,12 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 219.50260543823242
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -88,7 +129,7 @@
       {
         "id": "ddf1501bcac9f0ab",
         "type": "tabs",
-        "dimension": 43.07479224376731,
+        "dimension": 57.79036827195468,
         "children": [
           {
             "id": "4c8df7b8dcda96e6",
@@ -96,10 +137,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI_workflow.canvas"
+                "file": "9. Misc/Canvases/Current Learning Path.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for AI_workflow"
+              "title": "File properties for Current Learning Path"
             }
           },
           {
@@ -108,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. Problems/12. Highly Divisible Triangular Number.md",
+                "file": "9. Misc/Canvases/Current Learning Path.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -131,12 +172,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.340462908484119,
+                  "scale": 1.245835056829609,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 12. Highly Divisible Triangular Number"
+              "title": "Graph of Current Learning Path"
             }
           },
           {
@@ -168,12 +209,13 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d105c75b7b4cd347",
         "type": "tabs",
-        "dimension": 56.92520775623269,
+        "dimension": 42.20963172804532,
         "children": [
           {
             "id": "574cf1bf0654653c",
@@ -181,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI_workflow.canvas",
+                "file": "9. Misc/Canvases/Current Learning Path.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI_workflow"
+              "title": "Outline of Current Learning Path"
             }
           },
           {
@@ -196,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/Fresnel Equations.md",
+                "file": "9. Misc/Canvases/Current Learning Path.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +248,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fresnel Equations"
+              "title": "Backlinks for Current Learning Path"
             }
           },
           {
@@ -215,20 +257,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Problems/12. Highly Divisible Triangular Number.md",
+                "file": "9. Misc/Canvases/Current Learning Path.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 12. Highly Divisible Triangular Number"
+              "title": "Outgoing links from Current Learning Path"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,37 +286,39 @@
       "obsidian-stille:Toggle Stille": true
     }
   },
-  "active": "e32c06f786e2dd27",
+  "active": "eb751e0176ba9be7",
   "lastOpenFiles": [
-    "9. Misc/Excalidraw/Fresnel.excalidraw.md",
-    "2. Notes/Solutions to the Dirac Equation.md",
-    "2. Notes/Reciprocal Lattice.md",
-    "2. Notes/Random Walk.md",
-    "2. Notes/Thermodynamic Equilibrium.md",
-    "There is a phenomenon.md",
-    "1. MOCs/Computational Geometry MOC.md",
-    "3. Problems/12. Highly Divisible Triangular Number.md",
-    "titles.css",
     "Home.md",
-    "AI_workflow.canvas",
-    "Untitled.md",
-    "2. Notes/Product Space.md",
-    "2. Notes/Geometric Structure Factor.md",
-    "2. Notes/Second Law of Thermodynamics.md",
-    "2. Notes/Four Vector.md",
-    "9. Misc/Canvases/MSc Research.canvas",
-    "2. Notes/Poynting Theorem.md",
+    "1. MOCs/MOCs.base",
+    "1. MOCs/Robotics MOC.md",
+    "1. MOCs/Signal & Image Processing MOC.md",
     "1. MOCs/Research MOC.md",
-    "1. MOCs/Mathematical Modelling MOC.md",
-    "1. MOCs/Math MOC.md",
-    "1. MOCs/Machine & Deep Learning MOC.md",
-    "1. MOCs/Fluid Mechanics MOC.md",
-    "1. MOCs/Electrodynamics MOC.md",
-    "1. MOCs/Dynamical Systems MOC.md",
-    "1. MOCs/Control Theory MOC.md",
-    "1. MOCs/Condensed Matter Physics MOC.md",
-    "1. MOCs/Classical Mechanics MOC.md",
-    "1. MOCs/Atomic & Molecular Physics MOC.md",
+    "Capacitance & Grounding.md",
+    "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
+    "9. Misc/Canvases/MSc Research.canvas",
+    "AI_workflow.canvas",
+    "There is a phenomenon.md",
+    "Metal Photoluminescence.md",
+    "Bridging the Gap Between Classical Fields and the Quantum Description of Photons.md",
+    "2. Notes/Dirac Equation.md",
+    "2. Notes/Ionic Bonding.md",
+    "2. Notes/Eikonal Equation.md",
+    "2. Notes/GRIN lens.md",
+    "2. Notes/Pauli Matrices.md",
+    "9. Misc/Excalidraw/Drawing 2024-12-12 17.01.16.excalidraw.md",
+    "9. Misc/Excalidraw/Drawing 2024-06-25 13.58.39.excalidraw.md",
+    "2. Notes/Dirac Equation~.md",
+    "2. Notes/Van der Waals - London Interactions.md",
+    "9. Misc/Canvases/Work In Progress.canvas",
+    "2. Notes/Bohr Model.md",
+    "9. Misc/Excalidraw/NMR FID signal.md",
+    "9. Misc/Excalidraw/Drawing 2024-04-19 17.56.21.excalidraw.md",
+    "3. Problems/MPEO - EX1.md",
+    "2. Notes/Light in Schwarzschild Geometry.md",
+    "2. Notes/Spatial Correlation.md",
+    "9. Misc/Excalidraw/Drawing 2024-11-18 13.48.24.excalidraw.md",
+    "2. Notes/Geodesic Equation.md",
+    "titles.css",
     "try.ipynb",
     "9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg",
     "9. Misc/attachments/unused/0C8153F6-D665-4363-9176-7F9EC9B83803_1_105_c.jpeg",
@@ -294,12 +337,9 @@
     "9. Misc/attachments/unused/Faraday_Discussion_paper[1651].pdf",
     "9. Misc/attachments/unused/Recording 20230507190531.webm",
     "9. Misc/attachments/unused/Recording 20221126173159.webm",
-    "9. Misc/attachments/unused",
     "9. Misc/Canvases/Electric Response.canvas",
     "9. Misc/Canvases/Current Learning Path.canvas",
-    "9. Misc/Canvases/Work In Progress.canvas",
     "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
-    "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
     "9. Misc/Canvases/Optics Canvas.canvas",
     "4. Misc/Canvases/Acoustic Transducers.canvas",
     "4. Misc/Canvases/Anderson Localization Project.canvas"

@@ -1,14 +1,5 @@
 {
-	"edges":[
-		{
-			"id":"74a7440ae7040f6b",
-			"styleAttributes":{},
-			"fromNode":"af3796f78695bed2",
-			"fromSide":"right",
-			"toNode":"15963670a2eed141",
-			"toSide":"left"
-		}
-	],
+	"edges":[],
 	"metadata":{"version":"1.0-1.0"},
 	"nodes":[
 		{
@@ -125,16 +116,6 @@
 			"y":160,
 			"width":1080,
 			"height":2240
-		},
-		{
-			"file":"MSc Research/Metal PL/notes/Non-equilibrium Emission in Metals.md",
-			"id":"af3796f78695bed2",
-			"styleAttributes":{},
-			"type":"file",
-			"x":160,
-			"y":420,
-			"width":660,
-			"height":640
 		}
 	]
 }

@@ -5,6 +5,7 @@
   --inline-title-padding-x: 0.10em;
   --inline-title-padding-top: 0.14em;
   --inline-title-padding-bottom: 0.05em;
+  --inline-title-border-alpha: 100%;
 }
 
 .app-container,
@@ -22,7 +23,7 @@ body {
   line-height: var(--inline-title-line-height) !important;
   color: currentColor; /* Black text color in light mode */
   /* background-color: #548dbb7c; Background color */
-  border: 3.0px solid currentColor; /* Black border in light mode */
+  border: 3.0px solid color-mix(in srgb, currentColor var(--inline-title-border-alpha), transparent);
   border-radius: 8px; /* Rounded corners */
   text-align: center;
   padding-top: var(--inline-title-padding-top);
@@ -46,7 +47,7 @@ body {
 /* Dark mode adjustments */
 .theme-dark .inline-title {
   color: currentColor; /* White text color in dark mode */
-  border-color: currentColor; /* White border color in dark mode */
+  border-color: color-mix(in srgb, currentColor var(--inline-title-border-alpha), transparent);
 }
 
 /* Editing mode adjustments */

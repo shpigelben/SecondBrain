@@ -2,8 +2,8 @@
   "accentColor": "#ffbd2e",
   "theme": "moonstone",
   "cssTheme": "AnuPpuccin",
-  "baseFontSize": 16,
-  "textFontFamily": "Palatino,Palatino Linotype,ITC Garamond Std,FiraCode Nerd Font",
+  "baseFontSize": 22,
+  "textFontFamily": "Tiempo,Palatino,Palatino Linotype,ITC Garamond Std,FiraCode Nerd Font",
   "interfaceFontFamily": "Sathu,Inter",
   "enabledCssSnippets": [
     "hide_properties",
@@ -17,6 +17,6 @@
   "nativeMenus": false,
   "translucency": false,
   "baseFontSizeAction": true,
-  "showRibbon": true,
+  "showRibbon": false,
   "monospaceFontFamily": "FiraCode Nerd Font"
 }

@@ -8,7 +8,7 @@ status: incomplete
 The Bohr model is a "pre-quantum mechanical" model of the atom. It depicts the electron as being bound to the nucleus by the [coulombing interaction](Coulomb%20Force), performing orbits like that planets around the sun. While this view of the atom is known today to be incorrect, the model does provide remarkably accurate energy quantization for the hydrogen. It is a good introductory tool for understanding the structure and scales of the atom.
 
 # The Problem with Classical Orbits
-Electrons in classical orbits are in constant acceleration and therefore [radiate](Radiation) electromagnetic energy. The radiation of electromagnetic energy comes at the expense of kinetic energy (conservation of energy) and the electron spirals into the nucleus. Only this is not observed, and electron orbits around nuclei are stationary. 
+Electrons in classical orbits are in constant acceleration and therefore [radiate](Radiation) electromagnetic energy. The radiation of electromagnetic energy comes at the expense of kinetic energy (conservation of energy) and the electron spirals into the åucleus. Only this is not observed, and electron orbits around nuclei are stationary. 
 
 # Bohr's Solution
 Bohr's ad-hoc solution for the collapsing electron is the postulation of __quantization__ of angular momentum as follows

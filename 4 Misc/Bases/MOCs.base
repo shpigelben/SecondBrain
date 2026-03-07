@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: Physics
+    filters:
+      and:
+        - type == "moc"
+        - field.contains("physics")
+  - type: table
+    name: Math
+    filters:
+      and:
+        - type == "moc"
+        - field.contains("math")
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Engineering
+    filters:
+      and:
+        - type == "moc"
+        - field.contains("engineering")
+  - type: table
+    name: General
+    filters:
+      and:
+        - field.contains("general")
+  - type: table
+    name: All MOCs
+    filters:
+      and:
+        - type == "moc"

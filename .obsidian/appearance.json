@@ -4,7 +4,7 @@
   "cssTheme": "AnuPpuccin",
   "baseFontSize": 22,
   "textFontFamily": "Tiempo,Palatino,Palatino Linotype,ITC Garamond Std,FiraCode Nerd Font",
-  "interfaceFontFamily": "Sathu,Inter",
+  "interfaceFontFamily": "Inter,JetBrainsMono Nerd Font,Sathu",
   "enabledCssSnippets": [
     "hide_properties",
     "Annupucin-extended-colorschemes",
@@ -17,6 +17,6 @@
   "nativeMenus": false,
   "translucency": false,
   "baseFontSizeAction": true,
-  "showRibbon": false,
+  "showRibbon": true,
   "monospaceFontFamily": "FiraCode Nerd Font"
 }

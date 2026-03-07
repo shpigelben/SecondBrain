@@ -1,1 +1,0 @@
-#note #math #algebra #derivative | #incomplete 

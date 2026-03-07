@@ -1,0 +1,92 @@
+{
+	"edges":[
+		{"id":"16164f62870b2717","fromNode":"6908db6ab23321ce","fromSide":"bottom","toNode":"0ef6f816ca631d01","toSide":"top"},
+		{"id":"e32ef47743f6e901","fromNode":"0ef6f816ca631d01","fromSide":"right","toNode":"ddb70a2b5eb93bcf","toSide":"left"},
+		{"id":"9cf37711bdd7d868","fromNode":"0ef6f816ca631d01","fromSide":"left","toNode":"3f0dfcf778d85734","toSide":"right"}
+	],
+	"metadata":{"version":"1.0-1.0"},
+	"nodes":[
+		{
+			"id":"f721070fb0e10c6c",
+			"styleAttributes":{},
+			"text":"# Refractive Index\nThe index of refraction of a material is defined as the ratio between the velocity of light in vacuum and in the material\n$$n = \\frac{c_{0}}{c}=\\sqrt{ \\frac{\\epsilon \\mu}{\\epsilon_{0}\\mu_{0}} }$$\nfor nonmagnetic materials $\\mu_{0}=\\mu$ and so\n$$n = \\sqrt{ \\frac{\\epsilon}{\\epsilon_{0}} }=\\sqrt{ 1+\\chi }$$\n\n",
+			"type":"text",
+			"x":800,
+			"y":40,
+			"width":440,
+			"height":420
+		},
+		{
+			"id":"a1da8a5e70529058",
+			"styleAttributes":{},
+			"text":"# Poynting Theorem\nThe Poynting vector (Energy Flux) of electromagnetic field is\n$$\\mathbf{S}=\\mathbf{E}\\times \\mathbf{H}$$\nTaking the divergence of \n$$\\begin{align}\n\\nabla \\cdot \\mathbf{S}  & = \\nabla \\cdot(\\mathbf{E}\\times \\mathbf{H}) \\\\\n&=\\mathbf{H}\\cdot(\\nabla \\times \\mathbf{E})-\\mathbf{E}\\cdot(\\nabla \\times \\mathbf{H}) \\\\\n&=\\mathbf{H}\\cdot\\left( -\\frac{ \\partial \\mathbf{B} }{ \\partial t }  \\right)-\\mathbf{E}\\cdot\\left( \\frac{ \\partial \\mathbf{D} }{ \\partial t } +\\mathbf{J}_{free} \\right)\n\\end{align}$$\nRecall that the energy density of electromagnetic fields in materials is given by the following expression\n$$ u = \\frac{1}{2}\\Big[\\mathbf{E}\\cdot \\mathbf{D}+\\mathbf{H}\\cdot \\mathbf{B}\\Big] $$\nFor time-independent permittivity and permeability the above can be simply written as\n$$-\\frac{ \\partial u }{ \\partial t } =\\nabla \\cdot \\mathbf{S}+\\mathbf{J}\\cdot \\mathbf{E}$$\nthe decrease in energy density in a point is due to energy flowing away from there (divergence of Poynting vector) and conversion of EM energy to mechanical energy (due to Lorentz force).",
+			"type":"text",
+			"x":1320,
+			"y":-380,
+			"width":580,
+			"height":820,
+			"color":"3"
+		},
+		{
+			"file":"3 Concepts/Poynting Theorem.md",
+			"id":"06a3cf3a5fda7556",
+			"styleAttributes":{},
+			"type":"file",
+			"x":-1280,
+			"y":535,
+			"width":680,
+			"height":1320
+		},
+		{
+			"id":"ddb70a2b5eb93bcf",
+			"styleAttributes":{},
+			"text":"# Electric Susceptibility\n\nThe electric susceptibility is a complex quantity in general usually denoted as\n$$\\chi(\\omega)=\\chi'(\\omega)+i\\chi''(\\omega)$$\nbased on the Lorentz model for bound electrons in a solid the real and imaginary parts look as follows\n$$\\chi(\\omega)=\\frac{{\\omega^{2} _{p}}}{(w^{2}_{res}-\\omega^2)^2+(\\gamma \\omega)^2}\\Big[(w^{2}_{res}-\\omega^2)+i\\gamma \\omega \\Big]$$\n![[../Attachments/Pasted image 20230425095500.png|center|600]]\n\nThe Lorentzian in blue is $\\chi''$ and the line in red is $\\chi'$",
+			"type":"text",
+			"x":900,
+			"y":580,
+			"width":740,
+			"height":800
+		},
+		{
+			"id":"5b306e1369f92124",
+			"styleAttributes":{},
+			"text":"# Nomenclature\n\nA **nondispersive** medium responds instantaneously to electric field (like vacuum).\n\nA **homogenous** medium has position independent dielectric constant\n\nAn **isotropic** medium has a dielectric constant that is independent of orientation (it is a scalar quantity as opposed to tensor quantity)\n\n",
+			"type":"text",
+			"x":800,
+			"y":-460,
+			"width":440,
+			"height":440
+		},
+		{
+			"id":"3f0dfcf778d85734",
+			"styleAttributes":{},
+			"text":"# Plasma Frequency\n\n$$\\omega_{p} = \\sqrt{ \\frac{Nq^2}{m^{*}_{q}\\epsilon_{0}}  }$$",
+			"type":"text",
+			"x":-360,
+			"y":535,
+			"width":396,
+			"height":173
+		},
+		{
+			"id":"0ef6f816ca631d01",
+			"styleAttributes":{},
+			"text":"# Drude Lorentz Model\nWe treat the electrons bound to the nucleus as if they were damped harmonic oscillators. The equation of motion for the deviation from equilibrium is given as\n$$\\mathbf{\\ddot{u}}+\\gamma \\mathbf{\\dot{u}}+\\omega_{res}^{2}  \\mathbf{u}=-\\frac{e}{m_{e}}\\mathbf{E}$$\n==since $\\gamma$ is proportional to collision rate, and $\\omega_{res}$ is the resonant frequency in the optical range, it is reasonable to assume that $\\gamma\\ll \\omega_{res}$ since the collision rate is much slower==\nThe solution is given by\n$$\\mathbf{u}(\\omega)= -\\frac{e / m^{*}_{e}}{(\\omega_{res}^2-\\omega^2 -i\\gamma \\omega)}\\mathbf{E}(\\omega)$$\nwhich for monochromatic light $\\hat{E}\\propto \\delta(\\omega-\\omega_{0})$ is\n$$\\mathbf{u}(t)= -\\frac{e / m^{*}_{e}}{(\\omega_{res}^2-\\omega^2 _{0} -i\\gamma \\omega_{0})}\\mathbf{E}_{0}e^{ -i\\omega_{0}t }$$\nThe electric dipole density is given by\n$$\\mathbf{\\hat{P}}=\\sum\\limits_{i}\\hat{\\mathbf{p}_{i}}=-Ne\\mathbf{\\hat{u}}=\\epsilon_{0}\\chi \\mathbf{\\hat{E}}$$\nwhich in turn gives us the susceptibility\n$$\\chi(\\omega) = \\frac{\\omega_{p}^{2}}{\\omega_{res}^{2}-\\omega^{2}-i \\gamma \\omega}, \\quad \\quad \\omega_{p}^{2} = \\frac{Ne^{2}}{m_{e}^{*}\\epsilon_{0}}$$\n\n",
+			"type":"text",
+			"x":128,
+			"y":250,
+			"width":555,
+			"height":920
+		},
+		{
+			"id":"6908db6ab23321ce",
+			"styleAttributes":{},
+			"text":"# Electromagnetic Response\nelectric $(\\mathbf{E})$ and magnetic $(\\mathbf{H})$ fields induce electric polarization $(\\mathbf{P})$ and magnetization $(\\mathbf{M})$ inside materials\n$$\\begin{align}\n\\mathbf{D}&=\\epsilon_{0}\\mathbf{E}+\\mathbf{P}&\\approx \\epsilon_{0}(1+\\chi)\\mathbf{E}\\equiv \\epsilon \\mathbf{E} \\\\\n\\mathbf{B}&=\\mu_{0}\\mathbf{H}+\\mu_{0}\\mathbf{M} &\\approx \\mu_{0}(1+\\chi_{m})\\mathbf{H}\\equiv \\mu \\mathbf{H}\n\\end{align}$$\nWhile the approximation above holds for weak perturbations where the linear response is prominent. Most generally, there can be electric response induced by a magnetic field and vice versa given by\n$$\\begin{align}\n\\mathbf{D} &= \\epsilon \\mathbf{E} + \\xi \\mathbf{ H} \\\\\n\\mathbf{B} &= \\mu \\mathbf{H} +\\zeta \\mathbf{E} \n\\end{align}$$\nThe so called *constitutive relations* in which the cross relations are usually neglected due to their value being OOM smaller.",
+			"type":"text",
+			"x":86,
+			"y":-460,
+			"width":640,
+			"height":540,
+			"color":"5"
+		}
+	]
+}

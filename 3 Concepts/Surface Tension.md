@@ -1,0 +1,9 @@
+---
+type: concept
+discipline:
+  - physics
+field:
+  - fluid-mechanics
+---
+
+- [ ] Surface tension is attributed to the interaction between the molecules of the matter. Therefore, one might assume a correlation between the [[viscosity]] of a substance (which also depends on the interaction of its constituents) and its surface tension. This is in fact not the case and no such correlation exists. This is mainly due to the fact that viscosity is a dynamical effect, whereas surface tension is a static one.

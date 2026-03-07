@@ -1,1 +1,0 @@
-#note #physics #quantum #derivative | #incomplete 

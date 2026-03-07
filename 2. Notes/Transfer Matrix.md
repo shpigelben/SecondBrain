@@ -1,1 +1,0 @@
-#note #math #probability #derivative | #incomplete

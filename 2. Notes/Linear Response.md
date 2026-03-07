@@ -1,1 +1,0 @@
-#note #physics #dynamical-systems #statistical-mechanics #derivative | #incomplete 

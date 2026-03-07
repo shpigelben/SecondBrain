@@ -8,71 +8,86 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "facbb0177df93619",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "ae6973540a14bd1a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 Misc/MOCs/Research MOC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Research MOC"
+            }
+          },
+          {
+            "id": "c23bcd7d28c4a74d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/Ionic Bonding.md",
+                "file": "4 Misc/MOCs/Classical Mechanics MOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ionic Bonding"
+              "title": "Classical Mechanics MOC"
             }
           },
           {
-            "id": "eb751e0176ba9be7",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas",
-                "viewState": {
-                  "x": 1635.242852835588,
-                  "y": 1697.691959955148,
-                  "zoom": -1.8902921569053528
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Current Learning Path"
-            }
-          },
-          {
-            "id": "e5e256b8d35aa820",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
-                "viewState": {
-                  "x": -719.869364589622,
-                  "y": -235.39814733338773,
-                  "zoom": -2.049241307656196
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Condensed Matter Mind Map"
-            }
-          },
-          {
-            "id": "1ad005f148421683",
+            "id": "b1c7d25ad1338c55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metal Photoluminescence.md",
+                "file": "3 Concepts/4X4 Transition Matrix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Metal Photoluminescence"
+              "title": "4X4 Transition Matrix"
+            }
+          },
+          {
+            "id": "4d0d28d6e3227264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Concepts/Position & Momentum Operators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Position & Momentum Operators"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,13 +129,22 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "d9e226bbfd992f73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 219.50260543823242
+    "width": 289.5
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -137,10 +161,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas"
+                "file": "3 Concepts/Position & Momentum Operators.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Current Learning Path"
+              "title": "File properties for Position & Momentum Operators"
             }
           },
           {
@@ -149,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas",
+                "file": "3 Concepts/Position & Momentum Operators.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,9 +186,9 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": 0,
+                  "textFadeMultiplier": -0.7,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
@@ -172,45 +196,15 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.245835056829609,
+                  "scale": 0.6905050337044374,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Current Learning Path"
-            }
-          },
-          {
-            "id": "b6c7bd068e71b80b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "14b1c5c10fc6944f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Graph of Position & Momentum Operators"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d105c75b7b4cd347",
@@ -223,13 +217,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas",
+                "file": "3 Concepts/Position & Momentum Operators.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Current Learning Path"
+              "title": "Outline of Position & Momentum Operators"
             }
           },
           {
@@ -238,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas",
+                "file": "3 Concepts/Position & Momentum Operators.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +242,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Current Learning Path"
+              "title": "Backlinks for Position & Momentum Operators"
             }
           },
           {
@@ -257,19 +251,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9. Misc/Canvases/Current Learning Path.canvas",
+                "file": "3 Concepts/Position & Momentum Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Current Learning Path"
+              "title": "Outgoing links from Position & Momentum Operators"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,47 +271,60 @@
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": true,
       "random-note:Open random note": false,
+      "command-palette:Open command palette": true,
       "templates:Insert template": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
       "pexels-banner:🚩 Pixel Banner Menu": true,
-      "obsidian-stille:Toggle Stille": true
+      "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "eb751e0176ba9be7",
+  "active": "4d0d28d6e3227264",
   "lastOpenFiles": [
+    "2 Puzzles/Ultra Violet Index.md",
+    "4 Misc/Excalidraw/two incident plane waves.md",
+    "3 Concepts/Atomic Orbitals.md",
     "Home.md",
-    "1. MOCs/MOCs.base",
-    "1. MOCs/Robotics MOC.md",
-    "1. MOCs/Signal & Image Processing MOC.md",
-    "1. MOCs/Research MOC.md",
-    "Capacitance & Grounding.md",
-    "9. Misc/Canvases/Condensed Matter Mind Map.canvas",
-    "9. Misc/Canvases/MSc Research.canvas",
-    "AI_workflow.canvas",
-    "There is a phenomenon.md",
-    "Metal Photoluminescence.md",
-    "Bridging the Gap Between Classical Fields and the Quantum Description of Photons.md",
-    "2. Notes/Dirac Equation.md",
-    "2. Notes/Ionic Bonding.md",
-    "2. Notes/Eikonal Equation.md",
-    "2. Notes/GRIN lens.md",
-    "2. Notes/Pauli Matrices.md",
-    "9. Misc/Excalidraw/Drawing 2024-12-12 17.01.16.excalidraw.md",
-    "9. Misc/Excalidraw/Drawing 2024-06-25 13.58.39.excalidraw.md",
-    "2. Notes/Dirac Equation~.md",
-    "2. Notes/Van der Waals - London Interactions.md",
+    "3 Concepts/4X4 Transition Matrix.md",
+    "4 Misc/MOCs/Atomic & Molecular Physics MOC.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "3 Concepts/Metric Tensor.md",
+    "5. Journal/Untitled.md",
+    "5. Journal/Daily Notes",
+    "1 Projects",
+    "4 Misc/Canvases/Dashboard.canvas",
+    "4 Misc/MOCs/Classical Mechanics MOC.md",
+    "0 Thoughts",
+    "4 Misc/MOCs/Research MOC.md",
+    "3 Concepts/Cosmic Evolution.md",
+    "3 Concepts/Cosmological Redshift.md",
+    "3 Concepts/Friedmann Equations.md",
+    "3 Concepts/FRW Metric.md",
+    "3 Concepts/Hubble's Law.md",
+    "3 Concepts/Van der Waals - London Interactions.md",
+    "3 Concepts/Osmosis.md",
+    "3 Concepts/Hund's Rules.md",
+    "2 Puzzles/Laser Physics HW1.md",
+    "3 Concepts/Radiation Kinetics.md",
+    "Untitled.md",
+    "3 Concepts/Chemical Potential.md",
+    "3 Concepts/Hydrogen Atom.md",
+    "3 Concepts/Radiative Transitions.md",
+    "3 Concepts/Selection Rules.md",
+    "3 Concepts/Molecular Orbitals.md",
+    "4 Misc/Canvases/Electric Response.canvas",
+    "4 Misc/Bases/Project Euler.base",
+    "9. Misc/Attachments/3-s2.0-B9780128111666000054-f05-05-9780128111666.jpg",
+    "4 Misc/Bases/MOCs.base",
+    "4 Misc/Canvases/MSc Research.canvas",
     "9. Misc/Canvases/Work In Progress.canvas",
-    "2. Notes/Bohr Model.md",
-    "9. Misc/Excalidraw/NMR FID signal.md",
-    "9. Misc/Excalidraw/Drawing 2024-04-19 17.56.21.excalidraw.md",
-    "3. Problems/MPEO - EX1.md",
-    "2. Notes/Light in Schwarzschild Geometry.md",
-    "2. Notes/Spatial Correlation.md",
-    "9. Misc/Excalidraw/Drawing 2024-11-18 13.48.24.excalidraw.md",
-    "2. Notes/Geodesic Equation.md",
+    "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
+    "4 Misc/Canvases/Condensed Matter Mind Map.canvas",
+    "AI_workflow.canvas",
+    "4 Misc/Attachments/weigner seitz 2D.png",
+    "4 Misc/Attachments/weigner seitz 3D.png",
     "titles.css",
     "try.ipynb",
     "9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg",
@@ -328,19 +335,7 @@
     "9. Misc/attachments/unused/Pasted image 20240811163800.png",
     "9. Misc/attachments/unused/Pasted image 20240904112552.png",
     "9. Misc/attachments/unused/Pasted Image 20240908122741_031.png",
-    "9. Misc/attachments/unused/Pasted image 20240926172853.png",
-    "9. Misc/attachments/unused/Pasted image 20241013105922.png",
-    "9. Misc/attachments/unused/Pasted image 20241021094539.png",
-    "9. Misc/attachments/unused/Quantum-mechanical effects in photoluminescence from thin crystalline gold films.pdf",
-    "9. Misc/attachments/unused/interband_transitions(cut).pdf",
-    "9. Misc/attachments/unused/Nanofabrication.pdf",
-    "9. Misc/attachments/unused/Faraday_Discussion_paper[1651].pdf",
-    "9. Misc/attachments/unused/Recording 20230507190531.webm",
-    "9. Misc/attachments/unused/Recording 20221126173159.webm",
-    "9. Misc/Canvases/Electric Response.canvas",
-    "9. Misc/Canvases/Current Learning Path.canvas",
-    "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
-    "9. Misc/Canvases/Optics Canvas.canvas",
+    "4 Misc/Canvases/Optics Canvas.canvas",
     "4. Misc/Canvases/Acoustic Transducers.canvas",
     "4. Misc/Canvases/Anderson Localization Project.canvas"
   ]

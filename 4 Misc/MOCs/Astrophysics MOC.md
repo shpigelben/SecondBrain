@@ -2,7 +2,8 @@
 type: moc
 discipline:
   - physics
-field: []
+field:
+  - astrophysics
 ---
 
 # Radiative Processes

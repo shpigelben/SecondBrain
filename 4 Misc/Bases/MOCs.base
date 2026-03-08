@@ -4,29 +4,39 @@ views:
     filters:
       and:
         - type == "moc"
-        - field.contains("physics")
+        - discipline.contains("physics")
+    order:
+      - file.name
+      - discipline
+      - field
+    columnSize:
+      file.name: 393
+      note.discipline: 156
+      note.field: 380
   - type: table
     name: Math
     filters:
       and:
         - type == "moc"
-        - field.contains("math")
-    sort:
-      - property: file.name
-        direction: ASC
+        - discipline.contains("math")
   - type: table
     name: Engineering
     filters:
       and:
         - type == "moc"
-        - field.contains("engineering")
+        - discipline.contains("engineering")
   - type: table
-    name: General
-    filters:
-      and:
-        - field.contains("general")
-  - type: table
-    name: All MOCs
+    name: MOCs
     filters:
       and:
         - type == "moc"
+    order:
+      - file.name
+      - discipline
+      - field
+    sort:
+      - property: discipline
+        direction: ASC
+    columnSize:
+      note.discipline: 157
+      note.field: 237

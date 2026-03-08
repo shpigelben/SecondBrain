@@ -120,11 +120,18 @@
       "key": "["
     }
   ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
   "font-size:decrement-font-size": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt"
       ],
       "key": "-"
     }
@@ -132,18 +139,9 @@
   "font-size:increment-font-size": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "="
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
         "Alt"
       ],
-      "key": ","
+      "key": "="
     }
   ]
 }

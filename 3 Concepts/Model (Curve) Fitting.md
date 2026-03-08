@@ -6,8 +6,6 @@ field:
   - probability-statistics
 ---
 
-**,.,.**  
-
 - Design of a certain metic that quantifies the degree of correspondence between a data set, and a model.
 - Finding the minimizing fitting parameters $(a,b,c)$ which give the best fit.
 - Calculating the variance of the fitting parameters $(\sigma_{a},\sigma_{b},\sigma_{c})$.

@@ -4,3 +4,14 @@ views:
     filters:
       and:
         - subject == ["project-euler"]
+  - type: table
+    name: puzzles
+    filters:
+      and:
+        - field == ["project-euler"]
+    order:
+      - file.name
+      - file.ctime
+    sort: []
+    columnSize:
+      file.name: 403

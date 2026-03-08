@@ -2,7 +2,7 @@
 type: moc
 discipline:
   - math
-field: []
+field:
 ---
 
 > [!NOTE]- Video Lectures

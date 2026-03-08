@@ -2,7 +2,8 @@
 type: moc
 discipline:
   - engineering
-field: []
+field:
+  - machine-learning
 ---
 
 > [!NOTE]- Video Lectures

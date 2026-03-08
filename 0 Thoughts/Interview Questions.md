@@ -1,5 +1,5 @@
 ---
-type: puzzle
+type: thought
 discipline: []
 field: []
 ---

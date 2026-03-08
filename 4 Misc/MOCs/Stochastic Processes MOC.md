@@ -2,7 +2,8 @@
 type: moc
 discipline:
   - math
-field: []
+field:
+  - stochastic-processes
 ---
 
 > [!NOTE]- Video Lectures

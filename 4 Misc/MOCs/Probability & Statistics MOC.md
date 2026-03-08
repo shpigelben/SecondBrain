@@ -2,7 +2,8 @@
 type: moc
 discipline:
   - math
-field: []
+field:
+  - probability-statistics
 ---
 
 > [!NOTE]- Video Lectures

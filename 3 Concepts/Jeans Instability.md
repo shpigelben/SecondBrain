@@ -31,7 +31,7 @@ $$\begin{align*}
 # Continuity (Density)
 ___
 $$\frac{\partial \rho}{\partial t} + \nabla\cdot(\rho\boldsymbol{v})=0$$
-![Scanned Document](../4%20Misc/Attachments/Scanned%20Document.pdf)
+![Scanned Document](../4%20Misc/Attachments/jeans_instability.pdf)
 
 $$  \begin{align*}
 &\nabla^{2}\phi = 4\pi G \rho\\

@@ -1,0 +1,37 @@
+formulas:
+  size [mb]: (file.size / 1024 / 1024).toFixed(2)
+views:
+  - type: table
+    name: Images
+    filters:
+      and:
+        - file.ext.containsAny("png", "svg", "jpg", "jpeg")
+    order:
+      - file.name
+      - formula.size [mb]
+      - file.backlinks
+      - file.ext
+    sort:
+      - property: file.ext
+        direction: ASC
+      - property: formula.size [mb]
+        direction: DESC
+    columnSize:
+      file.backlinks: 222
+  - type: table
+    name: PDFs
+    filters:
+      and:
+        - file.ext == "pdf"
+    order:
+      - file.name
+      - formula.size [mb]
+      - file.backlinks
+    sort:
+      - property: formula.size [mb]
+        direction: DESC
+  - type: table
+    name: Canvases
+    filters:
+      and:
+        - file.ext == "canvas"

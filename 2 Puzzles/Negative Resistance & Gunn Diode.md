@@ -1,5 +1,5 @@
 ---
-type: puzzle
+type: concept
 discipline:
   - physics
 field:

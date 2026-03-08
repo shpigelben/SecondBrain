@@ -2,7 +2,8 @@
 type: moc
 discipline:
   - engineering
-field: []
+field:
+  - dynamical-systems
 ---
 
 > [!NOTE]- Video Lectures

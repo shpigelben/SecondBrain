@@ -2,7 +2,7 @@
   "accentColor": "#ffbd2e",
   "theme": "moonstone",
   "cssTheme": "AnuPpuccin",
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "textFontFamily": "Tiempo,Palatino,Palatino Linotype,ITC Garamond Std,FiraCode Nerd Font",
   "interfaceFontFamily": "SF Pro Display,SF Pro Rounded,Inter,JetBrainsMono Nerd Font,Sathu",
   "enabledCssSnippets": [
@@ -12,7 +12,9 @@
     "mathjax font",
     "titles",
     "alignImage",
-    "icones"
+    "icones",
+    "handwritten_notes",
+    "handwriting"
   ],
   "showViewHeader": false,
   "nativeMenus": false,

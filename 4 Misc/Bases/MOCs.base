@@ -10,7 +10,7 @@ views:
       - discipline
       - field
     columnSize:
-      file.name: 393
+      file.name: 240
       note.discipline: 156
       note.field: 380
   - type: table

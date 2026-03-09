@@ -1,10 +1,5 @@
 views:
   - type: table
-    name: Table
-    filters:
-      and:
-        - subject == ["project-euler"]
-  - type: table
     name: puzzles
     filters:
       and:

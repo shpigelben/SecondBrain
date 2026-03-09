@@ -23,19 +23,22 @@
             }
           },
           {
-            "id": "7c165c573b777b3a",
+            "id": "930e88a2a9ce723b",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "4 Misc/Bases/attachments.base",
-                "viewName": "Canvases"
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "attachments"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 207.5
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -99,10 +102,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4 Misc/MOCs/Research MOC.md"
+                "file": "Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Research MOC"
+              "title": "File properties for Home"
             }
           },
           {
@@ -111,7 +114,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4 Misc/MOCs/Research MOC.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -139,11 +142,10 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Research MOC"
+              "title": "Graph of Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d105c75b7b4cd347",
@@ -156,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4 Misc/MOCs/Research MOC.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Research MOC"
+              "title": "Outline of Home"
             }
           },
           {
@@ -202,10 +204,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
@@ -214,30 +218,40 @@
       "command-palette:Open command palette": true,
       "templates:Insert template": true,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "homepage:Open homepage": false,
       "pexels-banner:🚩 Pixel Banner Menu": true,
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "930e88a2a9ce723b",
   "lastOpenFiles": [
-    "4 Misc/Bases/attachments.base",
+    "Classical Measurement Problem.md",
+    "3 Concepts/Solar Sail.md",
     "4 Misc/MOCs/Research MOC.md",
-    "4 Misc/Canvases/MSc Research.canvas",
     "Home.md",
+    "3 Concepts/Feynman Rules for QED.md",
+    "3 Concepts/Realization of a Group.md",
+    "3 Concepts/Holography.md",
+    "3 Concepts/Newtonian Gravity.md",
+    "4 Misc/Bases/Projects.base",
+    "4 Misc/Bases/Note Types.base",
+    "9. Misc/Attachments/ObsidianVault_p1.svg",
+    "4 Misc/Bases/attachments.base",
+    "9. Misc/Attachments/ObsidianVault_p1_compare.png",
+    "9. Misc/Attachments/ObsidianVault_p1 1.svg",
+    "9. Misc/Attachments",
+    "9. Misc",
+    "4 Misc/Canvases/MSc Research.canvas",
     "4 Misc/Attachments/Building representations.png",
     "4 Misc/Attachments/jeans_instability.pdf",
     "4 Misc/Attachments/sivan-dubi-2021-theory-of-hot-photoluminescence-from-drude-metals.pdf",
     "4 Misc/Attachments/project_eurler_smallest_multiple.pdf",
     "4 Misc/Attachments/Quantum-mechanical effects in photoluminescence from thin crystalline gold films 1.pdf",
     "4 Misc/Attachments/Marini - 2013.pdf",
-    "4 Misc/Attachments/Rosei.pdf",
     "4 Misc/Excalidraw/Halleffect.md",
     "3 Concepts/Model (Curve) Fitting.md",
     "3 Concepts/Variance.md",
     "4 Misc/Canvases/Dashboard.canvas",
     "1 Projects/Robotic Arm.md",
-    "4 Misc/Bases/Projects.base",
     "4 Misc/Excalidraw/Drawing 2025-10-08 11.31.29.excalidraw.md",
     "4 Misc/Excalidraw/Drawing 2025-05-24 01.06.33.excalidraw.md",
     "4 Misc/Excalidraw/Drawing 2026-03-07 22.31.56.excalidraw.md",
@@ -252,13 +266,6 @@
     "4 Misc/Excalidraw/Algorithms & DS (Linked Lists).md",
     "4 Misc/Excalidraw/Abeles.excalidraw.md",
     "4 Misc/Excalidraw/Double Slit Illustrations.md",
-    "4 Misc/Excalidraw/Drawing 2023-12-02 21.43.55.excalidraw.md",
-    "2 Puzzles/Shortest Time on a Given Curve (with Gravity).md",
-    "4 Misc/Excalidraw/Drawing 2024-02-12 09.00.10.excalidraw.md",
-    "9. Misc/Excalidraw",
-    "9. Misc",
-    "4 Misc/Excalidraw/Drawing 2024-01-31 10.03.41.excalidraw.md",
-    "4 Misc/Excalidraw/Drawing 2024-01-31 09.54.57.excalidraw.md",
     "4 Misc/Canvases/Electric Response.canvas",
     "9. Misc/Attachments/3-s2.0-B9780128111666000054-f05-05-9780128111666.jpg",
     "9. Misc/Canvases/Work In Progress.canvas",
@@ -270,9 +277,6 @@
     "9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg",
     "9. Misc/attachments/unused/0C8153F6-D665-4363-9176-7F9EC9B83803_1_105_c.jpeg",
     "9. Misc/attachments/unused/Light Spectrum.png",
-    "9. Misc/attachments/unused/Pasted image 20240308191349.png",
-    "9. Misc/attachments/unused/Pasted image 20240811163800.png",
-    "9. Misc/attachments/unused/Pasted image 20240904112552.png",
     "4 Misc/Canvases/Optics Canvas.canvas",
     "4. Misc/Canvases/Acoustic Transducers.canvas",
     "4. Misc/Canvases/Anderson Localization Project.canvas"

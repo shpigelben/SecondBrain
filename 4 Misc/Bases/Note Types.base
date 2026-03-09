@@ -1,0 +1,36 @@
+views:
+  - type: table
+    name: Thoughts
+    filters:
+      and:
+        - type == "thought"
+    order:
+      - file.name
+      - file.mtime
+  - type: table
+    name: Projects
+    filters:
+      and:
+        - type == "project"
+    order:
+      - file.name
+      - file.mtime
+    limit: 10
+  - type: table
+    name: Puzzles
+    filters:
+      and:
+        - type == "puzzle"
+    order:
+      - file.name
+      - file.mtime
+    limit: 10
+  - type: table
+    name: Concepts
+    filters:
+      and:
+        - type == "concept"
+    order:
+      - file.name
+      - file.mtime
+    limit: 7

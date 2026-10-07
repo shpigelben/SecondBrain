@@ -51,7 +51,7 @@ $$
 {\color{#F8AA23}{H_{z}}} &= -\frac{i}{k_{0}\mu}\partial_{x}E_{y}
 \end{align}
 $$
-We can set the following basis, based on TE and TM components and write equations $(1)-(4)$ in matrix notation.
+We can set ,the following basis, based on TE and TM components and write equations $(1)-(4)$ in matrix notation.
 
 $$
 \frac{ \partial  }{ \partial z } \begin{pmatrix}

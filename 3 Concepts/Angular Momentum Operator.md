@@ -4,8 +4,10 @@ discipline:
   - physics
 field:
   - quantum-mechanics
+last_reviewed: 2026-03-29
+next_review: 2026-03-30
+review_interval: 1
 ---
-
 The action of a rotation operator on a position state in [[Hilbert Space]] can be written as the ket of the action of a rotation matrix on a position vector in Euclidian space. 
 $$
 \hat{R}\ket{\mathbf{r}} = \ket{R^E \mathbf{r}}

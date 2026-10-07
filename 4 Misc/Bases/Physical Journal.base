@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: Weeks
+    filters:
+      and:
+        - type == "physical-log-week"
+    order:
+      - file.name
+      - week_number
+      - label
+      - start_date
+      - end_date
+      - sessions_strength
+      - sessions_skipping
+      - sessions_rest
+      - pain_flags
+    sort:
+      - property: start_date
+        direction: DESC
+      - property: week_number
+        direction: ASC
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - type == "physical-log-week"
+    order:
+      - file.name
+      - label
+    sort:
+      - property: week_number
+        direction: DESC

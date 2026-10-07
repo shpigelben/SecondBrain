@@ -5,7 +5,6 @@ discipline:
 field:
   - relativity
 ---
-
 One of the most basic concepts in relativity is that of the event. An event is an occurrence that happens in a certain location in space and at a certain time, and is therefore described by a **4-position** in spacetime. 
 
 $$ X = x^{\mu} = (ct,\mathbf{r})  \tag{1}$$

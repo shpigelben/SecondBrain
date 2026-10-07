@@ -5,7 +5,6 @@ discipline:
 field:
   - linear-algebra
 ---
-
 Hermitian operators are self adjoint operators(?). These are operators that are invariant under hermitian conjugation
 $$\large\boxed{ \begin{align*} \\
 \quad H^{\dagger} = H \quad \\ \

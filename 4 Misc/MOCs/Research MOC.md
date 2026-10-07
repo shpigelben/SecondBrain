@@ -19,8 +19,3 @@ field:
 
 # ITO Based Desalination
 - [ITO Based Desalination](../../3%20Concepts/ITO%20Based%20Desalination.md)
-
-![](../../9.%20Misc/Attachments/ObsidianVault_p1.svg)
-
-![](../../9.%20Misc/Attachments/ObsidianVault_p1%201.svg)![](../../9.%20Misc/Attachments/ObsidianVault_p1_compare.png)
-

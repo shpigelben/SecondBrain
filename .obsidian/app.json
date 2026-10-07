@@ -7,7 +7,7 @@
     "downscalePercent": 75
   },
   "useMarkdownLinks": true,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "4 Misc/Attachments",

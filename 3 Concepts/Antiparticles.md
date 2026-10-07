@@ -9,15 +9,12 @@ field:
 [[Solutions to the Dirac Equation|Solutions]] to the [[Dirac Equation]] are associated with both positive and negative energies. This is unavoidable since the existence of negative energies is necessary for the solutions to be independent. What is the physical interpretation for the solutions associated with negative energies ?
 
 # Dirac Sea
-___
 If lower, negative energy states were accessible one would assume that all particles would spontaneously tend toward those states. Clearly, this does not occur and a solution to the apparent contradiction is given by the Dirac sea interpretation which assumes in vacuum all of these negative energy states are filled. In this picture, the [[Pauli Exclusion Principle]] prevents positive energy (for example) electrons from occupying the corresponding negative energy states, but it poses a problem when considering bosons and their negatively energetic counterparts
 
 # Holes in the Vacuum
-___
 ![[../4 Misc/Attachments/Pasted image 20220412162137.png|center|700]]
 
 # Feynman-Stuckelberg Interpretation
-___
 It is an experimentally established fact that apart from possessing different charges, anti particles behave very similarly to regular particles, they seem to propagate forward in time and undergo similar interactions. It is therefore not straight forward to reconcile these experimental observations with the theoretical prediction of negative energies
 
  The Feynman Stuckelberg interpretation treats the anti particles as regular particles the negative energies that go backwards in time. This is best portrayed in the time evolution operator
@@ -42,7 +39,6 @@ $$ u_{1}=\sqrt{E+m}\begin{pmatrix} 1 \\ 0 \\ \frac{p_{z}}{E+m} \\ \frac{p_{x}+ip
 $$ v_{1}=\sqrt{E+m}\begin{pmatrix} \frac{p_{x}-ip_{y}}{E+m} \\ \frac{-p_{z}}{E+m} \\ 0 \\ 1 \end{pmatrix} \quad v_{2}=\sqrt{E+m}\begin{pmatrix} \frac{p_{z}}{E+m} \\ \frac{p_{x}+ip_{y}}{E+m} \\ 1 \\ 0 \end{pmatrix} $$
 
 # Operators of the Antiparticles
-___
 The normal quantum operators $\hat{\mathcal{H}}$ and $\hat{\mathbf{p}}$ acting on the antiparticle spinors written in the physical energy form (equation $(2)$) still do not give physical quantities. $\hat{\mathcal{H}}\psi= i \frac{\partial \psi}{\partial t}=-E \psi$ and $\hat{\mathbf{p}}\psi=-i\nabla\psi=-\mathbf{p}\psi$, and so the operators that __do__ yield the physical energy and momenta are
 $$\hat{\mathcal{H}}^{v}\equiv -i \frac{\partial}{\partial t} \quad \quad \hat{\mathbf{p}}^{v}\equiv+i\boldsymbol\nabla$$
 Furthermore, the change of sign for the momentum $\hat{\mathbf{p}}$ leads to a change of sign in the orbital angular momentum $\hat{\mathbf{L}}\to -\hat{\mathbf{L}}$ and from considerations of conservation of total [[Spin|angular momentum]] a new definition for the spin operator must be made $\hat{\mathbf{S}}^{v}=-\hat{\mathbf{S}}$. A spin-up hole in the Dirac sea leaves the vacuum in a net spin-down state

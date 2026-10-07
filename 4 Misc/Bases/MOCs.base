@@ -7,11 +7,9 @@ views:
         - discipline.contains("physics")
     order:
       - file.name
-      - discipline
       - field
     columnSize:
-      file.name: 240
-      note.discipline: 156
+      file.name: 355
       note.field: 380
   - type: table
     name: Math

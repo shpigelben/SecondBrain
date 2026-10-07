@@ -13,32 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 Misc/MOCs/Research MOC.md",
+                "file": "3 Concepts/4X4 Transition Matrix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Research MOC"
-            }
-          },
-          {
-            "id": "930e88a2a9ce723b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
+              "title": "4X4 Transition Matrix"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -80,12 +66,35 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "7fae987cb016121f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "1298a6b9463f171d",
+            "type": "leaf",
+            "state": {
+              "type": "word-smith-menu",
+              "state": {},
+              "icon": "word-smith-w",
+              "title": "Word-Smith"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 286.5
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -94,27 +103,15 @@
       {
         "id": "ddf1501bcac9f0ab",
         "type": "tabs",
-        "dimension": 57.79036827195468,
+        "dimension": 48.76325088339223,
         "children": [
-          {
-            "id": "4c8df7b8dcda96e6",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Home.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Home"
-            }
-          },
           {
             "id": "a2b1942a4872db41",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "3 Concepts/4X4 Transition Matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -142,7 +139,17 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Home"
+              "title": "Local graph"
+            }
+          },
+          {
+            "id": "d5ffacb4a27a4af8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -150,7 +157,7 @@
       {
         "id": "d105c75b7b4cd347",
         "type": "tabs",
-        "dimension": 42.20963172804532,
+        "dimension": 51.23674911660777,
         "children": [
           {
             "id": "574cf1bf0654653c",
@@ -158,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
-                "followCursor": false,
+                "file": "3 Concepts/4X4 Transition Matrix.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline"
             }
           },
           {
@@ -173,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 Misc/Canvases/MSc Research.canvas",
+                "file": "2026-03-11.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -183,7 +190,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MSc Research"
+              "title": "Backlinks for 2026-03-11"
             }
           },
           {
@@ -192,24 +199,63 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4 Misc/Canvases/MSc Research.canvas",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MSc Research"
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "4c8df7b8dcda96e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "3 Concepts/4X4 Transition Matrix.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "d30a4dbaf5282e04",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d3491a95990c2516",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 399.61328125
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "graph:Open graph view": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
@@ -218,65 +264,69 @@
       "command-palette:Open command palette": true,
       "templates:Insert template": true,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "pexels-banner:🚩 Pixel Banner Menu": true,
-      "obsidian-stille:Toggle Stille": false
+      "homepage:Open homepage": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian-stille:Toggle Stille": false,
+      "spaced-review:Spaced Review": false,
+      "periodic-notes:Open this week": false,
+      "word-smith:Open the Word-Smith menu": false
     }
   },
-  "active": "930e88a2a9ce723b",
+  "active": "ce5758ae7297a0ee",
   "lastOpenFiles": [
-    "Classical Measurement Problem.md",
-    "3 Concepts/Solar Sail.md",
-    "4 Misc/MOCs/Research MOC.md",
+    "3 Concepts/Acoustic Waves.md",
+    "3 Concepts/4X4 Transition Matrix.md",
+    "Word-Smith/ws-settings.md",
+    "Word-Smith/ws-structure.md",
+    "Word-Smith",
     "Home.md",
-    "3 Concepts/Feynman Rules for QED.md",
-    "3 Concepts/Realization of a Group.md",
-    "3 Concepts/Holography.md",
-    "3 Concepts/Newtonian Gravity.md",
-    "4 Misc/Bases/Projects.base",
-    "4 Misc/Bases/Note Types.base",
-    "9. Misc/Attachments/ObsidianVault_p1.svg",
-    "4 Misc/Bases/attachments.base",
-    "9. Misc/Attachments/ObsidianVault_p1_compare.png",
-    "9. Misc/Attachments/ObsidianVault_p1 1.svg",
-    "9. Misc/Attachments",
-    "9. Misc",
-    "4 Misc/Canvases/MSc Research.canvas",
-    "4 Misc/Attachments/Building representations.png",
-    "4 Misc/Attachments/jeans_instability.pdf",
-    "4 Misc/Attachments/sivan-dubi-2021-theory-of-hot-photoluminescence-from-drude-metals.pdf",
-    "4 Misc/Attachments/project_eurler_smallest_multiple.pdf",
-    "4 Misc/Attachments/Quantum-mechanical effects in photoluminescence from thin crystalline gold films 1.pdf",
-    "4 Misc/Attachments/Marini - 2013.pdf",
-    "4 Misc/Excalidraw/Halleffect.md",
-    "3 Concepts/Model (Curve) Fitting.md",
-    "3 Concepts/Variance.md",
+    "Hyperion.md",
     "4 Misc/Canvases/Dashboard.canvas",
-    "1 Projects/Robotic Arm.md",
-    "4 Misc/Excalidraw/Drawing 2025-10-08 11.31.29.excalidraw.md",
-    "4 Misc/Excalidraw/Drawing 2025-05-24 01.06.33.excalidraw.md",
-    "4 Misc/Excalidraw/Drawing 2026-03-07 22.31.56.excalidraw.md",
-    "Drawing 2026-03-07 22.30.59.excalidraw.md",
-    "9. Misc/Excalidraw/Drawing 2026-03-07 22.28.40.excalidraw.md",
-    "9. Misc/Excalidraw/Drawing 2026-03-07 22.27.53.excalidraw.md",
-    "9. Misc/Excalidraw/Drawing 2026-03-07 22.21.16.excalidraw.md",
-    "4 Misc/Excalidraw/Michelson mirrors.md",
-    "4 Misc/Excalidraw/two incident plane waves.md",
-    "4 Misc/Excalidraw/Voronoi Cell.md",
-    "4 Misc/Excalidraw/BraggsCondition.md",
-    "4 Misc/Excalidraw/Algorithms & DS (Linked Lists).md",
-    "4 Misc/Excalidraw/Abeles.excalidraw.md",
+    "3 Concepts/Equipartition Theorem.md",
+    "4 Misc/MOCs/Particle Physics MOC.md",
+    "4 Misc/Excalidraw/Cooper Pairs.md",
     "4 Misc/Excalidraw/Double Slit Illustrations.md",
+    "Physical Journal.md",
+    "Reading List.md",
+    "5 Journal/Physical/2026-07-26.md",
+    "Foreword for Book.md",
+    "Circuit I.md",
+    "5 Journal/Physical/2026-09-13.md",
+    "5 Journal/Physical/2026-09-06.md",
+    "5 Journal/Physical/2026-08-30.md",
+    "5 Journal/Physical/2026-08-23.md",
+    "5 Journal/Physical/2026-08-16.md",
+    "5 Journal/Physical/2026-08-09.md",
+    "5 Journal/Physical/2026-08-02.md",
+    "2026-W35.md",
+    "5 Journal/Physical/Week 04 - Back to Basics; Building Foundation.md",
+    "5 Journal/Physical/Week 00 - Journey Begins.md",
+    "2026-03-11.md",
+    "4 Misc/Bases/Physical Journal.base",
+    "4 Misc/Templates",
+    "5 Journal/Physical",
+    "5 Journal",
+    "Circuit I.md.tmp.39259.f33816b5188e",
+    "4 Misc/Attachments/SkyLine.png",
+    "4 Misc/Attachments/sonicBoom.png",
+    "4 Misc/Attachments/Scanned Document.png",
+    "4 Misc/Attachments/700px-Diffraction_geometry.svg.png",
+    "4 Misc/Attachments/mindmap 2.html",
+    "4 Misc/Attachments/Sketch.svg",
+    "4 Misc/Attachments/BCS2.png",
+    "4 Misc/Attachments/BCS3.png",
+    "4 Misc/Attachments/Binodal line.png",
+    "4 Misc/Attachments/binodal T-C.webp",
+    "4 Misc/Attachments/mindmap 1.html",
+    "4 Misc/Attachments/mindmap.html",
+    "4 Misc/Attachments/eff8ac8a-478c-4582-8b56-210955f1ee9a.svg",
+    "4 Misc/Bases/Projects.base",
+    "4 Misc/Canvases/MSc Research.canvas",
     "4 Misc/Canvases/Electric Response.canvas",
-    "9. Misc/Attachments/3-s2.0-B9780128111666000054-f05-05-9780128111666.jpg",
     "9. Misc/Canvases/Work In Progress.canvas",
     "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
     "4 Misc/Canvases/Condensed Matter Mind Map.canvas",
     "AI_workflow.canvas",
-    "4 Misc/Attachments/weigner seitz 2D.png",
-    "4 Misc/Attachments/weigner seitz 3D.png",
-    "9. Misc/attachments/unused/5A687F70-36D4-442C-9FAA-83E13D012DFE_1_105_c.jpeg",
-    "9. Misc/attachments/unused/0C8153F6-D665-4363-9176-7F9EC9B83803_1_105_c.jpeg",
-    "9. Misc/attachments/unused/Light Spectrum.png",
     "4 Misc/Canvases/Optics Canvas.canvas",
     "4. Misc/Canvases/Acoustic Transducers.canvas",
     "4. Misc/Canvases/Anderson Localization Project.canvas"

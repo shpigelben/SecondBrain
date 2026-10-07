@@ -5,6 +5,9 @@ discipline:
 field:
   - optics
   - electrodynamics
+last_reviewed: 2026-07-24
+next_review: 2026-07-25
+review_interval: 1
 ---
 
 # Interferometry
@@ -23,7 +26,6 @@ This discrepancy in optical path difference can be corrected by letting the refl
 # Michelson Interferometer
 A Michelson interferometer is a simple yet effective construction in which a beam of coherent light is separated into two different beams. The two beams are reflected back from mirrors M1 and M2 at distances L1 and L2 respectively. The returning beams recombine in the directions of the source and the screen. Assuming the beam has expanded, we should observe an interference pattern on the screen. This interference pattern is extremely delicate to the change in optical path difference controlled by the positions of the two mirrors. A slight movement of one of the mirrors should result in a corresponding pattern shift.
 
-![[../4 Misc/Excalidraw/michelsonInterfermoeter - excaliber|600|center]]
 We have seen that phase differences of $2\pi n$ align the waves (peak to peak) so that they interfere constructively, producing a bright spot or a ring in the case of an expanded beam. Formally, we demand the following
 $$2\pi n = \Delta \varphi = k \Delta L $$
 which can also be written in terms of wavelength
@@ -52,7 +54,6 @@ $$\begin{align*}
 &= \sqrt{ \small\left( \frac{y_{0}}{L_{0}}\sigma_{d} \right)^{2}+\left( \frac{d_{0}}{L_{0}}\sigma_{y} \right)^{2} +\left( \frac{d_{0}y_{0}}{L_{0}^2}\sigma_{L} \right)^{2}}
 \end{align*}$$
 $\sigma_{d}$ is the uncertainty in the slit separation, $\sigma_{y}$ is the estimated uncertainty in the measurement of fringe separation and $\sigma_{L}$ is the estimated uncertainty in the measurement of the distance from the slits to the pattern on the screen.
-___
 $$
 I = I_{1} + I_{2} + 2I_{12}
 $$

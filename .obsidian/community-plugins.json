@@ -2,12 +2,17 @@
   "obsidian-excalidraw-plugin",
   "obsidian-latex-suite",
   "editor-width-slider",
-  "obsidian-hider",
   "obsidian-style-settings",
   "font-size",
   "homepage",
   "pexels-banner",
   "obsidian-stille",
   "advanced-canvas",
-  "obsidian-rtl"
+  "obsidian-rtl",
+  "obsidian-icon-folder",
+  "spaced-review",
+  "calendar",
+  "periodic-notes",
+  "word-smith",
+  "obsidian-hider"
 ]

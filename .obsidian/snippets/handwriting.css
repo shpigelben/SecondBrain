@@ -1,69 +1,14 @@
-/*
-  handwriting.css — Obsidian CSS Snippet
-  ────────────────────────────────────────────────────────────────────────────
-  Inverts handwriting SVG/PNG ink colour in dark mode so strokes match the
-  current theme's text colour.
+/* ---------------------------------------------------------
+   Automatic Handwriting Color Matcher
+   Target: images tagged with 'hw' in the alias
+--------------------------------------------------------- */
 
-  HOW OBSIDIAN EMBEDS FILES
-  ──────────────────────────
-  ![[file.svg]] renders as:
-    <span class="internal-embed" src="Attachments/handwriting/file.svg">
-      <img src="app://local/...absolute path.../file.svg">
-    </span>
-
-  The reliable selector is .internal-embed[src*="..."] because its src is
-  always the vault-relative path, regardless of OS or Obsidian version.
-  The inner <img> src is an app:// URI whose format varies — don't rely on it.
-
-  ACTIVATION
-  ──────────
-  Settings → Appearance → CSS snippets → toggle "handwriting" ON
-*/
-
-/* ── Dark mode: invert ink (black → white) ───────────────────────────────── */
-
-/* Primary selector — matches the internal-embed wrapper by vault path */
-.theme-dark .internal-embed[src*="handwriting"] img {
-  filter: invert(1);
-  opacity: 0.90;
+/* DARK MODE: Converts black SVG to #D3C5AA (Soft Beige) */
+.theme-dark img[alt*="hw"] {
+    filter: invert(93%) sepia(12%) saturate(603%) hue-rotate(344deg) brightness(86%) contrast(90%);
 }
 
-/* Fallback: any SVG embed in dark mode (safe if SVGs in vault are all handwriting) */
-.theme-dark .internal-embed[src$=".svg"] img {
-  filter: invert(1);
-  opacity: 0.90;
+/* LIGHT MODE: Converts black SVG to #012B36 (Deep Teal) */
+.theme-light img[alt*="hw"] {
+    filter: invert(12%) sepia(76%) saturate(2335%) hue-rotate(177deg) brightness(94%) contrast(97%);
 }
-
-/* Also cover reading view vs live-preview differences */
-.theme-dark span.internal-embed[src*="handwriting"] img,
-.theme-dark div.internal-embed[src*="handwriting"] img {
-  filter: invert(1);
-  opacity: 0.90;
-}
-
-
-/* ── Light mode: subtle softening so it reads as ink, not laser print ─────── */
-
-.theme-light .internal-embed[src*="handwriting"] img {
-  opacity: 0.88;
-}
-
-
-/* ── Sizing: responsive, centred, with breathing room ───────────────────────*/
-
-.internal-embed[src*="handwriting"] img,
-.internal-embed[src$=".svg"] img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0.5em auto;
-}
-
-
-/* ── Optional: tint to accent colour in dark mode instead of plain white ─── */
-/*
-  .theme-dark .internal-embed[src*="handwriting"] img {
-    filter: invert(1) sepia(1) saturate(2) hue-rotate(180deg);
-    opacity: 0.90;
-  }
-*/

@@ -5,6 +5,26 @@
 		{"id":"57e8645e37e5a8e0","type":"group","x":-460,"y":-2980,"width":703,"height":340,"color":"5","label":"Tangent But Relevant"},
 		{"id":"06c25e425b80f17e","type":"group","x":-108,"y":-2320,"width":407,"height":370,"label":"Climate Change"},
 		{
+			"id":"d4cda03c36aa01b0",
+			"type":"text",
+			"text":"[Electrodynamics](4%20Misc/MOCs/Electrodynamics%20MOC.md)\n",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-19,
+			"y":-3260,
+			"width":212,
+			"height":80
+		},
+		{
+			"id":"c43b78f04368f2c2",
+			"type":"text",
+			"text":"[Thermodynamics](4%20Misc/MOCs/Thermodynamics%20&%20Statistical%20Mechanics%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-201,
+			"y":-3100,
+			"width":182,
+			"height":60
+		},
+		{
 			"id":"024795a7af7ebbb2",
 			"type":"text",
 			"text":"[Optics](../MOCs/Optics%20MOC.md)\n",
@@ -15,14 +35,202 @@
 			"height":60
 		},
 		{
-			"id":"d4cda03c36aa01b0",
+			"id":"bf7700d9a3bb2868",
 			"type":"text",
-			"text":"[Electrodynamics](4%20Misc/MOCs/Electrodynamics%20MOC.md)\n",
+			"text":"[Fluid Mechanics MOC](../MOCs/Fluid%20Mechanics%20MOC.md)",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-19,
-			"y":-3260,
-			"width":212,
-			"height":80
+			"x":-201,
+			"y":-2960,
+			"width":182,
+			"height":60
+		},
+		{
+			"id":"bf88d0dfc1262d83",
+			"type":"text",
+			"text":"[Dynamical Systems MOC](../MOCs/Dynamical%20Systems%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-440,
+			"y":-2840,
+			"width":182,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"03872885a51e601e",
+			"type":"text",
+			"text":"Partial Differential Equations",
+			"styleAttributes":{"textAlign":"center"},
+			"x":41,
+			"y":-2960,
+			"width":182,
+			"height":60
+		},
+		{
+			"id":"6c0292825a14a664",
+			"type":"text",
+			"text":"# Questions\nDo all quantities stem from space and time? Do all measurements actually boil down to measuring the position and change in position of stuff?",
+			"styleAttributes":{},
+			"x":96,
+			"y":-3942,
+			"width":520,
+			"height":270
+		},
+		{
+			"id":"d2b10c2f7f519cfc",
+			"type":"text",
+			"text":"[Radiometry & Photometry](../../3%20Concepts/Radiometry%20&%20Photometry.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":-3200,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"3afbec5d6ff5ddbc",
+			"type":"text",
+			"text":"[Mathematical Modelling MOC](../MOCs/Mathematical%20Modelling%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-201,
+			"y":-2840,
+			"width":182,
+			"height":60
+		},
+		{
+			"id":"678183809e454c76",
+			"type":"text",
+			"text":"Computer Vision",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":-3080,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"7285c67b75e2baa2",
+			"type":"text",
+			"text":"Geometric Algebra",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":-3200,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"0c8b5e985ce51f48",
+			"type":"text",
+			"text":"[Stochastic Processes MOC](../MOCs/Stochastic%20Processes%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":40,
+			"y":-2840,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"8f3447d16013d7cd",
+			"type":"text",
+			"text":"Computer Graphics",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":-3080,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"00b4483ba6f2fa8c",
+			"type":"text",
+			"text":"[Machine & Deep Learning MOC](../MOCs/Machine%20&%20Deep%20Learning%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":-2960,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"edd9ae10a312f4ac",
+			"type":"text",
+			"text":"[Signal & Image Processing MOC](../MOCs/Signal%20&%20Image%20Processing%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":-2960,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"e249d50d301dcbef",
+			"type":"text",
+			"text":"[Computational Geometry MOC](../MOCs/Computational%20Geometry%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":-2840,
+			"width":183,
+			"height":60
+		},
+		{
+			"id":"3995936dfe5899fa",
+			"type":"text",
+			"text":"[Algorithms & Data Structures MOC](../MOCs/Algorithms%20&%20Data%20Structures%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":-2840,
+			"width":183,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"532e7727005276ba",
+			"type":"text",
+			"text":"# Practical Thoughts\n- [Interview Questions](0%20Thoughts/Interview%20Questions.md)",
+			"styleAttributes":{},
+			"x":-1810,
+			"y":-4280,
+			"width":560,
+			"height":200
+		},
+		{
+			"id":"15e53e1ebdddc658",
+			"type":"text",
+			"text":"[Probability & Statistics MOC](../MOCs/Probability%20&%20Statistics%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":40,
+			"y":-2720,
+			"width":183,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"fbdaee4ca6aa2c92",
+			"type":"text",
+			"text":"[Control Theory MOC](../MOCs/Control%20Theory%20MOC.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-440,
+			"y":-2720,
+			"width":182,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"dd1dceebbe739420","type":"link","url":"https://www.youtube.com/watch?v=7KYwi2F5Ce4","x":-521,"y":-2310,"width":395,"height":169},
+		{"id":"fcba8f1a478a9d47","type":"link","url":"https://www.youtube.com/watch?v=hJ8RTeK6CYM","x":-521,"y":-2128,"width":395,"height":169},
+		{
+			"file":"4 Misc/Attachments/Pasted image 20241229092326.png",
+			"id":"0a9af9613993ee61",
+			"styleAttributes":{},
+			"type":"file",
+			"x":1107,
+			"y":-2365,
+			"width":313,
+			"height":400
+		},
+		{"id":"0f2518d6726a81d5","type":"link","url":"https://www.youtube.com/watch?v=Mqzs5VSjObE","x":-96,"y":-2310,"width":383,"height":169},
+		{"id":"688335d17cd8a775","type":"link","url":"https://www.youtube.com/watch?v=sg6-_6crLlM&t=111s","x":-96,"y":-2128,"width":383,"height":169},
+		{
+			"id":"78358a9e0c316a13",
+			"type":"text",
+			"text":"Graph Theory",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":-2720,
+			"width":183,
+			"height":60
 		},
 		{
 			"id":"9b3d9f01be194fa7",
@@ -48,26 +256,6 @@
 			"height":275
 		},
 		{
-			"id":"532e7727005276ba",
-			"type":"text",
-			"text":"# Practical Thoughts\n- [Interview Questions](0%20Thoughts/Interview%20Questions.md)",
-			"styleAttributes":{},
-			"x":-1810,
-			"y":-4280,
-			"width":560,
-			"height":200
-		},
-		{
-			"id":"6c0292825a14a664",
-			"type":"text",
-			"text":"# Questions\nDo all quantities stem from space and time? Do all measurements actually boil down to measuring the position and change in position of stuff?",
-			"styleAttributes":{},
-			"x":-173,
-			"y":-4080,
-			"width":520,
-			"height":270
-		},
-		{
 			"id":"51e36c32579b544e",
 			"styleAttributes":{
 				"textAlign":null
@@ -78,195 +266,7 @@
 			"y":-3753,
 			"width":500,
 			"height":792
-		},
-		{
-			"id":"bf88d0dfc1262d83",
-			"type":"text",
-			"text":"[Dynamical Systems MOC](../MOCs/Dynamical%20Systems%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-440,
-			"y":-2840,
-			"width":182,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"d2b10c2f7f519cfc",
-			"type":"text",
-			"text":"[Radiometry & Photometry](../../3%20Concepts/Radiometry%20&%20Photometry.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":-3200,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"c43b78f04368f2c2",
-			"type":"text",
-			"text":"[Thermodynamics](4%20Misc/MOCs/Thermodynamics%20&%20Statistical%20Mechanics%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-201,
-			"y":-3100,
-			"width":182,
-			"height":60
-		},
-		{
-			"id":"678183809e454c76",
-			"type":"text",
-			"text":"Computer Vision",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":-3080,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"00b4483ba6f2fa8c",
-			"type":"text",
-			"text":"[Machine & Deep Learning MOC](../MOCs/Machine%20&%20Deep%20Learning%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":-2960,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"bf7700d9a3bb2868",
-			"type":"text",
-			"text":"[Fluid Mechanics MOC](../MOCs/Fluid%20Mechanics%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-201,
-			"y":-2960,
-			"width":182,
-			"height":60
-		},
-		{
-			"id":"03872885a51e601e",
-			"type":"text",
-			"text":"Partial Differential Equations",
-			"styleAttributes":{"textAlign":"center"},
-			"x":41,
-			"y":-2960,
-			"width":182,
-			"height":60
-		},
-		{
-			"id":"3afbec5d6ff5ddbc",
-			"type":"text",
-			"text":"[Mathematical Modelling MOC](../MOCs/Mathematical%20Modelling%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-201,
-			"y":-2840,
-			"width":182,
-			"height":60
-		},
-		{
-			"id":"3995936dfe5899fa",
-			"type":"text",
-			"text":"[Algorithms & Data Structures MOC](../MOCs/Algorithms%20&%20Data%20Structures%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":-2840,
-			"width":183,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"fbdaee4ca6aa2c92",
-			"type":"text",
-			"text":"[Control Theory MOC](../MOCs/Control%20Theory%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-440,
-			"y":-2720,
-			"width":182,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"0c8b5e985ce51f48",
-			"type":"text",
-			"text":"[Stochastic Processes MOC](../MOCs/Stochastic%20Processes%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":40,
-			"y":-2840,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"78358a9e0c316a13",
-			"type":"text",
-			"text":"Graph Theory",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":-2720,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"7285c67b75e2baa2",
-			"type":"text",
-			"text":"Geometric Algebra",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":-3200,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"8f3447d16013d7cd",
-			"type":"text",
-			"text":"Computer Graphics",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":-3080,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"edd9ae10a312f4ac",
-			"type":"text",
-			"text":"[Signal & Image Processing MOC](../MOCs/Signal%20&%20Image%20Processing%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":-2960,
-			"width":183,
-			"height":60
-		},
-		{
-			"id":"e249d50d301dcbef",
-			"type":"text",
-			"text":"[Computational Geometry MOC](../MOCs/Computational%20Geometry%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":-2840,
-			"width":183,
-			"height":60
-		},
-		{
-			"file":"4 Misc/Attachments/Pasted image 20241229092326.png",
-			"id":"0a9af9613993ee61",
-			"styleAttributes":{},
-			"type":"file",
-			"x":1107,
-			"y":-2365,
-			"width":313,
-			"height":400
-		},
-		{"id":"0f2518d6726a81d5","type":"link","url":"https://www.youtube.com/watch?v=Mqzs5VSjObE","x":-96,"y":-2310,"width":383,"height":169},
-		{
-			"id":"15e53e1ebdddc658",
-			"type":"text",
-			"text":"[Probability & Statistics MOC](../MOCs/Probability%20&%20Statistics%20MOC.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":40,
-			"y":-2720,
-			"width":183,
-			"height":60,
-			"color":"4"
-		},
-		{"id":"688335d17cd8a775","type":"link","url":"https://www.youtube.com/watch?v=sg6-_6crLlM&t=111s","x":-96,"y":-2128,"width":383,"height":169},
-		{"id":"dd1dceebbe739420","type":"link","url":"https://www.youtube.com/watch?v=7KYwi2F5Ce4","x":-521,"y":-2310,"width":395,"height":169},
-		{"id":"fcba8f1a478a9d47","type":"link","url":"https://www.youtube.com/watch?v=hJ8RTeK6CYM","x":-521,"y":-2128,"width":395,"height":169}
+		}
 	],
 	"edges":[
 		{"id":"51b69bfc52416290","fromNode":"3afbec5d6ff5ddbc","fromSide":"right","toNode":"0c8b5e985ce51f48","toSide":"left"},

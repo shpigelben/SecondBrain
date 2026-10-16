@@ -3,8 +3,8 @@
   "weekStart": "locale",
   "wordsPerDot": 250,
   "showWeeklyNote": true,
-  "weeklyNoteFormat": "YYYY-MM-DD",
-  "weeklyNoteTemplate": "4 Misc/Templates/Physical Journal Week",
-  "weeklyNoteFolder": "5 Journal/Physical",
+  "weeklyNoteFormat": "",
+  "weeklyNoteTemplate": "",
+  "weeklyNoteFolder": "",
   "localeOverride": "system-default"
 }

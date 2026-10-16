@@ -1,0 +1,26 @@
+filters:
+  and:
+    - type == "fleeting"
+    - file.inFolder("Fleeting")
+    - file.ctime.format("DD-MM-YY") == this.file.name
+formulas:
+  created: file.ctime.format("HH:mm")
+properties:
+  formula.created:
+    displayName: Created
+views:
+  - type: table
+    name: Fleeting
+    order:
+      - file.name
+      - tags
+      - formula.created
+    sort:
+      - property: formula.created
+        direction: ASC
+      - property: file.ctime
+        direction: ASC
+    columnSize:
+      file.name: 293
+      note.tags: 239
+      formula.created: 252

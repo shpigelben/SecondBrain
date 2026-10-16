@@ -1,6 +1,6 @@
 /* Base styling for inline titles */
 :root {
-  --inline-title-size: 4rem;
+  --inline-title-size: var(--title-inline-size, calc(2 * var(--h1-size) - var(--h2-size)));
   --inline-title-line-height: 1.1;
   --inline-title-padding-x: 0.10em;
   --inline-title-padding-top: 0.14em;
@@ -10,7 +10,7 @@
 
 .app-container,
 body {
-  --inline-title-size: 3.5rem !important;
+  --inline-title-size: var(--title-inline-size, calc(2 * var(--h1-size) - var(--h2-size))) !important;
 }
 
 .inline-title,

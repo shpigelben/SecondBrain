@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - type == "fleeting"
+    order:
+      - file.name
+      - tags
+    sort: []
+    limit: 10
+    columnWidth: 300
+    columnSize:
+      file.name: 284
+  - type: list
+    name: List
+    filters:
+      and:
+        - type == "fleeting"
+    sort:
+      - property: file.ctime
+        direction: ASC

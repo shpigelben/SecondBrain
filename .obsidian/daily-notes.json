@@ -1,3 +1,5 @@
 {
-  "format": "DD-MM-YY"
+  "format": "DD-MM-YY",
+  "template": "Misc/Templates/Daily Note Template",
+  "folder": "Journal"
 }

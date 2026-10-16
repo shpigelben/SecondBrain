@@ -1,3 +1,5 @@
 {
-  "folder": "4 Misc/Templates"
+  "folder": "Misc/Templates",
+  "dateFormat": "DD-MM-YY",
+  "timeFormat": "HH:mm"
 }

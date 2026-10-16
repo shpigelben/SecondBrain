@@ -1,0 +1,108 @@
+/* ---------------------------------------------------------
+   Calendar · Airy
+   No week-number column, so the seven days get the full width.
+   Today = pale accent tile, open note = solid tile. A hairline
+   sits under the weekday row; the column holding today gets a
+   short accent mark on that hairline and an accent label.
+   Fits its panel: when the panel gets short or narrow, the whole
+   calendar scales down evenly instead of scrolling.
+   Note: hiding the column removes the click target for weekly
+   notes.
+   Enable only one calendar-*.css snippet at a time.
+--------------------------------------------------------- */
+
+/* The panel becomes a size container and stops scrolling */
+.workspace-leaf-content[data-type="calendar"] .view-content {
+    container-type: size;
+    overflow: hidden;
+    padding: 4px 6px;
+}
+
+#calendar-container {
+    --cal-accent-ink: color-mix(in srgb, var(--interactive-accent) 75%, var(--text-normal));
+    --cal-tint: color-mix(in srgb, var(--interactive-accent) 18%, transparent);
+    --color-text-title: var(--text-normal);
+    --color-text-heading: var(--text-faint);
+    --color-text-day: var(--text-normal);
+    --color-text-today: var(--cal-accent-ink);
+    --color-dot: var(--text-faint);
+    --color-arrow: var(--text-faint);
+    /* Never larger than normal; shrinks to fit the panel's height
+       (~22em tall) or width (~16em wide), whichever is tighter.
+       Every size below is in em, so it all scales together. */
+    font-size: min(1em, 4.6cqh, 6.25cqw);
+    line-height: 1.4;
+    padding: 0 0.15em;
+    font-variant-numeric: tabular-nums;
+}
+#calendar-container .calendar { table-layout: fixed; }
+#calendar-container td,
+#calendar-container th { border: none; }
+
+/* Hide the week-number column */
+#calendar-container .calendar:has(.week-num) col:first-child,
+#calendar-container .calendar:has(.week-num) thead th:first-child,
+#calendar-container td:has(> .week-num) { display: none; }
+
+#calendar-container .nav { margin: 0.2em 0 0.55em; padding: 0 0.3em; }
+#calendar-container .title {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.4;
+}
+#calendar-container .month { font-weight: 400; }
+#calendar-container .year {
+    color: var(--text-muted);
+    font-style: italic;
+    font-weight: 400;
+}
+#calendar-container .arrow { width: 1.5em; }
+#calendar-container .arrow svg { width: 1em; height: 1em; }
+
+#calendar-container thead tr { box-shadow: inset 0 -1px 0 var(--background-modifier-border); }
+#calendar-container th {
+    font-size: 0.55em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    padding: 0.2em 0 0.9em;
+    transition: color 0.15s ease;
+}
+#calendar-container td { padding: 0.125em; }
+#calendar-container tbody tr:first-child td { padding-top: 0.5em; }
+
+#calendar-container .day {
+    border-radius: 0.6em;
+    background: none;
+    font-size: 0.85em;
+    padding: 0.6em 0 0.37em;
+}
+#calendar-container .day:hover { background: var(--background-modifier-hover); }
+
+#calendar-container .day.today {
+    background: var(--cal-tint);
+    font-weight: 600;
+}
+#calendar-container .day.active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+#calendar-container .day.active:hover { background: var(--interactive-accent-hover); }
+
+#calendar-container .dot,
+#calendar-container .hollow { width: 0.42em; height: 0.42em; margin: 0 0.08em; }
+#calendar-container .dot-container { margin-top: 0.12em; min-height: 0.42em; line-height: 0.42em; }
+
+/* Today's column: accent label + accent segment on the hairline.
+   Counted from the right, so it holds whether week numbers exist or not. */
+#calendar-container .calendar:has(tbody td:nth-last-child(1) > .day.today) thead th:nth-last-child(1),
+#calendar-container .calendar:has(tbody td:nth-last-child(2) > .day.today) thead th:nth-last-child(2),
+#calendar-container .calendar:has(tbody td:nth-last-child(3) > .day.today) thead th:nth-last-child(3),
+#calendar-container .calendar:has(tbody td:nth-last-child(4) > .day.today) thead th:nth-last-child(4),
+#calendar-container .calendar:has(tbody td:nth-last-child(5) > .day.today) thead th:nth-last-child(5),
+#calendar-container .calendar:has(tbody td:nth-last-child(6) > .day.today) thead th:nth-last-child(6),
+#calendar-container .calendar:has(tbody td:nth-last-child(7) > .day.today) thead th:nth-last-child(7) {
+    color: var(--cal-accent-ink);
+    background: linear-gradient(var(--interactive-accent), var(--interactive-accent)) center bottom / 1.8em 1.5px no-repeat;
+}

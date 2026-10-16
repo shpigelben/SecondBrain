@@ -1,10 +1,9 @@
 ---
-type: concept
-discipline: []
-field: []
+type: moc
 ---
+![Fleeting Notes](Fleeting%20Notes.base)
 
-![Current Learning Path](4%20Misc/Canvases/Dashboard.canvas)
+![Current Learning Path](Misc/Canvases/Dashboard.canvas)
 
 > [!NOTE]- Watch List
 >- [Determinants & Graphs](https://www.youtube.com/watch?v=6_wDiBVttTM)
@@ -14,20 +13,15 @@ field: []
 >- [Lofi Chords](https://www.youtube.com/watch?v=GBveHH2MHjg)
 
 ## Types
-![Note Types](4%20Misc/Bases/Note%20Types.base)
+![Note Types](Misc/Bases/Note%20Types.base)
 
-## Disciplines
-![MOCs](4%20Misc/Bases/MOCs.base)
+# Disciplines
+![MOCs](Misc/Bases/MOCs.base)
 
-
-## Metal Photoluminescence
-- [Research MOC](4%20Misc/MOCs/Research%20MOC.md)
-- [ ] Recreating Rossei absorption spectrum
-	- [ ] Verifying band parameters
-## Project Euler
+## ***Project Euler***
 [link to website](https://projecteuler.net/archives)
-![Project Euler](4%20Misc/Bases/Project%20Euler.base)
+![Project Euler](Misc/Bases/Project%20Euler.base)
 
-## Attachments
-![attachments](4%20Misc/Bases/attachments.base)
+# Attachments
+![attachments](Misc/Bases/attachments.base)
 

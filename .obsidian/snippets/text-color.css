@@ -1,0 +1,68 @@
+/* ---------------------------------------------------------
+   Text Color Matcher
+   Matches the handwriting SVG colors (see handwriting.css)
+   Applies to the editor, reading view and interface
+   !important is needed to beat Word-Smith's theme, which
+   sets its colors as inline styles on <body>
+--------------------------------------------------------- */
+
+/* DARK MODE: #D3C5AA (Soft Beige) */
+body.theme-dark {
+    --hw-ink: #D3C5AA;
+}
+
+/* LIGHT MODE: #012B36 (Deep Teal) */
+body.theme-light {
+    --hw-ink: #012B36;
+}
+
+/* Shades derived from the ink, stepping down in opacity */
+body {
+    --hw-ink-muted: color-mix(in srgb, var(--hw-ink) 75%, transparent);
+    --hw-ink-faint: color-mix(in srgb, var(--hw-ink) 50%, transparent);
+    --hw-ink-ghost: color-mix(in srgb, var(--hw-ink) 30%, transparent);
+
+    /* Core text */
+    --text-normal: var(--hw-ink) !important;
+    --text-muted: var(--hw-ink-muted) !important;
+    --text-faint: var(--hw-ink-faint) !important;
+
+    /* Bullets and list markers */
+    --list-marker-color: var(--hw-ink-muted) !important;
+    --list-marker-color-hover: var(--hw-ink) !important;
+    --list-marker-color-collapsed: var(--hw-ink) !important;
+    --indentation-guide-color: var(--hw-ink-ghost) !important;
+    --indentation-guide-color-active: var(--hw-ink-faint) !important;
+    --collapse-icon-color: var(--hw-ink-faint) !important;
+    --collapse-icon-color-collapsed: var(--hw-ink) !important;
+
+    /* Inline markdown */
+    --heading-formatting: var(--hw-ink-faint) !important;
+    --bold-color: var(--hw-ink) !important;
+    --italic-color: var(--hw-ink) !important;
+    --blockquote-color: var(--hw-ink-muted) !important;
+    --checklist-done-color: var(--hw-ink-faint) !important;
+    --code-normal: var(--hw-ink) !important;
+    --code-comment: var(--hw-ink-faint) !important;
+    --code-punctuation: var(--hw-ink-muted) !important;
+    --code-operator: var(--hw-ink-muted) !important;
+    --link-unresolved-color: var(--hw-ink-muted) !important;
+
+    /* Interface icons */
+    --icon-color: var(--hw-ink-muted) !important;
+    --icon-color-hover: var(--hw-ink) !important;
+
+    /* Word-Smith's base scale (text end only) */
+    --color-base-45: var(--hw-ink-faint) !important;
+    --color-base-50: var(--hw-ink-faint) !important;
+    --color-base-55: var(--hw-ink-muted) !important;
+    --color-base-60: var(--hw-ink-muted) !important;
+    --color-base-65: var(--hw-ink) !important;
+    --color-base-70: var(--hw-ink) !important;
+    --color-base-80: var(--hw-ink) !important;
+    --color-base-90: var(--hw-ink) !important;
+    --color-base-100: var(--hw-ink) !important;
+    --tx1: var(--hw-ink) !important;
+    --tx2: var(--hw-ink-muted) !important;
+    --tx3: var(--hw-ink-faint) !important;
+}

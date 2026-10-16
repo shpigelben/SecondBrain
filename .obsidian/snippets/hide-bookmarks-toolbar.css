@@ -1,0 +1,9 @@
+/* ---------------------------------------------------------
+   Hide Bookmarks Toolbar
+   Removes the button row above the bookmarks list
+   and the space it occupied
+--------------------------------------------------------- */
+
+.workspace-leaf-content[data-type="bookmarks"] .nav-header {
+    display: none;
+}

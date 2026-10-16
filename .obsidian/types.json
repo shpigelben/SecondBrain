@@ -5,6 +5,8 @@
     "tags": "tags",
     "date": "datetime",
     "field": "multitext",
-    "Genre": "multitext"
+    "Genre": "multitext",
+    "finish_date": "date",
+    "rating": "number"
   }
 }

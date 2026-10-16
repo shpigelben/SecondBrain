@@ -10,5 +10,5 @@
 
 /* LIGHT MODE: Converts black SVG to #012B36 (Deep Teal) */
 .theme-light img[alt*="hw"] {
-    filter: invert(12%) sepia(76%) saturate(2335%) hue-rotate(177deg) brightness(94%) contrast(97%);
+    filter: invert(71%) sepia(25%) saturate(3960%) hue-rotate(153deg) brightness(22%) contrast(103%);
 }

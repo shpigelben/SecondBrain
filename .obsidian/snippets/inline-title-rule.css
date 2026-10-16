@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Inline title — one step larger than H1, bold italic, with a hairline rule beneath
+   that runs from one edge of the note pane to the other (not just across the
+   readable line width).
+
+   Design notes
+   - The rule is the title's own bottom border, drawn with `border-image` and
+     pushed out sideways with `border-image-outset`. Outset artwork is ink
+     overflow: it never causes horizontal scrolling and is clipped by the
+     pane's scroll container, so the rule always stops exactly at the pane
+     edges — however wide the pane, with or without readable line length, and
+     with sidebars or split panes open.
+   - No pseudo-element: the title is a contenteditable field, and the border
+     keeps the caret and text selection untouched.
+   - Size, weight, style and spacing go through Obsidian's own inline-title
+     variables: its `.inline-title:not([data-level])` rule out-specifies a
+     plain `.inline-title` selector, but reads these variables.
+   ========================================================================== */
+
+body {
+  --inline-title-size: var(--title-inline-size, calc(2 * var(--h1-size) - var(--h2-size))); /* one scale step above H1 (titles.css) */
+  --inline-title-weight: 700;
+  --inline-title-style: italic;
+  --inline-title-margin-bottom: 0.9em;    /* rule ↔ first line of the note */
+
+  --inline-title-rule-gap: 0.35em;        /* text ↔ rule */
+  --inline-title-rule-thickness: 1px;
+  --inline-title-rule-color: color-mix(in srgb, currentColor 42%, transparent);
+}
+
+/* Note titles only — not the heading titles of embeds/popovers ([data-level]). */
+.inline-title:not([data-level]) {
+  padding-bottom: var(--inline-title-rule-gap);
+
+  /* Bottom border only; its artwork extends 100vmax past both sides. */
+  border-style: none none solid none;
+  border-width: 0 0 var(--inline-title-rule-thickness) 0;
+  border-image-source: linear-gradient(var(--inline-title-rule-color), var(--inline-title-rule-color));
+  border-image-slice: 0 0 1 0;
+  border-image-width: 0 0 var(--inline-title-rule-thickness) 0;
+  border-image-outset: 0 100vmax;
+  border-image-repeat: stretch;
+}

@@ -1,0 +1,63 @@
+/* ---------------------------------------------------------
+   Calendar · Tint
+   Closest to the current look, softened. Today = pale accent
+   tile with accent number, open note = solid tile. Header row
+   sits on a hairline; week numbers are kept but recede.
+   Enable only one calendar-*.css snippet at a time.
+--------------------------------------------------------- */
+#calendar-container {
+    --cal-accent-ink: color-mix(in srgb, var(--interactive-accent) 75%, var(--text-normal));
+    --cal-tint: color-mix(in srgb, var(--interactive-accent) 18%, transparent);
+    --color-text-title: var(--text-normal);
+    --color-text-heading: var(--text-faint);
+    --color-text-weeknum: var(--text-faint);
+    --color-text-day: var(--text-normal);
+    --color-text-today: var(--cal-accent-ink);
+    --color-dot: var(--text-faint);
+    --color-arrow: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+}
+#calendar-container td,
+#calendar-container th { border: none; }
+
+#calendar-container .title {
+    font-family: var(--font-interface);
+    font-style: normal;
+    font-size: 1.2em;
+}
+#calendar-container .month { font-weight: 600; }
+#calendar-container .year { color: var(--cal-accent-ink); font-weight: 400; }
+
+#calendar-container th {
+    font-size: 0.55em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    padding: 4px 0 8px;
+}
+#calendar-container td { padding: 1px; }
+
+#calendar-container .day,
+#calendar-container .week-num {
+    border-radius: 8px;
+    background: none;
+    padding: 6px 0 4px;
+}
+#calendar-container .week-num { opacity: 0.7; }
+#calendar-container .day:hover,
+#calendar-container .week-num:hover { background: var(--background-modifier-hover); }
+
+#calendar-container .day.today {
+    background: var(--cal-tint);
+    font-weight: 600;
+}
+#calendar-container .day.active,
+#calendar-container .week-num.active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    opacity: 1;
+}
+#calendar-container .day.active:hover { background: var(--interactive-accent-hover); }
+
+#calendar-container .dot,
+#calendar-container .hollow { width: 4px; height: 4px; margin: 0 1px; }
+#calendar-container .dot-container { margin-top: 2px; min-height: 4px; line-height: 4px; }

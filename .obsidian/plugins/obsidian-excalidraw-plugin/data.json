@@ -1,11 +1,23 @@
 {
+  "showTabTitlebarButtons": true,
+  "copyLinkToElemenetAnchorTo100": false,
+  "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
-  "folder": "4 Misc/Excalidraw",
+  "phoneFooterSafeAreaPadding": false,
+  "tabletFooterSafeAreaPadding": false,
+  "folder": "Misc/Excalidraw",
+  "libraryFolderPath": "Excalidraw/Libraries",
+  "libraryFileName": "local-library",
+  "libraryStorageMode": "data-json",
+  "libraryMigrationStatus": "later",
+  "libraryMigrationSnoozeUntil": 1792216191268,
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
+  "allowJavaScriptFiles": false,
+  "storeScriptFilesAsJavaScript": false,
   "fontAssetsPath": "Excalidraw/CJK Fonts",
   "loadChineseFonts": false,
   "loadJapaneseFonts": false,
@@ -13,8 +25,6 @@
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
-  "onceOffGPTVersionReset": true,
-  "autosave": true,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
@@ -30,6 +40,7 @@
   "displaySVGInPreview": true,
   "previewImageType": "SVGIMG",
   "renderingConcurrency": 3,
+  "imageCacheRetentionDays": 30,
   "allowImageCache": true,
   "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
@@ -39,6 +50,9 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "none",
   "isLeftHanded": false,
+  "desktopUIMode": "tray",
+  "tabletUIMode": "compact",
+  "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -48,7 +62,6 @@
   "penModeDoubleTapEraser": true,
   "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": false,
-  "panWithRightMouseButton": false,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
@@ -72,12 +85,13 @@
   "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
+  "syncElementLinkWithText": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
   "wordWrappingDefault": 0,
   "removeTransclusionQuoteSigns": true,
-  "iframelyAllowed": true,
+  "oEmbedAllowed": false,
   "pngExportScale": 1,
   "exportWithTheme": true,
   "exportWithBackground": true,
@@ -91,6 +105,7 @@
   "embedType": "excalidraw",
   "embedMarkdownCommentLinks": true,
   "embedWikiLink": true,
+  "embedPlaceholderImage": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
@@ -102,13 +117,15 @@
   "addDummyTextElement": false,
   "zoteroCompatibility": false,
   "fieldSuggester": true,
+  "enableOnloadScripts": false,
+  "enableCommandLinks": false,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
   "library": "deprecated",
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.16.1",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.29.0",
     "libraryItems": [
       {
         "status": "published",
@@ -215,7 +232,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -291,7 +310,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "hngaa2tuyUd80xSsR-9gZ",
@@ -433,7 +454,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "C6DrV-IStvufrLo_r_aFp",
@@ -559,7 +582,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "6_s6Q9-Fly8ZAOPqHbDOM",
@@ -661,7 +686,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "F75PdFTMaojNXY18crpaO",
@@ -749,7 +776,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -813,7 +842,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "zpLeEaecoiCvY-gfIMyL_",
@@ -939,7 +970,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "jz3dQ1Vhry0UCaeNbMI6F",
@@ -1065,7 +1098,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "oBMA9Y5YcjPncqV8XgLcc",
@@ -1096,8 +1131,6 @@
             "height": 14.441208494000023,
             "seed": 696026493,
             "groupIds": [
-              "LoBE-aTbejPqJLxMdoLvK",
-              "C1Af_HA1TBCyR-4JsyJlq",
               "tXkM1BscFn0fFAeLQJWjU"
             ],
             "frameId": null,
@@ -1155,7 +1188,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -1178,8 +1213,6 @@
             "height": 14.441208494000023,
             "seed": 1278789907,
             "groupIds": [
-              "JmPU6BBFsdcDvfB3O-H3x",
-              "qsPUwn8K8YS2u2gCRLlPG",
               "tXkM1BscFn0fFAeLQJWjU"
             ],
             "frameId": null,
@@ -1237,7 +1270,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "qYGsUuHorG9RYhDvvrv1k",
@@ -1325,7 +1360,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -1405,7 +1442,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "k0t82FEnpoV4-9T9QlEi6",
@@ -1529,7 +1568,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -1593,7 +1634,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "zneNU3QPoiGvLenqTjUkw",
@@ -1641,7 +1684,11 @@
             "containerId": null,
             "originalText": ">",
             "autoResize": true,
-            "lineHeight": 1.2271480804387611
+            "lineHeight": 1.2271480804387611,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "line",
@@ -1664,7 +1711,6 @@
             "height": 0.6813733230376028,
             "seed": 1257581747,
             "groupIds": [
-              "8FGzvLnbCaZagw53MWydO",
               "vogng38DEVfWGmUebUYwm"
             ],
             "frameId": null,
@@ -1706,7 +1752,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "06g8BIDKkTSJ34anOtHcg",
@@ -1754,7 +1802,11 @@
             "containerId": null,
             "originalText": "<",
             "autoResize": true,
-            "lineHeight": 1.2499999999999996
+            "lineHeight": 1.2499999999999996,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "line",
@@ -1777,7 +1829,6 @@
             "height": 0.596017360780712,
             "seed": 432904147,
             "groupIds": [
-              "k6kDMLUma4nw3nOKstHrT",
               "NHMFN1Ubp7fUZqVF3FYkM"
             ],
             "frameId": null,
@@ -1819,7 +1870,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "29hRfNg554jMypgSDpZ7R",
@@ -1953,7 +2006,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "0DH39iSxdjkLT1bjZvd5p",
@@ -2071,7 +2126,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "e2j8tn4QpuDn084uy1yyG",
@@ -2189,7 +2246,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "id": "AYySwp2it7H66QFTYegmp",
@@ -2250,7 +2309,9 @@
                 19.1702880859375
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2359,7 +2420,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2436,7 +2499,9 @@
                 0
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2508,7 +2573,9 @@
                 18.2574462890625
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2564,7 +2631,9 @@
                 -33.77630615234375
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2620,7 +2689,9 @@
                 -41.9920654296875
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2676,7 +2747,9 @@
                 -20.0831298828125
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "line",
@@ -2896,7 +2969,9 @@
                 7.6146116076427575
               ]
             ],
-            "polygon": false
+            "polygon": false,
+            "created": null,
+            "hasTextLink": false
           }
         ],
         "created": 1676069666281
@@ -2932,7 +3007,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -2972,7 +3049,11 @@
             "containerId": null,
             "originalText": "Rn",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3012,7 +3093,11 @@
             "containerId": null,
             "originalText": "86",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3042,7 +3127,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3082,7 +3169,11 @@
             "containerId": null,
             "originalText": "H",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3122,7 +3213,11 @@
             "containerId": null,
             "originalText": "1",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3152,7 +3247,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3192,7 +3289,11 @@
             "containerId": null,
             "originalText": "Li",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3232,7 +3333,11 @@
             "containerId": null,
             "originalText": "3",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3262,7 +3367,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3302,7 +3409,11 @@
             "containerId": null,
             "originalText": "Be",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3342,7 +3453,11 @@
             "containerId": null,
             "originalText": "4",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3372,7 +3487,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3412,7 +3529,11 @@
             "containerId": null,
             "originalText": "Na",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3452,7 +3573,11 @@
             "containerId": null,
             "originalText": "11",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3482,7 +3607,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3522,7 +3649,11 @@
             "containerId": null,
             "originalText": "Mg",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3562,7 +3693,11 @@
             "containerId": null,
             "originalText": "12",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3592,7 +3727,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3632,7 +3769,11 @@
             "containerId": null,
             "originalText": "K",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3672,7 +3813,11 @@
             "containerId": null,
             "originalText": "19",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3702,7 +3847,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3742,7 +3889,11 @@
             "containerId": null,
             "originalText": "Ca",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3782,7 +3933,11 @@
             "containerId": null,
             "originalText": "20",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3812,7 +3967,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3852,7 +4009,11 @@
             "containerId": null,
             "originalText": "Rb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -3892,7 +4053,11 @@
             "containerId": null,
             "originalText": "37",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -3922,7 +4087,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -3962,7 +4129,11 @@
             "containerId": null,
             "originalText": "Sr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4002,7 +4173,11 @@
             "containerId": null,
             "originalText": "38",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4032,7 +4207,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4072,7 +4249,11 @@
             "containerId": null,
             "originalText": "Cs",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4112,7 +4293,11 @@
             "containerId": null,
             "originalText": "55",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4142,7 +4327,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4182,7 +4369,11 @@
             "containerId": null,
             "originalText": "Ba",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4222,7 +4413,11 @@
             "containerId": null,
             "originalText": "56",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4252,7 +4447,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4292,7 +4489,11 @@
             "containerId": null,
             "originalText": "Fr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4332,7 +4533,11 @@
             "containerId": null,
             "originalText": "87",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4362,7 +4567,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4402,7 +4609,11 @@
             "containerId": null,
             "originalText": "Ra",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4442,7 +4653,11 @@
             "containerId": null,
             "originalText": "88",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4472,7 +4687,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4512,7 +4729,11 @@
             "containerId": null,
             "originalText": "Uue",
             "autoResize": true,
-            "lineHeight": 1.2528048496165183
+            "lineHeight": 1.2528048496165183,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4552,7 +4773,11 @@
             "containerId": null,
             "originalText": "119",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4582,7 +4807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4622,7 +4849,11 @@
             "containerId": null,
             "originalText": "Ubn",
             "autoResize": true,
-            "lineHeight": 1.2528048496165183
+            "lineHeight": 1.2528048496165183,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4662,7 +4893,11 @@
             "containerId": null,
             "originalText": "120",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4692,7 +4927,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4732,7 +4969,11 @@
             "containerId": null,
             "originalText": "Sc",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4772,7 +5013,11 @@
             "containerId": null,
             "originalText": "21",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4802,7 +5047,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4842,7 +5089,11 @@
             "containerId": null,
             "originalText": "Y",
             "autoResize": true,
-            "lineHeight": 1.259219620991924
+            "lineHeight": 1.259219620991924,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4882,7 +5133,11 @@
             "containerId": null,
             "originalText": "39",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -4912,7 +5167,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -4952,7 +5209,11 @@
             "containerId": null,
             "originalText": "Ti",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -4992,7 +5253,11 @@
             "containerId": null,
             "originalText": "22",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5022,7 +5287,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5062,7 +5329,11 @@
             "containerId": null,
             "originalText": "Zr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5102,7 +5373,11 @@
             "containerId": null,
             "originalText": "40",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5132,7 +5407,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5172,7 +5449,11 @@
             "containerId": null,
             "originalText": "V",
             "autoResize": true,
-            "lineHeight": 1.259219620991924
+            "lineHeight": 1.259219620991924,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5212,7 +5493,11 @@
             "containerId": null,
             "originalText": "23",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5242,7 +5527,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5282,7 +5569,11 @@
             "containerId": null,
             "originalText": "Nb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5322,7 +5613,11 @@
             "containerId": null,
             "originalText": "41",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5352,7 +5647,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5392,7 +5689,11 @@
             "containerId": null,
             "originalText": "Hf",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5432,7 +5733,11 @@
             "containerId": null,
             "originalText": "72",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5462,7 +5767,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5502,7 +5809,11 @@
             "containerId": null,
             "originalText": "Ta",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5542,7 +5853,11 @@
             "containerId": null,
             "originalText": "73",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5572,7 +5887,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5612,7 +5929,11 @@
             "containerId": null,
             "originalText": "Rf",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5652,7 +5973,11 @@
             "containerId": null,
             "originalText": "104",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5682,7 +6007,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5722,7 +6049,11 @@
             "containerId": null,
             "originalText": "Db",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5762,7 +6093,11 @@
             "containerId": null,
             "originalText": "105",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5792,7 +6127,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5832,7 +6169,11 @@
             "containerId": null,
             "originalText": "Sg",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5872,7 +6213,11 @@
             "containerId": null,
             "originalText": "106",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -5902,7 +6247,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -5942,7 +6289,11 @@
             "containerId": null,
             "originalText": "W",
             "autoResize": true,
-            "lineHeight": 1.259219620991924
+            "lineHeight": 1.259219620991924,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -5982,7 +6333,11 @@
             "containerId": null,
             "originalText": "74",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6012,7 +6367,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6052,7 +6409,11 @@
             "containerId": null,
             "originalText": "Mo",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6092,7 +6453,11 @@
             "containerId": null,
             "originalText": "42",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6122,7 +6487,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6162,7 +6529,11 @@
             "containerId": null,
             "originalText": "Cr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6202,7 +6573,11 @@
             "containerId": null,
             "originalText": "24",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6232,7 +6607,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6272,7 +6649,11 @@
             "containerId": null,
             "originalText": "Mg",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6312,7 +6693,11 @@
             "containerId": null,
             "originalText": "25",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6342,7 +6727,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6382,7 +6769,11 @@
             "containerId": null,
             "originalText": "Tc",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6422,7 +6813,11 @@
             "containerId": null,
             "originalText": "43",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6452,7 +6847,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6492,7 +6889,11 @@
             "containerId": null,
             "originalText": "Re",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6532,7 +6933,11 @@
             "containerId": null,
             "originalText": "75",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6562,7 +6967,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6602,7 +7009,11 @@
             "containerId": null,
             "originalText": "Bh",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6642,7 +7053,11 @@
             "containerId": null,
             "originalText": "107",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6672,7 +7087,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6712,7 +7129,11 @@
             "containerId": null,
             "originalText": "Hs",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6752,7 +7173,11 @@
             "containerId": null,
             "originalText": "108",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6782,7 +7207,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6822,7 +7249,11 @@
             "containerId": null,
             "originalText": "Os",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6862,7 +7293,11 @@
             "containerId": null,
             "originalText": "76",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -6892,7 +7327,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -6932,7 +7369,11 @@
             "containerId": null,
             "originalText": "Ru",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -6972,7 +7413,11 @@
             "containerId": null,
             "originalText": "44",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7002,7 +7447,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7042,7 +7489,11 @@
             "containerId": null,
             "originalText": "Fe",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7082,7 +7533,11 @@
             "containerId": null,
             "originalText": "26",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7112,7 +7567,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7152,7 +7609,11 @@
             "containerId": null,
             "originalText": "Mt",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7192,7 +7653,11 @@
             "containerId": null,
             "originalText": "109",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7222,7 +7687,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7262,7 +7729,11 @@
             "containerId": null,
             "originalText": "Ir",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7302,7 +7773,11 @@
             "containerId": null,
             "originalText": "77",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7332,7 +7807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7372,7 +7849,11 @@
             "containerId": null,
             "originalText": "Rh",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7412,7 +7893,11 @@
             "containerId": null,
             "originalText": "45",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7442,7 +7927,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7482,7 +7969,11 @@
             "containerId": null,
             "originalText": "Co",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7522,7 +8013,11 @@
             "containerId": null,
             "originalText": "27",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7552,7 +8047,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7592,7 +8089,11 @@
             "containerId": null,
             "originalText": "Ni",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7632,7 +8133,11 @@
             "containerId": null,
             "originalText": "28",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7662,7 +8167,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7702,7 +8209,11 @@
             "containerId": null,
             "originalText": "Cu",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7742,7 +8253,11 @@
             "containerId": null,
             "originalText": "29",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7772,7 +8287,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7812,7 +8329,11 @@
             "containerId": null,
             "originalText": "Pd",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7852,7 +8373,11 @@
             "containerId": null,
             "originalText": "46",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7882,7 +8407,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -7922,7 +8449,11 @@
             "containerId": null,
             "originalText": "Ag",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -7962,7 +8493,11 @@
             "containerId": null,
             "originalText": "47",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -7992,7 +8527,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8032,7 +8569,11 @@
             "containerId": null,
             "originalText": "Pt",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8072,7 +8613,11 @@
             "containerId": null,
             "originalText": "78",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8102,7 +8647,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8142,7 +8689,11 @@
             "containerId": null,
             "originalText": "Au",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8182,7 +8733,11 @@
             "containerId": null,
             "originalText": "79",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8212,7 +8767,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8252,7 +8809,11 @@
             "containerId": null,
             "originalText": "Ds",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8292,7 +8853,11 @@
             "containerId": null,
             "originalText": "110",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8322,7 +8887,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8362,7 +8929,11 @@
             "containerId": null,
             "originalText": "Rg",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8402,7 +8973,11 @@
             "containerId": null,
             "originalText": "111",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8432,7 +9007,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8472,7 +9049,11 @@
             "containerId": null,
             "originalText": "Cn",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8512,7 +9093,11 @@
             "containerId": null,
             "originalText": "112",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8542,7 +9127,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8582,7 +9169,11 @@
             "containerId": null,
             "originalText": "Hg",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8622,7 +9213,11 @@
             "containerId": null,
             "originalText": "80",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8652,7 +9247,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8692,7 +9289,11 @@
             "containerId": null,
             "originalText": "Cd",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8732,7 +9333,11 @@
             "containerId": null,
             "originalText": "48",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8762,7 +9367,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8802,7 +9409,11 @@
             "containerId": null,
             "originalText": "Zn",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8842,7 +9453,11 @@
             "containerId": null,
             "originalText": "30",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8872,7 +9487,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -8912,7 +9529,11 @@
             "containerId": null,
             "originalText": "Nh",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -8952,7 +9573,11 @@
             "containerId": null,
             "originalText": "113",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -8982,7 +9607,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9022,7 +9649,11 @@
             "containerId": null,
             "originalText": "Tl",
             "autoResize": true,
-            "lineHeight": 1.259219620991924
+            "lineHeight": 1.259219620991924,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9062,7 +9693,11 @@
             "containerId": null,
             "originalText": "81",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9092,7 +9727,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9132,7 +9769,11 @@
             "containerId": null,
             "originalText": "In",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9172,7 +9813,11 @@
             "containerId": null,
             "originalText": "49",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9202,7 +9847,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9242,7 +9889,11 @@
             "containerId": null,
             "originalText": "Ga",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9282,7 +9933,11 @@
             "containerId": null,
             "originalText": "31",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9312,7 +9967,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9352,7 +10009,11 @@
             "containerId": null,
             "originalText": "Al",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9392,7 +10053,11 @@
             "containerId": null,
             "originalText": "13",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9422,7 +10087,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9462,7 +10129,11 @@
             "containerId": null,
             "originalText": "B",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9502,7 +10173,11 @@
             "containerId": null,
             "originalText": "5",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9532,7 +10207,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9572,7 +10249,11 @@
             "containerId": null,
             "originalText": "C",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9612,7 +10293,11 @@
             "containerId": null,
             "originalText": "6",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9642,7 +10327,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9682,7 +10369,11 @@
             "containerId": null,
             "originalText": "Si",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9722,7 +10413,11 @@
             "containerId": null,
             "originalText": "14",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9752,7 +10447,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9792,7 +10489,11 @@
             "containerId": null,
             "originalText": "Ge",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9832,7 +10533,11 @@
             "containerId": null,
             "originalText": "32",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9862,7 +10567,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -9902,7 +10609,11 @@
             "containerId": null,
             "originalText": "Sn",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -9942,7 +10653,11 @@
             "containerId": null,
             "originalText": "50",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -9972,7 +10687,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10012,7 +10729,11 @@
             "containerId": null,
             "originalText": "Pb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10052,7 +10773,11 @@
             "containerId": null,
             "originalText": "82",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10082,7 +10807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10122,7 +10849,11 @@
             "containerId": null,
             "originalText": "Fl",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10162,7 +10893,11 @@
             "containerId": null,
             "originalText": "114",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10192,7 +10927,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10232,7 +10969,11 @@
             "containerId": null,
             "originalText": "N",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10272,7 +11013,11 @@
             "containerId": null,
             "originalText": "7",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10302,7 +11047,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10342,7 +11089,11 @@
             "containerId": null,
             "originalText": "P",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10382,7 +11133,11 @@
             "containerId": null,
             "originalText": "15",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10412,7 +11167,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10452,7 +11209,11 @@
             "containerId": null,
             "originalText": "As",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10492,7 +11253,11 @@
             "containerId": null,
             "originalText": "33",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10522,7 +11287,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10562,7 +11329,11 @@
             "containerId": null,
             "originalText": "Sb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10602,7 +11373,11 @@
             "containerId": null,
             "originalText": "51",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10632,7 +11407,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10672,7 +11449,11 @@
             "containerId": null,
             "originalText": "Bi",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10712,7 +11493,11 @@
             "containerId": null,
             "originalText": "83",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10742,7 +11527,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10782,7 +11569,11 @@
             "containerId": null,
             "originalText": "Mc",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10822,7 +11613,11 @@
             "containerId": null,
             "originalText": "115",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10852,7 +11647,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -10892,7 +11689,11 @@
             "containerId": null,
             "originalText": "Lv",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -10932,7 +11733,11 @@
             "containerId": null,
             "originalText": "116",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -10962,7 +11767,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11002,7 +11809,11 @@
             "containerId": null,
             "originalText": "Po",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11042,7 +11853,11 @@
             "containerId": null,
             "originalText": "84",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11072,7 +11887,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11112,7 +11929,11 @@
             "containerId": null,
             "originalText": "Te",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11152,7 +11973,11 @@
             "containerId": null,
             "originalText": "52",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11182,7 +12007,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11222,7 +12049,11 @@
             "containerId": null,
             "originalText": "Se",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11262,7 +12093,11 @@
             "containerId": null,
             "originalText": "34",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11292,7 +12127,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11332,7 +12169,11 @@
             "containerId": null,
             "originalText": "S",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11372,7 +12213,11 @@
             "containerId": null,
             "originalText": "16",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11402,7 +12247,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11442,7 +12289,11 @@
             "containerId": null,
             "originalText": "O",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11482,7 +12333,11 @@
             "containerId": null,
             "originalText": "8",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11512,7 +12367,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11552,7 +12409,11 @@
             "containerId": null,
             "originalText": "F",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11592,7 +12453,11 @@
             "containerId": null,
             "originalText": "9",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11622,7 +12487,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11662,7 +12529,11 @@
             "containerId": null,
             "originalText": "Ne",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11702,7 +12573,11 @@
             "containerId": null,
             "originalText": "10",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11732,7 +12607,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11772,7 +12649,11 @@
             "containerId": null,
             "originalText": "He",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11812,7 +12693,11 @@
             "containerId": null,
             "originalText": "2",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11842,7 +12727,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11882,7 +12769,11 @@
             "containerId": null,
             "originalText": "Cl",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -11922,7 +12813,11 @@
             "containerId": null,
             "originalText": "17",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -11952,7 +12847,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -11992,7 +12889,11 @@
             "containerId": null,
             "originalText": "Ar",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12032,7 +12933,11 @@
             "containerId": null,
             "originalText": "18",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12062,7 +12967,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12102,7 +13009,11 @@
             "containerId": null,
             "originalText": "Br",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12142,7 +13053,11 @@
             "containerId": null,
             "originalText": "35",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12172,7 +13087,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12212,7 +13129,11 @@
             "containerId": null,
             "originalText": "Kr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12252,7 +13173,11 @@
             "containerId": null,
             "originalText": "36",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12282,7 +13207,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12322,7 +13249,11 @@
             "containerId": null,
             "originalText": "I",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12362,7 +13293,11 @@
             "containerId": null,
             "originalText": "53",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12392,7 +13327,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12432,7 +13369,11 @@
             "containerId": null,
             "originalText": "Xe",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12472,7 +13413,11 @@
             "containerId": null,
             "originalText": "54",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12502,7 +13447,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12542,7 +13489,11 @@
             "containerId": null,
             "originalText": "At",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12582,7 +13533,11 @@
             "containerId": null,
             "originalText": "85",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12612,7 +13567,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12652,7 +13609,11 @@
             "containerId": null,
             "originalText": "Ts",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12692,7 +13653,11 @@
             "containerId": null,
             "originalText": "117",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12722,7 +13687,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12762,7 +13729,11 @@
             "containerId": null,
             "originalText": "Og",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12802,7 +13773,11 @@
             "containerId": null,
             "originalText": "118",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12832,7 +13807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12872,7 +13849,11 @@
             "containerId": null,
             "originalText": "La",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -12912,7 +13893,11 @@
             "containerId": null,
             "originalText": "57",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -12942,7 +13927,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -12982,7 +13969,11 @@
             "containerId": null,
             "originalText": "Ce",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13022,7 +14013,11 @@
             "containerId": null,
             "originalText": "58",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13052,7 +14047,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13092,7 +14089,11 @@
             "containerId": null,
             "originalText": "Ac",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13132,7 +14133,11 @@
             "containerId": null,
             "originalText": "89",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13162,7 +14167,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13202,7 +14209,11 @@
             "containerId": null,
             "originalText": "Th",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13242,7 +14253,11 @@
             "containerId": null,
             "originalText": "90",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13272,7 +14287,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13312,7 +14329,11 @@
             "containerId": null,
             "originalText": "Pr",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13352,7 +14373,11 @@
             "containerId": null,
             "originalText": "59",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13382,7 +14407,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13422,7 +14449,11 @@
             "containerId": null,
             "originalText": "Pa",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13462,7 +14493,11 @@
             "containerId": null,
             "originalText": "91",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13492,7 +14527,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13532,7 +14569,11 @@
             "containerId": null,
             "originalText": "Nd",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13572,7 +14613,11 @@
             "containerId": null,
             "originalText": "60",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13602,7 +14647,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13642,7 +14689,11 @@
             "containerId": null,
             "originalText": "U",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13682,7 +14733,11 @@
             "containerId": null,
             "originalText": "92",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13712,7 +14767,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13752,7 +14809,11 @@
             "containerId": null,
             "originalText": "Pm",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13792,7 +14853,11 @@
             "containerId": null,
             "originalText": "61",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13822,7 +14887,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13862,7 +14929,11 @@
             "containerId": null,
             "originalText": "Np",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -13902,7 +14973,11 @@
             "containerId": null,
             "originalText": "93",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -13932,7 +15007,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -13972,7 +15049,11 @@
             "containerId": null,
             "originalText": "Sm",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14012,7 +15093,11 @@
             "containerId": null,
             "originalText": "62",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14042,7 +15127,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14082,7 +15169,11 @@
             "containerId": null,
             "originalText": "Pu",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14122,7 +15213,11 @@
             "containerId": null,
             "originalText": "94",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14152,7 +15247,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14192,7 +15289,11 @@
             "containerId": null,
             "originalText": "Eu",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14232,7 +15333,11 @@
             "containerId": null,
             "originalText": "63",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14262,7 +15367,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14302,7 +15409,11 @@
             "containerId": null,
             "originalText": "Am",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14342,7 +15453,11 @@
             "containerId": null,
             "originalText": "95",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14372,7 +15487,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14412,7 +15529,11 @@
             "containerId": null,
             "originalText": "Gd",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14452,7 +15573,11 @@
             "containerId": null,
             "originalText": "64",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14482,7 +15607,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14522,7 +15649,11 @@
             "containerId": null,
             "originalText": "Cm",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14562,7 +15693,11 @@
             "containerId": null,
             "originalText": "96",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14592,7 +15727,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14632,7 +15769,11 @@
             "containerId": null,
             "originalText": "Tb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14672,7 +15813,11 @@
             "containerId": null,
             "originalText": "65",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14702,7 +15847,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14742,7 +15889,11 @@
             "containerId": null,
             "originalText": "Bk",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14782,7 +15933,11 @@
             "containerId": null,
             "originalText": "97",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14812,7 +15967,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14852,7 +16009,11 @@
             "containerId": null,
             "originalText": "Dy",
             "autoResize": true,
-            "lineHeight": 1.2592196209919244
+            "lineHeight": 1.2592196209919244,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -14892,7 +16053,11 @@
             "containerId": null,
             "originalText": "66",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -14922,7 +16087,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -14962,7 +16129,11 @@
             "containerId": null,
             "originalText": "Cf",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15002,7 +16173,11 @@
             "containerId": null,
             "originalText": "98",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15032,7 +16207,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15072,7 +16249,11 @@
             "containerId": null,
             "originalText": "Ho",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15112,7 +16293,11 @@
             "containerId": null,
             "originalText": "67",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15142,7 +16327,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15182,7 +16369,11 @@
             "containerId": null,
             "originalText": "Es",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15222,7 +16413,11 @@
             "containerId": null,
             "originalText": "99",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15252,7 +16447,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15292,7 +16489,11 @@
             "containerId": null,
             "originalText": "Er",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15332,7 +16533,11 @@
             "containerId": null,
             "originalText": "68",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15362,7 +16567,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15402,7 +16609,11 @@
             "containerId": null,
             "originalText": "Fm",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15442,7 +16653,11 @@
             "containerId": null,
             "originalText": "100",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15472,7 +16687,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15512,7 +16729,11 @@
             "containerId": null,
             "originalText": "Tm",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15552,7 +16773,11 @@
             "containerId": null,
             "originalText": "69",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15582,7 +16807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15622,7 +16849,11 @@
             "containerId": null,
             "originalText": "Md",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15662,7 +16893,11 @@
             "containerId": null,
             "originalText": "101",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15692,7 +16927,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15732,7 +16969,11 @@
             "containerId": null,
             "originalText": "No",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15772,7 +17013,11 @@
             "containerId": null,
             "originalText": "102",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15802,7 +17047,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15842,7 +17089,11 @@
             "containerId": null,
             "originalText": "Yb",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15882,7 +17133,11 @@
             "containerId": null,
             "originalText": "70",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -15912,7 +17167,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -15952,7 +17209,11 @@
             "containerId": null,
             "originalText": "Lu",
             "autoResize": true,
-            "lineHeight": 1.2592196209919242
+            "lineHeight": 1.2592196209919242,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -15992,7 +17253,11 @@
             "containerId": null,
             "originalText": "71",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16022,7 +17287,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16062,7 +17329,11 @@
             "containerId": null,
             "originalText": "Lr",
             "autoResize": true,
-            "lineHeight": 1.259219620991924
+            "lineHeight": 1.259219620991924,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -16102,7 +17373,11 @@
             "containerId": null,
             "originalText": "103",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -16142,7 +17417,11 @@
             "containerId": null,
             "originalText": "57 - 71",
             "autoResize": true,
-            "lineHeight": 1.2429417825489322
+            "lineHeight": 1.2429417825489322,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -16182,7 +17461,11 @@
             "containerId": null,
             "originalText": "La - Lu",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -16220,7 +17503,11 @@
             "containerId": null,
             "originalText": "89 - 103",
             "autoResize": true,
-            "lineHeight": 1.242941782548932
+            "lineHeight": 1.242941782548932,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "text",
@@ -16258,7 +17545,11 @@
             "containerId": null,
             "originalText": "Ac - Lr",
             "autoResize": true,
-            "lineHeight": 1.2429417825489317
+            "lineHeight": 1.2429417825489317,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16288,7 +17579,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16328,7 +17621,11 @@
             "containerId": null,
             "originalText": "Actinides",
             "autoResize": true,
-            "lineHeight": 1.304853762890272
+            "lineHeight": 1.304853762890272,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16358,7 +17655,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16398,7 +17697,11 @@
             "containerId": null,
             "originalText": "Lanthanides",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16428,7 +17731,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16468,7 +17773,11 @@
             "containerId": null,
             "originalText": "Nonmetals",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16498,7 +17807,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16538,7 +17849,11 @@
             "containerId": null,
             "originalText": "Noble gases",
             "autoResize": true,
-            "lineHeight": 1.3048537628902717
+            "lineHeight": 1.3048537628902717,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16568,7 +17883,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16608,7 +17925,11 @@
             "containerId": null,
             "originalText": "Alkali metals",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16638,7 +17959,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16678,7 +18001,11 @@
             "containerId": null,
             "originalText": "Alkaline-earth metals",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16708,7 +18035,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16748,7 +18077,11 @@
             "containerId": null,
             "originalText": "Metalloids",
             "autoResize": true,
-            "lineHeight": 1.3048537628902717
+            "lineHeight": 1.3048537628902717,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16778,7 +18111,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16818,7 +18153,11 @@
             "containerId": null,
             "originalText": "Halogens",
             "autoResize": true,
-            "lineHeight": 1.304853762890272
+            "lineHeight": 1.304853762890272,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16848,7 +18187,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16888,7 +18229,11 @@
             "containerId": null,
             "originalText": "Other metals",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           },
           {
             "type": "rectangle",
@@ -16918,7 +18263,9 @@
             "boundElements": [],
             "updated": 1716749700063,
             "link": null,
-            "locked": false
+            "locked": false,
+            "created": null,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -16958,7 +18305,11 @@
             "containerId": null,
             "originalText": "Transition metals",
             "autoResize": true,
-            "lineHeight": 1.3048537628902719
+            "lineHeight": 1.3048537628902719,
+            "created": null,
+            "hasTextLink": false,
+            "labelPosition": null,
+            "baseFontSize": null
           }
         ],
         "id": "IbptqsfNAILbTbY61BBGm",
@@ -16973,11 +18324,37 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
+  "markdownImageSettings": {
+    "defaults": {
+      "width": 500,
+      "paddingBottom": 10,
+      "fontFamily": "Virgil",
+      "fontColor": "Black",
+      "border": {
+        "enabled": false,
+        "color": "Black"
+      },
+      "css": "",
+      "transclusion": {
+        "enabled": false,
+        "fontFamily": "Cascadia",
+        "fontColor": "Black",
+        "border": {
+          "enabled": false,
+          "color": "Black"
+        },
+        "css": ""
+      }
+    }
+  },
+  "markdownImageDeletionPreference": "ask",
   "scriptEngineSettings": {},
-  "defaultTrayMode": false,
-  "compactModeOnTablets": true,
-  "previousRelease": "2.16.1",
+  "autostartScripts": {},
+  "autostartScriptFailures": {},
+  "previousRelease": "2.29.0",
   "showReleaseNotes": true,
+  "useDeclarativeSettings": true,
+  "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -16987,6 +18364,7 @@
   "pinnedScripts": [
     "Excalidraw/Scripts/Downloaded/Slideshow.md"
   ],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",
@@ -17335,14 +18713,272 @@
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
   "aiEnabled": true,
-  "openAIAPIToken": "",
-  "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
-  "openAIDefaultVisionModel": "gpt-4o",
-  "openAIDefaultImageGenerationModel": "dall-e-3",
-  "openAIURL": "https://api.openai.com/v1/chat/completions",
-  "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
-  "openAIImageEditsURL": "https://api.openai.com/v1/images/edits",
-  "openAIImageVariationURL": "https://api.openai.com/v1/images/variations",
+  "aiVerboseLogging": false,
+  "aiProviderProfiles": {
+    "OpenAI": {
+      "provider": "openai",
+      "apiKey": "",
+      "baseURL": "https://api.openai.com/v1"
+    },
+    "Anthropic": {
+      "provider": "anthropic",
+      "apiKey": "",
+      "baseURL": "https://api.anthropic.com/v1"
+    },
+    "Google Gemini": {
+      "provider": "google",
+      "apiKey": "",
+      "baseURL": "https://generativelanguage.googleapis.com/v1beta"
+    },
+    "xAI": {
+      "provider": "xai",
+      "apiKey": "",
+      "baseURL": "https://api.x.ai/v1"
+    },
+    "OpenAI-compatible": {
+      "provider": "openai-compatible",
+      "apiKey": "",
+      "baseURL": "https://api.openai.com/v1"
+    }
+  },
+  "aiTextModelConfigs": {
+    "gpt-5-mini": {
+      "providerId": "OpenAI",
+      "model": "gpt-5-mini",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "claude-sonnet-4-5": {
+      "providerId": "Anthropic",
+      "model": "claude-sonnet-4-5",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "gemini-2.5-pro": {
+      "providerId": "Google Gemini",
+      "model": "gemini-2.5-pro",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "grok-4-fast": {
+      "providerId": "xAI",
+      "model": "grok-4-fast",
+      "endpoint": "",
+      "multimodalSupport": true
+    }
+  },
+  "aiImageModelConfigs": {
+    "dall-e-2": {
+      "providerId": "OpenAI",
+      "model": "dall-e-2",
+      "supportedSizes": [
+        "256x256",
+        "512x512",
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "dall-e-3": {
+      "providerId": "OpenAI",
+      "model": "dall-e-3",
+      "supportedSizes": [
+        "1024x1024",
+        "1792x1024",
+        "1024x1792"
+      ],
+      "supportsPromptImageTransforms": false,
+      "supportsMaskImageEdits": false
+    },
+    "gpt-image-1": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-1-mini": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1-mini",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-1.5": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1.5",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-2": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-2",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536",
+        "2048x2048"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gemini-2.5-flash-image": {
+      "providerId": "Google Gemini",
+      "model": "gemini-2.5-flash-image",
+      "supportedSizes": [
+        "1024x1024",
+        "848x1264",
+        "1264x848",
+        "896x1200",
+        "1200x896",
+        "928x1152",
+        "1152x928",
+        "768x1376",
+        "1376x768",
+        "1584x672"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "gemini-3.1-flash-image-preview": {
+      "providerId": "Google Gemini",
+      "model": "gemini-3.1-flash-image-preview",
+      "supportedSizes": [
+        "512x512",
+        "1024x1024",
+        "2048x2048",
+        "4096x4096",
+        "424x632",
+        "848x1264",
+        "1696x2528",
+        "3392x5056",
+        "632x424",
+        "1264x848",
+        "2528x1696",
+        "5056x3392",
+        "448x600",
+        "896x1200",
+        "1792x2400",
+        "3584x4800",
+        "600x448",
+        "1200x896",
+        "2400x1792",
+        "4800x3584",
+        "464x576",
+        "928x1152",
+        "1856x2304",
+        "3712x4608",
+        "576x464",
+        "1152x928",
+        "2304x1856",
+        "4608x3712",
+        "384x688",
+        "768x1376",
+        "1536x2752",
+        "3072x5504",
+        "688x384",
+        "1376x768",
+        "2752x1536",
+        "5504x3072",
+        "792x168",
+        "1584x672",
+        "3168x1344",
+        "6336x2688",
+        "256x1024",
+        "512x2048",
+        "1024x4096",
+        "2048x8192",
+        "192x1536",
+        "384x3072",
+        "768x6144",
+        "1536x12288",
+        "1024x256",
+        "2048x512",
+        "4096x1024",
+        "8192x2048",
+        "1536x192",
+        "3072x384",
+        "6144x768",
+        "12288x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "gemini-3-pro-image-preview": {
+      "providerId": "Google Gemini",
+      "model": "gemini-3-pro-image-preview",
+      "supportedSizes": [
+        "1024x1024",
+        "2048x2048",
+        "4096x4096",
+        "848x1264",
+        "1696x2528",
+        "3392x5056",
+        "1264x848",
+        "2528x1696",
+        "5056x3392",
+        "896x1200",
+        "1792x2400",
+        "3584x4800",
+        "1200x896",
+        "2400x1792",
+        "4800x3584",
+        "928x1152",
+        "1856x2304",
+        "3712x4608",
+        "1152x928",
+        "2304x1856",
+        "4608x3712",
+        "768x1376",
+        "1536x2752",
+        "3072x5504",
+        "1376x768",
+        "2752x1536",
+        "5504x3072",
+        "1584x672",
+        "3168x1344",
+        "6336x2688"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "grok-imagine-image-quality": {
+      "providerId": "xAI",
+      "model": "grok-imagine-image-quality",
+      "supportedSizes": [
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "grok-imagine-image-pro": {
+      "providerId": "xAI",
+      "model": "grok-imagine-image-pro",
+      "supportedSizes": [
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    }
+  },
+  "aiDefaultTextModel": "gpt-5-mini",
+  "aiDefaultMultimodalModel": "gpt-5-mini",
+  "aiDefaultImageGenerationModel": "gpt-image-1",
+  "aiDefaultMaxOutgoingTokens": 0,
+  "aiDefaultMaxResponseTokens": 0,
   "modifierKeyConfig": {
     "Mac": {
       "LocalFileDragAction": {
@@ -17632,7 +19268,6 @@
   "longPressDesktop": 500,
   "longPressMobile": 500,
   "doubleClickLinkOpenViewMode": true,
-  "isDebugMode": false,
   "rank": "Bronze",
   "modifierKeyOverrides": [
     {
@@ -17664,6 +19299,21 @@
     "alignment": "center",
     "margin": "normal"
   },
+  "disableContextMenu": false,
+  "onceOffGPTVersionReset": true,
+  "autosave": true,
+  "panWithRightMouseButton": false,
+  "defaultTrayMode": false,
+  "compactModeOnTablets": true,
+  "openAIAPIToken": "",
+  "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
+  "openAIDefaultVisionModel": "gpt-4o",
+  "openAIDefaultImageGenerationModel": "dall-e-3",
+  "openAIURL": "https://api.openai.com/v1/chat/completions",
+  "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
+  "openAIImageEditsURL": "https://api.openai.com/v1/images/edits",
+  "openAIImageVariationURL": "https://api.openai.com/v1/images/variations",
+  "isDebugMode": false,
   "autosaveInterval": 15000,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }

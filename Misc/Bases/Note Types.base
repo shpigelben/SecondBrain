@@ -1,0 +1,40 @@
+views:
+  - type: cards
+    name: Fleeting
+    filters:
+      and:
+        - type == "fleeting"
+        - file.folder == "Fleeting"
+    order:
+      - file.name
+      - file.mtime
+  - type: cards
+    name: Projects
+    filters:
+      and:
+        - type == "project"
+        - file.folder == "1 Projects"
+    order:
+      - file.name
+      - file.mtime
+    limit: 10
+  - type: cards
+    name: Puzzles
+    filters:
+      and:
+        - type == "puzzle"
+        - file.folder == "2 Puzzles"
+    order:
+      - file.name
+      - file.mtime
+    limit: 10
+  - type: cards
+    name: Concepts
+    filters:
+      and:
+        - type == "concept"
+        - file.folder == "3 Concepts"
+    order:
+      - file.name
+      - file.mtime
+    limit: 9

@@ -1,0 +1,13 @@
+/* ---------------------------------------------------------
+   Hide Pane Toolbars
+   Removes the button row (new note, sort, collapse all,
+   filter, search, etc.) at the top of every side pane:
+   file explorer, bookmarks, outline, tags, backlinks,
+   outgoing links and the backlinks embedded under notes.
+   Search is left alone because its query box lives there.
+--------------------------------------------------------- */
+
+.workspace-leaf-content:not([data-type="search"]) .nav-header,
+.embedded-backlinks .nav-header {
+    display: none;
+}

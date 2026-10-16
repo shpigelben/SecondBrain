@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: puzzles
+    filters:
+      and:
+        - field == ["project-euler"]
+    order:
+      - file.name
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: ASC
+    columnSize:
+      file.name: 403

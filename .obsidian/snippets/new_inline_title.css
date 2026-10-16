@@ -3,7 +3,7 @@
 	text-align: center;
 	margin-top: -0.2em;
 	margin-bottom: 1.0em;
-	font-size: 1.6em;
+	font-size: var(--title-inline-size, calc(2 * var(--h1-size) - var(--h2-size)));
 	font-weight: 600;
 	position: relative;
   }

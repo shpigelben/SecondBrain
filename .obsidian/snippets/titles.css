@@ -1,9 +1,14 @@
 /* Heading sizing + H1 underline with consistent gap below in both modes */
+/* Type scale (single source of truth for every title/heading snippet):
+   inline title > H1 > H2 > H3. The inline title sits above H1 by the same
+   step H1 sits above H2. Other snippets read --title-inline-size. */
 :root {
-  --title-h1-size: clamp(2rem, 1.75rem + 1vw, 2.6rem);
-  --title-h2-size: clamp(1.45rem, 1.3rem + 0.55vw, 1.9rem);
-  --title-h3-size: clamp(1.18rem, 1.08rem + 0.3vw, 1.42rem);
+  --title-h1-size: clamp(1.6rem, 1.42rem + 0.7vw, 2.05rem);
+  --title-h2-size: clamp(1.3rem, 1.18rem + 0.45vw, 1.65rem);
+  --title-h3-size: clamp(1.08rem, 1rem + 0.25vw, 1.28rem);
+  --title-inline-size: calc(2 * var(--title-h1-size) - var(--title-h2-size));
   --title-weight: 700;
+  --title-style: italic;
 
   --h1-underline-color: currentColor;
   --h1-underline-thickness: 2px;
@@ -15,11 +20,20 @@
   --h1-gap-below: 0.52em;
   --h2-gap-below: 0.28em;
   --h3-gap-below: 0.22em;
+}
 
-  /* Theme compatibility vars */
+/* Theme compatibility vars — on body, where Obsidian defines them (on :root
+   they'd be overridden). */
+body {
   --h1-size: var(--title-h1-size);
   --h2-size: var(--title-h2-size);
   --h3-size: var(--title-h3-size);
+  --h1-weight: var(--title-weight);
+  --h2-weight: var(--title-weight);
+  --h3-weight: var(--title-weight);
+  --h1-style: var(--title-style);
+  --h2-style: var(--title-style);
+  --h3-style: var(--title-style);
 }
 
 /* Reading / Preview mode */
@@ -28,11 +42,18 @@
 .markdown-reading-view h1 {
   font-size: var(--title-h1-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   padding-bottom: var(--h1-text-to-underline);
-  margin-bottom: var(--h1-gap-below);
+  margin-bottom: calc(var(--h1-gap-below) * 0.75);
   border-bottom: var(--h1-underline-thickness) solid var(--h1-underline-color) !important;
   border-bottom-color: color-mix(in srgb, currentColor 50%, transparent) !important;
+}
+
+/* Stop the next block's top margin from collapsing into (and widening) the gap */
+.markdown-preview-view .el-h1 + div > :first-child,
+.markdown-rendered h1 + * {
+  margin-top: 0;
 }
 
 .markdown-rendered h2,
@@ -40,6 +61,7 @@
 .markdown-reading-view h2 {
   font-size: var(--title-h2-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   margin-bottom: var(--h2-gap-below);
 }
@@ -49,6 +71,7 @@
 .markdown-reading-view h3 {
   font-size: var(--title-h3-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   margin-bottom: var(--h3-gap-below);
 }
@@ -57,6 +80,7 @@
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 {
   font-size: var(--title-h1-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   padding-bottom: var(--h1-text-to-underline) !important;
   margin-bottom: 0 !important;
@@ -67,6 +91,7 @@
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 {
   font-size: var(--title-h2-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   margin-bottom: 0 !important;
 }
@@ -74,6 +99,7 @@
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 {
   font-size: var(--title-h3-size) !important;
   font-weight: var(--title-weight);
+  font-style: var(--title-style);
   line-height: 1.25;
   margin-bottom: 0 !important;
 }
@@ -96,6 +122,7 @@
   .markdown-source-view.mod-cm6 .cm-line:has(.cm-header-1) {
     font-size: var(--title-h1-size) !important;
     font-weight: var(--title-weight);
+    font-style: var(--title-style);
     line-height: 1.25;
     padding-bottom: var(--h1-text-to-underline) !important;
     margin-bottom: 0 !important;
@@ -106,6 +133,7 @@
   .markdown-source-view.mod-cm6 .cm-line:has(.cm-header-2) {
     font-size: var(--title-h2-size) !important;
     font-weight: var(--title-weight);
+    font-style: var(--title-style);
     line-height: 1.25;
     margin-bottom: 0 !important;
   }
@@ -113,6 +141,7 @@
   .markdown-source-view.mod-cm6 .cm-line:has(.cm-header-3) {
     font-size: var(--title-h3-size) !important;
     font-weight: var(--title-weight);
+    font-style: var(--title-style);
     line-height: 1.25;
     margin-bottom: 0 !important;
   }

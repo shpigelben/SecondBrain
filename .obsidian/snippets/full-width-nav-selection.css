@@ -1,0 +1,25 @@
+/* Sharp, full-width highlight for items in file explorer, search, outline, bookmarks, tags, etc. */
+
+.tree-item-self {
+  border-radius: 0;
+}
+
+/* Spread the item's background sideways with a box-shadow, then clip it vertically to the row */
+.tree-item-self:hover,
+.tree-item-self.is-active,
+.tree-item-self.is-selected {
+  box-shadow: 0 0 0 100vmax var(--full-width-nav-bg);
+  clip-path: inset(0 -100vmax);
+}
+
+.tree-item-self:hover {
+  --full-width-nav-bg: var(--nav-item-background-hover);
+}
+
+.tree-item-self.is-selected {
+  --full-width-nav-bg: var(--nav-item-background-selected);
+}
+
+.tree-item-self.is-active {
+  --full-width-nav-bg: var(--nav-item-background-active);
+}

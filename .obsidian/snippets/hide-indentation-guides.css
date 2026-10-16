@@ -1,0 +1,24 @@
+/* Hide vertical indentation guide lines everywhere in the vault */
+
+body {
+  --indentation-guide-color: transparent;
+  --indentation-guide-color-active: transparent;
+  --nav-indentation-guide-color: transparent;
+}
+
+/* Editor (Live Preview / Source mode) list guides */
+.markdown-source-view.mod-cm6 .cm-indent::before,
+.markdown-source-view.mod-cm6 .cm-active-indent::before {
+  display: none !important;
+}
+
+/* Reading view list guides */
+.markdown-rendered.show-indentation-guide li > ul::before,
+.markdown-rendered.show-indentation-guide li > ol::before {
+  display: none !important;
+}
+
+/* Sidebars: file explorer, outline, search, bookmarks, tags, etc. */
+.tree-item-children {
+  border-inline-start-color: transparent !important;
+}

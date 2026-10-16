@@ -143,5 +143,22 @@
       ],
       "key": "="
     }
+  ],
+  "word-smith:toggle-zen": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "word-smith:repair-display": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

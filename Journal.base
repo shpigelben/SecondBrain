@@ -1,0 +1,11 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - type == "journal"
+    order:
+      - file.name
+      - formula.Untitled

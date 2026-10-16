@@ -1,4 +1,4 @@
 /* Base styling for inline titles */
 .inline-title {
-  font-size: 10em;
+  font-size: var(--title-inline-size, calc(2 * var(--h1-size) - var(--h2-size)));
 }

@@ -6,17 +6,53 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
+  "colorGroups": [
+    {
+      "query": "[type] concept",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    },
+    {
+      "query": "[type] puzzle",
+      "color": {
+        "a": 1,
+        "rgb": 27381
+      }
+    },
+    {
+      "query": "[type] fleeting",
+      "color": {
+        "a": 1,
+        "rgb": 10879231
+      }
+    },
+    {
+      "query": "[type] project",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "[type] book",
+      "color": {
+        "a": 1,
+        "rgb": 16711693
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.69798507462687,
+  "lineSizeMultiplier": 1.79900186567164,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.401026119402985,
+  "repelStrength": 10.9103544127867,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.8008269539569646,
+  "linkDistance": 178,
+  "scale": 0.04926492206801419,
   "close": true
 }

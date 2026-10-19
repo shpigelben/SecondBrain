@@ -1,0 +1,16 @@
+/* ---------------------------------------------------------
+   Left Panel Tabs
+   Pushes the left sidebar's tab buttons (Files, Search,
+   Bookmarks) to the right edge of the panel. The spacer
+   that normally fills the gap after them is hidden and an
+   auto margin takes up the free space before them instead.
+--------------------------------------------------------- */
+
+.workspace-split.mod-left-split .workspace-tab-header-spacer {
+    display: none;
+}
+
+.workspace-split.mod-left-split .workspace-tab-header-container-inner {
+    flex: 0 0 auto;
+    margin-left: auto;
+}

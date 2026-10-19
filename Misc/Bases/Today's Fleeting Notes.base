@@ -18,9 +18,11 @@ views:
     sort:
       - property: formula.created
         direction: ASC
+      - property: tags
+        direction: ASC
       - property: file.ctime
         direction: ASC
     columnSize:
-      file.name: 293
-      note.tags: 239
-      formula.created: 252
+      file.name: 266
+      note.tags: 256
+      formula.created: 366

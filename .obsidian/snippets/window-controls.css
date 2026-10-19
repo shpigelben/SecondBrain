@@ -1,0 +1,95 @@
+/* Styles for the Window Controls plugin (replacement macOS traffic lights)
+ * At rest: a single dimmed rounded square. On hover: all three buttons. */
+
+/* ---------- Tweak these ---------- */
+.window-controls {
+	--wc-size: 12px;
+	--wc-gap: 8px;
+	--wc-left: 13px;
+	--wc-top: calc((var(--header-height) - var(--wc-size)) / 2);
+	--wc-radius: 3px;
+	--wc-hover-padding: 6px; /* enlarges the hover target around the buttons */
+
+	/* Resting colour, then colours shown on hover */
+	--wc-idle: var(--text-faint);
+	--wc-close: #ff5f57;
+	--wc-minimize: #febc2e;
+	--wc-zoom: #28c840;
+
+	--wc-glyph: rgba(0, 0, 0, 0.55);
+	--wc-glyph-size: 8px;
+	--wc-rest-opacity: 0.5;
+	--wc-blurred-opacity: 0.25;
+	--wc-speed: 160ms;
+}
+
+/* ---------- Layout ---------- */
+.window-controls {
+	position: fixed;
+	top: calc(var(--wc-top) - var(--wc-hover-padding));
+	left: calc(var(--wc-left) - var(--wc-hover-padding));
+	padding: var(--wc-hover-padding);
+	z-index: 1000;
+	display: flex;
+	-webkit-app-region: no-drag;
+}
+
+.window-controls.is-fullscreen {
+	display: none;
+}
+
+.window-control {
+	--icon-size: var(--wc-glyph-size);
+	--icon-stroke: 3px;
+	flex-shrink: 0;
+	width: var(--wc-size);
+	height: var(--wc-size);
+	border-radius: var(--wc-radius);
+	background-color: var(--wc-idle);
+	color: var(--wc-glyph);
+	opacity: var(--wc-rest-opacity);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	cursor: default;
+	transition:
+		width var(--wc-speed) ease,
+		margin-left var(--wc-speed) ease,
+		opacity var(--wc-speed) ease,
+		background-color var(--wc-speed) ease;
+}
+
+.window-controls.is-blurred .window-control:first-child {
+	opacity: var(--wc-blurred-opacity);
+}
+
+/* Only the first button shows at rest */
+.window-control:not(:first-child) {
+	width: 0;
+	opacity: 0;
+}
+
+.window-control .svg-icon {
+	opacity: 0;
+	transition: opacity var(--wc-speed) ease;
+}
+
+/* ---------- Hover: expand, reveal colours and glyphs ---------- */
+.window-controls:hover .window-control {
+	opacity: 1;
+}
+
+.window-controls:hover .window-control:not(:first-child) {
+	width: var(--wc-size);
+	margin-left: var(--wc-gap);
+}
+
+.window-controls:hover .window-control-close { background-color: var(--wc-close); }
+.window-controls:hover .window-control-minimize { background-color: var(--wc-minimize); }
+.window-controls:hover .window-control-zoom { background-color: var(--wc-zoom); }
+.window-controls:hover .svg-icon { opacity: 1; }
+
+.window-control:active {
+	filter: brightness(0.85);
+}

@@ -29,7 +29,7 @@
     "randomizeCardOrder": null,
     "enableNoteReviewPaneOnStartup": true,
     "tagsToReview": [
-      "#note"
+      "#project-euler"
     ],
     "noteTagsToIgnore": [],
     "noteFoldersToIgnore": [],
@@ -46,8 +46,8 @@
     "initiallyExpandAllSubdecksInTree": false,
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
-    "flashcardHeightPercentage": 79.97432605905006,
-    "flashcardWidthPercentage": 39.979757085020246,
+    "flashcardHeightPercentage": 79.92874109263659,
+    "flashcardWidthPercentage": 39.97395833333333,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",
@@ -75,14 +75,14 @@
     "scheduleDataVaultLocation": "Spaced Repetition",
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false,
-    "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
+    "preferredDateFormatForNoteReviewQueue": "DD-MM-YY",
     "preferredLocale": "-",
     "showDebugMessages": false,
     "showFileNameInFileLink": false,
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2026-10-16",
+  "buryDate": "2026-10-19",
   "buryList": [],
   "historyDeck": null,
   "scheduleData": {

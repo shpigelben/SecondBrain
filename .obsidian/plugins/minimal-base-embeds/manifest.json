@@ -1,0 +1,9 @@
+{
+  "id": "minimal-base-embeds",
+  "name": "Minimal Base Embeds",
+  "version": "1.0.0",
+  "minAppVersion": "1.9.0",
+  "description": "Bases embedded in notes, and base files opened in a tab, get a minimal header with a toolbar toggle and a prominent New note row underneath.",
+  "author": "Ben Shpigel",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,111 @@
+/* Minimal Base Embeds
+   Applies to bases embedded in notes and to base files opened in
+   their own tab. Canvases and hover previews keep the normal toolbar. */
+
+/* Hide the toolbar until the toggle is switched on. */
+:is(.workspace-leaf-content[data-type="markdown"] :is(.bases-embed, .block-language-base), .workspace-leaf-content[data-type="bases"])
+.bases-toolbar:not(.is-tools-open) .bases-toolbar-item:not(.bases-toolbar-new-item-menu, .minimal-embed-toggle) {
+    display: none;
+}
+
+/* Base name, first in the header */
+.minimal-embed-title {
+    order: -2;
+    min-width: 0;
+    padding-inline: var(--size-2-2) var(--size-4-2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--text-normal);
+    font-family: var(--font-interface);
+    font-size: var(--font-ui-medium);
+    font-weight: var(--font-semibold);
+}
+
+/* Toggle, pushed to the end of the header */
+.minimal-embed-toggle {
+    order: 99;
+}
+
+:is(.workspace-leaf-content[data-type="markdown"] :is(.bases-embed, .block-language-base), .workspace-leaf-content[data-type="bases"])
+.bases-toolbar:not(.is-tools-open) .minimal-embed-toggle {
+    margin-inline-start: auto;
+}
+
+.minimal-embed-toggle .text-icon-button.is-active {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+/* The toolbar "+" moved to the row under the base. It stays in the
+   layout but invisible: Obsidian closes the New popup as soon as
+   that button stops being shown. */
+:is(.workspace-leaf-content[data-type="markdown"] :is(.bases-embed, .block-language-base), .workspace-leaf-content[data-type="bases"]) .bases-toolbar-new-item-menu {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* "New note" row under the base */
+.minimal-embed-add-row {
+    --add-row-tint: color-mix(in srgb, var(--interactive-accent) 9%, transparent);
+    --add-row-tint-strong: color-mix(in srgb, var(--interactive-accent) 16%, transparent);
+    --add-row-border: color-mix(in srgb, var(--interactive-accent) 32%, transparent);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-4-2);
+    height: 36px;
+    margin-top: var(--size-4-2);
+    border: 1px solid var(--add-row-border);
+    border-radius: var(--radius-m);
+    background-color: var(--add-row-tint);
+    color: var(--text-normal);
+    font-family: var(--font-interface);
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-semibold);
+    letter-spacing: 0.01em;
+    cursor: var(--cursor);
+    user-select: none;
+    transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+.minimal-embed-add-row-icon {
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    --icon-size: 14px;
+    --icon-stroke: 2.75px;
+}
+
+.minimal-embed-add-row:hover {
+    background-color: var(--add-row-tint-strong);
+    border-color: var(--interactive-accent);
+}
+
+.minimal-embed-add-row:active {
+    transform: translateY(1px);
+}
+
+.minimal-embed-add-row:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+/* In a base file's own tab the row stays pinned under the scrolling view. */
+.workspace-leaf-content[data-type="bases"] .minimal-embed-add-row {
+    flex: none;
+    margin: var(--size-4-2) var(--size-4-3) calc(var(--size-4-3) + var(--safe-area-inset-bottom, 0px));
+}
+
+.print .minimal-embed-add-row {
+    display: none;
+}

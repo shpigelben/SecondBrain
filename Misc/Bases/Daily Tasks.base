@@ -1,0 +1,29 @@
+filters:
+  and:
+    - type == "task"
+    - file.inFolder("Misc/Tasks")
+    - created <= date("20" + this.file.name.slice(6, 8) + "-" + this.file.name.slice(3, 5) + "-" + this.file.name.slice(0, 2))
+    - or:
+        - done != true
+        - done_date.isEmpty()
+        - done_date >= date("20" + this.file.name.slice(6, 8) + "-" + this.file.name.slice(3, 5) + "-" + this.file.name.slice(0, 2))
+properties:
+  note.done:
+    displayName: Done
+  note.done_date:
+    displayName: Done On
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: Tasks
+    order:
+      - file.name
+      - done
+    sort:
+      - property: done
+        direction: ASC
+    columnSize:
+      file.name: 507
+    indentProperties: false
+    separator: " -> "

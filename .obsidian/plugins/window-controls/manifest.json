@@ -1,0 +1,9 @@
+{
+	"id": "window-controls",
+	"name": "Window Controls",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Replaces the macOS window buttons with ones you can style from a CSS snippet.",
+	"author": "Ben Shpigel",
+	"isDesktopOnly": true
+}

@@ -4,41 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "19fc7761dfcf9def",
+        "id": "84ddb37da8223f25",
         "type": "tabs",
         "children": [
           {
-            "id": "4a4b90b642bc853e",
+            "id": "293347ed3a36eb1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Concepts/Home Circuit I.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Types.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Home Circuit I"
-            }
-          },
-          {
-            "id": "5cbb16722d27d4b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Collecting Data in Obsidian"
+              "icon": "lucide-table",
+              "title": "Types"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.3533935546875
+    "width": 218.76887130737305
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -109,7 +91,7 @@
       {
         "id": "ddf1501bcac9f0ab",
         "type": "tabs",
-        "dimension": 71.79125528913963,
+        "dimension": 54.66101694915253,
         "children": [
           {
             "id": "d5ffacb4a27a4af8",
@@ -159,22 +141,12 @@
             }
           },
           {
-            "id": "ab590917f80b7a65",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "3a2882b59eff9169",
+            "id": "5cbb16722d27d4b9",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "Fleeting Notes.base",
+                "file": "Misc/Bases/Fleeting Notes.base",
                 "viewName": "List"
               },
               "icon": "lucide-list",
@@ -182,12 +154,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "6574fed10cb758c8",
         "type": "tabs",
-        "dimension": 28.208744710860366,
+        "dimension": 45.33898305084747,
         "children": [
           {
             "id": "574cf1bf0654653c",
@@ -195,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md",
+                "file": "Types.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md"
+                "file": "Types.base"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -222,7 +194,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -253,81 +224,81 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5697021484375
+    "width": 264.97137451171875
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": false,
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": true,
-      "canvas:Create new canvas": false,
       "random-note:Open random note": false,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
       "command-palette:Open command palette": true,
       "templates:Insert template": true,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": true,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": true,
+      "word-smith:Open the Word-Smith menu": true,
       "daily-notes:Open today's daily note": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "word-smith:Open the Word-Smith menu": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "5cbb16722d27d4b9",
+  "active": "293347ed3a36eb1a",
   "lastOpenFiles": [
-    "Fleeting/Lucid Dreaming for Stage Fright.md",
-    "Fleeting Notes.base",
-    "Types.base",
-    "Journal.base",
-    "Journal/22-08-26.md",
-    "Journal/23-08-26.md",
-    "Journal/24-08-26.md",
-    "Journal/28-08-26.md",
-    "Journal/16-10-26.md",
-    "Journal/15-10-26.md",
-    "Journal/14-10-26.md",
-    "Journal/01-08-26.md.tmp",
-    "Home.md",
-    "Misc/MOCs/Research MOC.md",
-    "Concepts/Gemini Overview.md",
-    "Reading List.md",
-    "Misc/Canvases/Dashboard.canvas",
-    "Concepts/Project Shoshana Circuit.md",
-    "Concepts/Spiritual Minimum.md",
-    "Concepts/Physical Minimum.md",
-    "Concepts/Mental Minimum.md",
-    "Concepts/Emotional Minimum.md",
-    "Books/The Ocean at the End of the Lane.md",
-    "Books/The Fall of Hyperion.md",
-    "Books/How We Learn.md",
-    "Books/Hyperion.md",
-    "Concepts/Physical Development Journey.md",
+    "Misc/Bases/Fleeting Notes.base",
+    "Concepts/Quotes.md",
+    "Journal/19-10-26.md",
+    "Journal/12-10-26.md",
+    "Misc/Tasks/Move thesis notes here.md",
+    "Journal/18-10-26.md",
     "Fleeting/Untitled.md",
-    "Untitled.md",
-    "Fleeting/Exercise Type & Timing.md",
-    "Fleeting/Foreword for Book.md",
-    "Daily Minimum.base",
-    "Misc/Bases/Today's Fleeting Notes.base",
-    "4 Misc/Journal",
-    "4 Misc",
-    "Books",
-    "Fleeting",
-    "4 Misc/Attachments/SkyLine.png",
-    "4 Misc/Attachments/sonicBoom.png",
-    "Misc/Attachments/Scanned Document.png",
-    "Misc/Attachments/700px-Diffraction_geometry.svg.png",
-    "Misc/Attachments/Sketch.svg",
-    "Misc/Attachments/BCS2.png",
-    "Misc/Attachments/BCS3.png",
-    "Misc/Attachments/Binodal line.png",
+    "Journal/15-08-26.md",
+    "Misc/Templates/Task Template.md",
+    "Misc/Bases/Daily Tasks.base",
+    "Misc/Tasks/Daily Note Quote.md",
+    "Misc/Tasks/Externally Save Vault Images.md",
+    "Misc/Tasks/Fix Linking Exercise Circuits in Daily Note.md",
+    "Misc/Tasks/Insert Challenges into Vault.md",
+    "Misc/Tasks/Move Father's Transfer to Special Account.md",
+    "Misc/Tasks/Schedule Doctor Visit for Endocrinologist Referral.md",
+    "Fleeting/Untitled 1.md",
+    "Misc/Excalidraw/Double Slit Illustrations.md",
+    "Concepts/Home Circuit I.md",
+    "Fleeting/Collecting Data in Obsidian.md",
+    "Journal/17-10-26.md",
+    "Fleeting/The Kekulé Problem.md",
+    "Fleeting/Capability Vs Competence.md",
+    "Fleeting/Intelligibility.md",
+    "Misc/Tasks",
+    "Misc/Quotes",
+    "Word-Smith/ws-structure (Conflicted copy mac.local 202610182009).md",
+    "Fleeting/Lingual Acquisition of Skills.md",
+    "Concepts/Coexistence of Phases in Pure Substances.md",
+    "Misc/Attachments/E721126F-CF2B-4F09-8976-74A9B6E94940_4_5005_c.jpeg",
+    "Misc/Attachments/62A5E1DA-40E9-43D6-9226-93CFCE4ED8A5.jpeg",
+    "Misc/Canvases/SubjectMindmap.canvas",
+    "Fleeting Notes.base",
     "Misc/Attachments/binodal T-C.webp",
-    "4 Misc/Attachments/eff8ac8a-478c-4582-8b56-210955f1ee9a.svg",
-    "4 Misc/Canvases/MSc Research.canvas",
-    "Misc/Canvases/Electric Response.canvas",
-    "9. Misc/Canvases/Work In Progress.canvas",
-    "9. Misc/Canvases/An Organized List for Later Consumption.canvas",
-    "Misc/Canvases/Condensed Matter Mind Map.canvas",
-    "AI_workflow.canvas",
-    "Misc/Canvases/Optics Canvas.canvas",
-    "4. Misc/Canvases/Acoustic Transducers.canvas",
+    "4. Misc/astrophysics banner.png",
+    "4. Misc/classical mechanics banner.png",
+    "4. Misc/Nanofabrication.pdf",
+    "4. Misc/Scanned Document.pdf",
+    "4. Misc/Pasted image 20230524083513.png",
+    "4. Misc/Building representations.png",
+    "4. Misc/dynamical systems banner.png",
+    "4. Misc/Open Composition of Carnot Engines.png",
+    "4. Misc/numerical methods banner.png",
+    "4. Misc/Light Generated Bubbles for Microscopic Propulsion.pdf",
+    "4. Misc/Composition of Carnot Engines.pdf",
+    "4. Misc/sivan-dubi-2021-theory-of-hot-photoluminescence-from-drude-metals.pdf",
+    "4. Misc/Canvases/NMR Spectroscopy.canvas",
+    "4. Misc/Canvases/Condensed Matter Mind Map.canvas",
+    "4. Misc/Canvases/Work In Progress.canvas",
+    "4. Misc/Canvases/MPEO.canvas",
+    "4. Misc/Canvases/Electric Response.canvas",
+    "4. Misc/Canvases/Optics Canvas.canvas",
+    "4. Misc/Canvases/Lasers.canvas",
+    "4. Misc/Canvases/MSc Research.canvas",
     "4. Misc/Canvases/Anderson Localization Project.canvas"
   ]
 }

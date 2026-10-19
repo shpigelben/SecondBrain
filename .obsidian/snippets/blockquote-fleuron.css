@@ -1,0 +1,89 @@
+/* Blockquote: minimal rounded box
+   Every blockquote sits in a thin box with rounded corners.
+   Quotes written as  > *quote* Author  also get larger italic text,
+   with the author in small caps after it.
+
+   Reading view and Live Preview share the same rules and numbers.
+   Live Preview has no <blockquote>: each line is its own .cm-line, so the
+   box's top edge goes on the first line and its bottom edge on the last. */
+
+body {
+  --quote-border: color-mix(in srgb, var(--text-normal) 18%, transparent);
+  --quote-fill: color-mix(in srgb, var(--text-normal) 3%, transparent);
+  --quote-radius: 10px;
+  --quote-pad-x: 1.2rem;
+  --quote-pad-y: 0.85rem;
+}
+
+
+/* ---------- The box ---------- */
+
+.markdown-rendered blockquote {
+  margin: 1.5em 0;
+  padding: var(--quote-pad-y) var(--quote-pad-x);
+  border: 1px solid var(--quote-border);
+  border-radius: var(--quote-radius);
+  background: var(--quote-fill);
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-quote {
+  --blockquote-border-thickness: 0px;
+  --blockquote-background-color: transparent;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote {
+  padding-left: var(--quote-pad-x);
+  padding-right: var(--quote-pad-x);
+  border-left: 1px solid var(--quote-border);
+  border-right: 1px solid var(--quote-border);
+  background: var(--quote-fill);
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote::before {
+  border: none;
+}
+
+/* First line of a quote: top edge */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote:not(.HyperMD-quote + .HyperMD-quote) {
+  padding-top: var(--quote-pad-y);
+  border-top: 1px solid var(--quote-border);
+  border-top-left-radius: var(--quote-radius);
+  border-top-right-radius: var(--quote-radius);
+}
+
+/* Last line of a quote: bottom edge */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote:not(:has(+ .HyperMD-quote)) {
+  padding-bottom: var(--quote-pad-y);
+  border-bottom: 1px solid var(--quote-border);
+  border-bottom-left-radius: var(--quote-radius);
+  border-bottom-right-radius: var(--quote-radius);
+}
+
+
+/* ---------- Quote text (> *quote* Author) ---------- */
+
+.markdown-rendered blockquote:has(> p:first-child > em:first-child),
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote:has(.cm-em) {
+  font-size: 0.9em;
+  line-height: 1.6;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+/* Left-aligned, beating Word-Smith's justify */
+.markdown-rendered blockquote:has(> p:first-child > em:first-child) > p,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-quote:has(.cm-em) {
+  text-align: left;
+  text-align-last: left;
+  text-wrap: pretty;
+}
+
+.markdown-rendered blockquote > p:first-child > em:first-child,
+.markdown-source-view.mod-cm6 .HyperMD-quote:has(.cm-em) .cm-em {
+  font-size: 1.28em;
+  line-height: 1.55;
+  font-variant: normal;
+  letter-spacing: 0;
+  color: var(--text-normal);
+}

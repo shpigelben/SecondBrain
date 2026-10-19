@@ -1,5 +1,5 @@
 ---
-type: concept
+type: fleeting
 tags:
   - daily-minimum
 ---

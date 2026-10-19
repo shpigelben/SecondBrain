@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"71f35aa8336df95c","type":"text","text":"[Differential Geometry](../MOCs/Differential%20Geometry.md)","x":-80,"y":-660,"width":140,"height":60},
+		{"id":"2944cc517fd856db","x":-80,"y":-540,"width":140,"height":100,"type":"text","text":"[Discrete Differential Geometry](Discrete%20Differential%20Geometry)"},
+		{"id":"449eda699d277b47","x":-280,"y":-530,"width":120,"height":80,"type":"text","text":"[Computer Graphics](../MOCs/Computer%20Graphics.md)\n"}
+	],
+	"edges":[
+		{"id":"ee7966dc400473d4","fromNode":"71f35aa8336df95c","fromSide":"bottom","toNode":"2944cc517fd856db","toSide":"top"},
+		{"id":"c5517e4d9fe5f550","fromNode":"2944cc517fd856db","fromSide":"left","toNode":"449eda699d277b47","toSide":"right","fromEnd":"arrow"}
+	]
+}

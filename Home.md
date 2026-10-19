@@ -1,7 +1,7 @@
 ---
 type: moc
 ---
-![Fleeting Notes](Fleeting%20Notes.base)
+![Fleeting Notes](Misc/Bases/Fleeting%20Notes.base)
 
 ![Current Learning Path](Misc/Canvases/Dashboard.canvas)
 

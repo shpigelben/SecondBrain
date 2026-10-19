@@ -1,5 +1,5 @@
 ---
-type: concept
+type: fleeing
 tags:
   - daily-minimum
 ---

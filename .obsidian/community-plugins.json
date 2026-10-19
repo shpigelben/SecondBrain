@@ -1,11 +1,15 @@
 [
   "word-smith",
   "obsidian-excalidraw-plugin",
-  "hide-traffic-lights",
   "calendar",
   "obsidian-latex-suite",
   "obsidian-spaced-repetition",
   "excalidraw-extras",
   "cursor-smith",
-  "obsidian-hider"
+  "obsidian-hider",
+  "obsidian-rtl",
+  "image-text-wrap",
+  "templater-obsidian",
+  "window-controls",
+  "minimal-base-embeds"
 ]

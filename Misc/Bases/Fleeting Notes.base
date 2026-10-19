@@ -8,10 +8,9 @@ views:
       - file.name
       - tags
     sort: []
-    limit: 10
     columnWidth: 300
     columnSize:
-      file.name: 284
+      file.name: 252
   - type: list
     name: List
     filters:
@@ -20,3 +19,5 @@ views:
     sort:
       - property: file.ctime
         direction: ASC
+    markers: bullet
+    indentProperties: false

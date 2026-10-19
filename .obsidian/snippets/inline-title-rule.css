@@ -15,6 +15,10 @@
    - Size, weight, style and spacing go through Obsidian's own inline-title
      variables: its `.inline-title:not([data-level])` rule out-specifies a
      plain `.inline-title` selector, but reads these variables.
+   - The space above the title (tab bar → top of the letters) equals the
+     space below it (baseline → rule). `text-box` trims the title's line box
+     to cap height → baseline so both are measured from the letters, and a
+     negative top margin cancels the editor's own top padding.
    ========================================================================== */
 
 body {
@@ -23,13 +27,17 @@ body {
   --inline-title-style: italic;
   --inline-title-margin-bottom: 0.9em;    /* rule ↔ first line of the note */
 
-  --inline-title-rule-gap: 0.35em;        /* text ↔ rule */
-  --inline-title-rule-thickness: 1px;
-  --inline-title-rule-color: color-mix(in srgb, currentColor 42%, transparent);
+  --inline-title-rule-gap: 0.68em;        /* baseline ↔ rule, and tab bar ↔ cap height */
+  --inline-title-pane-top: var(--file-margins-y); /* editor top padding to cancel */
+  /* Same line as the divider between split panes, in light and dark. */
+  --inline-title-rule-thickness: var(--divider-width);
+  --inline-title-rule-color: var(--divider-color);
 }
 
 /* Note titles only — not the heading titles of embeds/popovers ([data-level]). */
 .inline-title:not([data-level]) {
+  text-box: trim-both cap alphabetic;
+  margin-top: calc(var(--inline-title-rule-gap) - var(--inline-title-pane-top));
   padding-bottom: var(--inline-title-rule-gap);
 
   /* Bottom border only; its artwork extends 100vmax past both sides. */
@@ -40,4 +48,15 @@ body {
   border-image-width: 0 0 var(--inline-title-rule-thickness) 0;
   border-image-outset: 0 100vmax;
   border-image-repeat: stretch;
+}
+
+/* Sidebar notes use a single 20px file margin instead of --file-margins-y. */
+.mod-primary-split .inline-title:not([data-level]),
+.mod-secondary-split .inline-title:not([data-level]) {
+  --inline-title-pane-top: var(--size-4-5);
+}
+
+/* Word-Smith's masks replace the editor's top padding with their own. */
+body.ws-masks-active:not(.zenmode-active) .markdown-source-view.mod-cm6 .inline-title:not([data-level]) {
+  --inline-title-pane-top: var(--ws-scroller-pad-top, 0px);
 }

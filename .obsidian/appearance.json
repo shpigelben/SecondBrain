@@ -19,7 +19,11 @@
     "inline-title-rule",
     "text-color",
     "hide-indentation-guides",
-    "calendar-airy"
+    "calendar-airy",
+    "bases-add-row",
+    "blockquote-fleuron",
+    "window-controls",
+    "left-panel-tabs"
   ],
   "showViewHeader": false,
   "nativeMenus": false,

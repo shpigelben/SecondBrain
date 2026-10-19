@@ -7,10 +7,10 @@
     "downscalePercent": 75
   },
   "useMarkdownLinks": true,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Misc/Attachments",
+  "attachmentFolderPath": "4 Misc/Attachments",
   "readableLineLength": true,
   "focusNewTab": false,
   "rightToLeft": false,
@@ -20,7 +20,5 @@
   "showLineNumber": false,
   "mobileToolbarCommands": [],
   "mobileQuickRibbonItem": "daily-notes:Open today's daily note",
-  "userIgnoreFilters": [
-    "Word-Smith/"
-  ]
+  "userIgnoreFilters": null
 }

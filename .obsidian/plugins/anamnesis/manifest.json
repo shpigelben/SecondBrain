@@ -1,0 +1,9 @@
+{
+  "id": "anamnesis",
+  "name": "Anamnesis",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "A quiet queue that makes every fleeting note end somewhere: advanced, rested, or let go.",
+  "author": "Ben Shpigel",
+  "isDesktopOnly": false
+}

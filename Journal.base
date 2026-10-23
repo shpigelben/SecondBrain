@@ -8,4 +8,8 @@ views:
         - type == "journal"
     order:
       - file.name
+      - date
       - formula.Untitled
+    sort:
+      - property: date
+        direction: ASC

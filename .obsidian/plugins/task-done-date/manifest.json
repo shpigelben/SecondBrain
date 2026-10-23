@@ -1,9 +1,0 @@
-{
-  "id": "task-done-date",
-  "name": "Task Done Date",
-  "version": "1.0.0",
-  "minAppVersion": "1.9.0",
-  "description": "Stamps done_date on notes with type: task when their done checkbox is ticked, and clears it when unticked.",
-  "author": "Ben Shpigel",
-  "isDesktopOnly": false
-}

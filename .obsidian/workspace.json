@@ -8,16 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "293347ed3a36eb1a",
+            "id": "729f2172edc50691",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Types.base",
-                "viewName": "Table"
+                "file": "Journal/23-10-26.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "Types"
+              "icon": "lucide-file",
+              "title": "23-10-26"
             }
           }
         ]
@@ -33,6 +35,26 @@
         "id": "f4197ade6c28db97",
         "type": "tabs",
         "children": [
+          {
+            "id": "2bff2f22e6bb5465",
+            "type": "leaf",
+            "state": {
+              "type": "anamnesis-recall",
+              "state": {},
+              "icon": "brain",
+              "title": "Recall"
+            }
+          },
+          {
+            "id": "a77352e1580c8372",
+            "type": "leaf",
+            "state": {
+              "type": "anamnesis-queue",
+              "state": {},
+              "icon": "wind",
+              "title": "Fleeting"
+            }
+          },
           {
             "id": "ce5758ae7297a0ee",
             "type": "leaf",
@@ -66,7 +88,7 @@
             }
           },
           {
-            "id": "8267069f5e437c0c",
+            "id": "108232915f97fcfc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,11 +100,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 218.76887130737305
+    "width": 315.3207702636719
   },
   "right": {
     "id": "c9f99b832eeb0654",
@@ -91,25 +114,15 @@
       {
         "id": "ddf1501bcac9f0ab",
         "type": "tabs",
-        "dimension": 54.66101694915253,
+        "dimension": 40.130151843817785,
         "children": [
-          {
-            "id": "d5ffacb4a27a4af8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
           {
             "id": "a2b1942a4872db41",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md",
+                "file": "Journal/23-10-26.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -123,16 +136,16 @@
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": false,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": -0.7,
                   "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
+                  "lineSizeMultiplier": 3.9976026119403,
                   "collapse-forces": false,
                   "centerStrength": 0.501630843857155,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 132,
-                  "scale": 0.9124213652025056,
+                  "scale": 1.1846263556999144,
                   "close": true
                 }
               },
@@ -141,25 +154,22 @@
             }
           },
           {
-            "id": "5cbb16722d27d4b9",
+            "id": "d5ffacb4a27a4af8",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Misc/Bases/Fleeting Notes.base",
-                "viewName": "List"
-              },
-              "icon": "lucide-list",
-              "title": "Fleeting Notes"
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "6574fed10cb758c8",
         "type": "tabs",
-        "dimension": 45.33898305084747,
+        "dimension": 59.869848156182215,
         "children": [
           {
             "id": "574cf1bf0654653c",
@@ -167,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types.base",
+                "file": "Journal/23-10-26.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Types.base"
+                "file": "Journal/23-10-26.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -194,6 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reading List.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -212,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fleeting/Collecting Data in Obsidian.md",
+                "file": "Reading List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -220,11 +231,12 @@
               "title": "Outgoing links"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.97137451171875
+    "width": 393.7703857421875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,68 +249,70 @@
       "templates:Insert template": true,
       "obsidian-excalidraw-plugin:New drawing": true,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": true,
-      "word-smith:Open the Word-Smith menu": true,
       "daily-notes:Open today's daily note": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "anamnesis:Draw a fleeting note": false,
+      "anamnesis:Open recall": false,
+      "askesis:Open calendar": false,
+      "word-smith:Open the Word-Smith menu": false
     }
   },
-  "active": "293347ed3a36eb1a",
+  "active": "4c8df7b8dcda96e6",
   "lastOpenFiles": [
-    "Misc/Bases/Fleeting Notes.base",
-    "Concepts/Quotes.md",
-    "Journal/19-10-26.md",
-    "Journal/12-10-26.md",
-    "Misc/Tasks/Move thesis notes here.md",
-    "Journal/18-10-26.md",
-    "Fleeting/Untitled.md",
-    "Journal/15-08-26.md",
-    "Misc/Templates/Task Template.md",
-    "Misc/Bases/Daily Tasks.base",
-    "Misc/Tasks/Daily Note Quote.md",
-    "Misc/Tasks/Externally Save Vault Images.md",
-    "Misc/Tasks/Fix Linking Exercise Circuits in Daily Note.md",
-    "Misc/Tasks/Insert Challenges into Vault.md",
-    "Misc/Tasks/Move Father's Transfer to Special Account.md",
-    "Misc/Tasks/Schedule Doctor Visit for Endocrinologist Referral.md",
-    "Fleeting/Untitled 1.md",
-    "Misc/Excalidraw/Double Slit Illustrations.md",
-    "Concepts/Home Circuit I.md",
-    "Fleeting/Collecting Data in Obsidian.md",
-    "Journal/17-10-26.md",
-    "Fleeting/The Kekulé Problem.md",
-    "Fleeting/Capability Vs Competence.md",
-    "Fleeting/Intelligibility.md",
-    "Misc/Tasks",
-    "Misc/Quotes",
-    "Word-Smith/ws-structure (Conflicted copy mac.local 202610182009).md",
+    "Concepts/Zeroth Law of Thermodynamics.md",
+    "Journal/23-10-26.md",
+    "Journal/22-10-26.md",
+    "Misc/Attachments/IMG_3868.jpeg",
+    "4 Misc/Fonts/TeX Gyre Pagella/texgyrepagella-regular.otf",
+    "4 Misc/Fonts/TeX Gyre Pagella/texgyrepagella-italic.otf",
+    "4 Misc/Fonts/TeX Gyre Pagella/texgyrepagella-bolditalic.otf",
+    "4 Misc/Fonts/TeX Gyre Pagella/texgyrepagella-bold.otf",
+    "4 Misc/Fonts/Satoshi/Satoshi-VariableItalic.ttf",
+    "4 Misc/Fonts/Satoshi/Satoshi-Variable.ttf",
+    "4 Misc/Fonts/Satoshi/LICENSE.txt",
+    "4 Misc/Fonts/Recoleta/Recoleta-Regular.woff2",
+    "4 Misc/Fonts/Recoleta/Recoleta-Regular.woff",
+    "4 Misc/Fonts/Recoleta/Recoleta-Regular.ttf",
+    "Concepts/Physical Minimum.md",
+    "Journal/23-10-26 (Conflicted copy mac.local 202610230715).md",
+    "_Import/ThirdBrain/Emotional Intelligence - Daniel Goleman.md",
+    "_Import/ThirdBrain/Earth's Quantum Green House.md",
+    "_Import/ThirdBrain/Dragons Dogma 2.md",
+    "_Import/ThirdBrain/Big Picture Mind.canvas",
+    "_Import/ThirdBrain/AI_workflow.canvas",
+    "_Import/ThirdBrain/4. Misc/cropped_Pasted Image 20240717142100_841.md",
+    "_Import/ThirdBrain/1. MOCS/Books MOC.md",
+    "_Import/ThirdBrain/1. MOCS/Thoughts MOC.md",
+    "Misc/Canvases/Dashboard.canvas",
+    "_Import/ThirdBrain/Homes.md",
+    "Home.md",
+    "Misc/Challenges/No sugar.md",
+    "Misc/Challenges/Workout.md",
+    "Misc/Challenges/Thesis 10 min.md",
+    "Fleeting/Interview Questions.md",
+    "Fleeting/Digital Vs Analog.md",
+    "Fleeting/Lyot Filter.md",
     "Fleeting/Lingual Acquisition of Skills.md",
-    "Concepts/Coexistence of Phases in Pure Substances.md",
-    "Misc/Attachments/E721126F-CF2B-4F09-8976-74A9B6E94940_4_5005_c.jpeg",
-    "Misc/Attachments/62A5E1DA-40E9-43D6-9226-93CFCE4ED8A5.jpeg",
+    "Fleeting/Neural Healing.md",
+    "Fleeting/LLMs as a Link to Human Knowledge.md",
+    "Fleeting/How Bolometers Work?.md",
+    "Journal/14-10-26.md",
+    "Journal/15-10-26.md",
+    "_Import/ThirdBrain/Nervous System.canvas",
+    "_Import/ThirdBrain/4. Misc/images/Readme.svg",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241203093832.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241112114009.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241112110845.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241112110506.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241110221529.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20240726131914.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20241110221049.png",
+    "_Import/ThirdBrain/4. Misc/images/Pasted image 20240623164145.png",
+    "_Import/Hikkonu/thoughts.canvas",
+    "_Import/Hikkonu/Electromagnetic Transducers.canvas",
     "Misc/Canvases/SubjectMindmap.canvas",
-    "Fleeting Notes.base",
-    "Misc/Attachments/binodal T-C.webp",
-    "4. Misc/astrophysics banner.png",
-    "4. Misc/classical mechanics banner.png",
-    "4. Misc/Nanofabrication.pdf",
-    "4. Misc/Scanned Document.pdf",
-    "4. Misc/Pasted image 20230524083513.png",
-    "4. Misc/Building representations.png",
-    "4. Misc/dynamical systems banner.png",
-    "4. Misc/Open Composition of Carnot Engines.png",
-    "4. Misc/numerical methods banner.png",
-    "4. Misc/Light Generated Bubbles for Microscopic Propulsion.pdf",
-    "4. Misc/Composition of Carnot Engines.pdf",
-    "4. Misc/sivan-dubi-2021-theory-of-hot-photoluminescence-from-drude-metals.pdf",
     "4. Misc/Canvases/NMR Spectroscopy.canvas",
     "4. Misc/Canvases/Condensed Matter Mind Map.canvas",
-    "4. Misc/Canvases/Work In Progress.canvas",
-    "4. Misc/Canvases/MPEO.canvas",
-    "4. Misc/Canvases/Electric Response.canvas",
-    "4. Misc/Canvases/Optics Canvas.canvas",
-    "4. Misc/Canvases/Lasers.canvas",
-    "4. Misc/Canvases/MSc Research.canvas",
-    "4. Misc/Canvases/Anderson Localization Project.canvas"
+    "4. Misc/Canvases/Work In Progress.canvas"
   ]
 }

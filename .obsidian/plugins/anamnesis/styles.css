@@ -1,0 +1,452 @@
+/* ---------------------------------------------------------
+   Anamnesis · fleeting queue
+   Follows the vault's own snippets: small-caps spaced labels
+   (minimal-vault-profile), the hairline blockquote box
+   (blockquote-fleuron), bold italic titles over a 50% rule
+   (titles), and the calendar's accent ink (calendar-airy).
+   Accent shows only on the active row, focus, and "advanced".
+--------------------------------------------------------- */
+
+.anamnesis {
+    --an-border: color-mix(in srgb, var(--text-normal) 18%, transparent);
+    --an-fill: color-mix(in srgb, var(--text-normal) 3%, transparent);
+    --an-ink: color-mix(in srgb, var(--interactive-accent) 75%, var(--text-normal));
+    --an-radius: 10px;
+    --an-fade: 150ms ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px 12px 14px;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Labels ---------- */
+
+.anamnesis-label {
+    font-size: var(--font-ui-smaller);
+    font-weight: 500;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.18em;
+    color: var(--text-faint);
+}
+
+.anamnesis-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.anamnesis-header .anamnesis-label {
+    color: var(--text-muted);
+}
+
+.anamnesis .anamnesis-icon-btn {
+    color: var(--text-faint);
+    transition: color var(--an-fade);
+}
+
+.anamnesis .anamnesis-icon-btn:hover:not(:disabled) {
+    color: var(--an-ink);
+}
+
+.anamnesis .anamnesis-icon-btn:disabled {
+    opacity: 0.4;
+}
+
+.anamnesis-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* ---------- In-review card ---------- */
+
+.anamnesis-card {
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--an-border);
+    border-radius: var(--an-radius);
+    background: var(--an-fill);
+}
+
+.anamnesis-card.is-idle {
+    font-family: var(--font-text);
+    font-style: italic;
+    color: var(--text-faint);
+}
+
+.anamnesis-card-title {
+    font-family: var(--font-text);
+    font-size: 1.25em;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.25;
+    color: var(--text-normal);
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid color-mix(in srgb, currentColor 50%, transparent);
+    cursor: pointer;
+}
+
+.anamnesis-meta {
+    margin-top: 0.55em;
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    color: var(--text-faint);
+}
+
+.anamnesis-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 1.2em;
+    margin-top: 0.9em;
+}
+
+/* ---------- Quiet text buttons ---------- */
+
+.anamnesis button.anamnesis-act {
+    height: auto;
+    padding: 2px 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-family: inherit;
+    font-size: var(--font-ui-small);
+    font-variant: small-caps;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--an-fade), opacity var(--an-fade);
+}
+
+.anamnesis button.anamnesis-act:hover:not(:disabled) {
+    color: var(--text-normal);
+}
+
+.anamnesis button.anamnesis-act.mod-advance:hover {
+    color: var(--an-ink);
+}
+
+.anamnesis button.anamnesis-act.mod-faint {
+    color: var(--text-faint);
+}
+
+.anamnesis button.anamnesis-act:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.anamnesis button:focus-visible,
+.anamnesis .anamnesis-row:focus-visible {
+    outline: 1px solid var(--interactive-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-s);
+}
+
+/* ---------- "What became of it?" ---------- */
+
+.anamnesis-prompt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    margin-top: 0.9em;
+}
+
+.anamnesis-prompt-q {
+    font-family: var(--font-text);
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.anamnesis-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.anamnesis button.anamnesis-chip {
+    height: auto;
+    padding: 1px 10px 2px;
+    border: 1px solid var(--an-border);
+    border-radius: 999px;
+    background: none;
+    box-shadow: none;
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--an-fade), border-color var(--an-fade);
+}
+
+.anamnesis button.anamnesis-chip:hover {
+    color: var(--an-ink);
+    border-color: var(--interactive-accent);
+}
+
+.anamnesis-prompt .anamnesis-act {
+    align-self: flex-start;
+}
+
+/* ---------- Lists ---------- */
+
+.anamnesis-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.anamnesis-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 3px 8px 3px 10px;
+    border-radius: var(--radius-s);
+    cursor: pointer;
+    transition: background-color var(--an-fade);
+}
+
+.anamnesis-row:hover {
+    background: var(--background-modifier-hover);
+}
+
+.anamnesis-row.is-active {
+    box-shadow: inset 2px 0 0 var(--interactive-accent);
+}
+
+.anamnesis-row-title {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: var(--font-text);
+    color: var(--text-normal);
+}
+
+.anamnesis-section.mod-resting .anamnesis-row-title {
+    color: var(--text-muted);
+}
+
+.anamnesis-row-trail {
+    flex: 0 0 auto;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+}
+
+.anamnesis-strikes {
+    display: inline-flex;
+    gap: 3px;
+    align-self: center;
+}
+
+.anamnesis-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--text-normal) 14%, transparent);
+}
+
+.anamnesis-dot.is-used {
+    background: var(--text-muted);
+}
+
+.anamnesis-dot.is-last {
+    background: var(--interactive-accent);
+}
+
+/* ---------- Empty + footer ---------- */
+
+.anamnesis-empty {
+    padding: 1.5em 0;
+    text-align: center;
+    font-family: var(--font-text);
+    font-style: italic;
+    color: var(--text-faint);
+}
+
+.anamnesis-footer {
+    margin-top: auto;
+    padding-top: 8px;
+    border-top: 1px solid var(--background-modifier-border);
+    text-align: center;
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.12em;
+    color: var(--text-faint);
+}
+
+/* ---------- Tag filter ----------
+   Quiet words, not pills: a chip only gains a hairline
+   and accent ink once it is pressed. */
+
+.anamnesis-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+    margin-top: -6px;
+}
+
+.anamnesis button.anamnesis-tag {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    height: auto;
+    padding: 1px 8px 2px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: none;
+    box-shadow: none;
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--an-fade), border-color var(--an-fade), background-color var(--an-fade);
+}
+
+.anamnesis button.anamnesis-tag:hover {
+    color: var(--text-normal);
+    border-color: var(--an-border);
+}
+
+.anamnesis-tag-count {
+    font-size: 0.9em;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+}
+
+.anamnesis button.anamnesis-tag.is-on {
+    color: var(--an-ink);
+    border-color: color-mix(in srgb, var(--interactive-accent) 60%, transparent);
+    background: color-mix(in srgb, var(--interactive-accent) 8%, transparent);
+}
+
+.anamnesis button.anamnesis-tag.is-on .anamnesis-tag-count {
+    color: var(--an-ink);
+    opacity: 0.7;
+}
+
+.anamnesis button.anamnesis-tag.mod-untagged {
+    font-style: italic;
+}
+
+.anamnesis button.anamnesis-tag.mod-more,
+.anamnesis button.anamnesis-tag.mod-clear {
+    color: var(--text-faint);
+}
+
+/* ---------- Settings: icon preview ---------- */
+
+.anamnesis-icon-preview {
+    display: inline-flex;
+    margin-right: 8px;
+    color: var(--text-muted);
+}
+
+.anamnesis-icon-preview.is-missing {
+    color: var(--text-error);
+    opacity: 0.6;
+}
+
+/* ---------- Shared filter row: separator between types and subjects ---------- */
+
+.anamnesis-tag-sep {
+    align-self: center;
+    padding: 0 2px;
+    color: var(--text-faint);
+}
+
+.anamnesis button.anamnesis-tag.mod-type {
+    font-style: italic;
+}
+
+/* ---------- Recall ----------
+   Same card as the fleeting review. The title is the prompt, so it
+   isn't a link: the answer only opens on "reveal". */
+
+.anamnesis-today {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anamnesis-progress {
+    gap: 4px;
+}
+
+.anamnesis-dot.is-now {
+    background: none;
+    box-shadow: inset 0 0 0 1px var(--interactive-accent);
+}
+
+.anamnesis-progress-text {
+    font-variant: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.anamnesis-meta.mod-above {
+    margin-top: 0;
+    margin-bottom: 0.45em;
+}
+
+.anamnesis-card-title.mod-static {
+    cursor: default;
+}
+
+.anamnesis-card > .anamnesis-prompt-q {
+    margin-top: 0.8em;
+    font-size: var(--font-ui-small);
+}
+
+.anamnesis-grades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35em 1.2em;
+    margin-top: 0.7em;
+}
+
+.anamnesis button.anamnesis-grade {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.6em;
+}
+
+.anamnesis-interval {
+    font-variant: normal;
+    letter-spacing: 0;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+}
+
+.anamnesis button.anamnesis-grade.mod-solid:hover {
+    color: var(--an-ink);
+}
+
+.anamnesis button.anamnesis-grade.mod-forgot {
+    color: var(--text-faint);
+}
+
+.anamnesis button.anamnesis-grade.mod-forgot:hover {
+    color: var(--text-muted);
+}
+
+.anamnesis-later {
+    margin-top: -8px;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+    text-align: center;
+}
+
+.anamnesis-later:empty {
+    display: none;
+}

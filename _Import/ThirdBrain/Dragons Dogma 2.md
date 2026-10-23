@@ -1,0 +1,8 @@
+- We've escaped prison in an unimpressive opening and quite quickly learned that we are the 'Arizen'. My attention wasn't at its peak in the moment of revelation, but it basically means that my character revived after a dragon has reaped the heart from his chest and that, for some reason, makes him the rightful ruler of the kingdom.
+- We've later found out that the queen, seeking to secure her stewardship, knew of my origin and kept me in the prison from where we've escaped.
+- Our goal is to now establish our credibility by helping people and ridding the land of the monsters that infest it.
+
+The story thus far is trivial and the execution is not very exciting.
+The gameplay is unique but still a little clunky. The game shines in terms of RPG - from having the different classes feeling unique and impactful to having many skills. The weight system, while annoying, enforces you to make conscious decisions about which items to pick and which to leave behind. The need to camp and rest also adds an element of realism missing from other games and makes each and every journey from towns to quests feel long and  arduous. The pawns also give a fellowship of the ring kind of vibe and they are very useful in terms of tracking quests.
+
+The world is very realistic and the maps are impressive in their verticality and scale. I still find something missing in terms of art which make the feeling of the areas feel a little bland for want of a better word, but in general I am impressed with the world. When traveling one encounters a lot of NPCs - mostly pawns, but some NPC travelers. This makes the world feel more lived in, but the blandness of the NPCs and repetitiveness of the pawns met on the way makes it feel a little superficial.

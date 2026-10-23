@@ -1,0 +1,61 @@
+/* ---------------------------------------------------------
+   Minimal Vault Profile
+   Cleans up the vault section at the bottom of the left
+   sidebar: hides the Help and Settings buttons and the
+   divider line, then centers the vault name and styles it
+   as a quiet, spaced small-caps label. The name stays
+   clickable for the vault switcher; its chevron only
+   appears on hover.
+--------------------------------------------------------- */
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile {
+    border-top: none;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-actions {
+    display: none;
+}
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+    justify-content: center;
+    padding: 4px 28px;
+    border-radius: var(--radius-m);
+    background: transparent;
+    color: var(--text-faint);
+    transition: color 150ms ease;
+}
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover {
+    background: transparent;
+    color: var(--text-muted);
+}
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-name {
+    font-size: var(--font-ui-smaller);
+    font-weight: 500;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.18em;
+    text-align: center;
+}
+
+/* Chevron: hidden until hover, without shifting the centered name */
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 150ms ease;
+}
+
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover .workspace-drawer-vault-switcher-icon,
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:focus-visible .workspace-drawer-vault-switcher-icon {
+    opacity: 1;
+}

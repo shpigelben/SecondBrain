@@ -1,5 +1,8 @@
 ---
 type: fleeting
+tags:
+  - life
+  - idea
 ---
 Saving data in a sustainable way in which it’s data processing can later be performed.
 

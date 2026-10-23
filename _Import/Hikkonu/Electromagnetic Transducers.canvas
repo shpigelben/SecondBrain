@@ -1,0 +1,93 @@
+{
+	"nodes":[
+		{"id":"fd96c8d154107149","type":"group","x":-3120,"y":-1280,"width":3260,"height":2300,"color":"5","label":"E&M"},
+		{"id":"b27006d555823bd4","type":"group","x":-2320,"y":1440,"width":3020,"height":2160,"color":"1","label":"Thermal"},
+		{"id":"959c78ee2c606409","type":"group","x":400,"y":-1280,"width":2660,"height":2300,"color":"2","label":"Acoustics"},
+		{
+			"id":"15a215ad9b03c277",
+			"type":"text",
+			"text":"# Week 2 (13-17/7/2025)\n\n- **Tuesday (15/07/2025)**\n\t- [ ] For $R_{\\text{max}}= 15 \\ \\text{[mm]}$ and a given $R_{\\text{min}}$ find the current, $I$, required to produce $B_{z}(z=40 \\ \\text{[mm]})=1 \\ \\text{[T]}$.\n\t- [ ] Use the closed form of Biot-Savart law to find $\\mathbf{B}$ of a given configuration.\n\t\t- [ ] create an OOP script in which a magnetic loop is an object with which one can build planar coils and solenoids ETC.\n\t\t- [ ] How much does a planar coils deviate from concentric circles and how much does a solenoid deviates form stacked circles? Quantify in which does the symmetry breaks more significantly. \n\t- [ ] Calculate the RLC circuit current \"pulse\" with the inductance created by a certain field configuration + the constant existing inductance.\n- **Wednesday (16/07/2025)**",
+			"styleAttributes":{},
+			"x":-500,
+			"y":-3180,
+			"width":560,
+			"height":560
+		},
+		{
+			"id":"bc84cd54039fcb60",
+			"type":"text",
+			"text":"# CODE\n\n![](Pasted%20image%2020250722110648.png)\n\n\\rho_positive + rho_negative",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":-2680,
+			"width":420,
+			"height":280
+		},
+		{
+			"id":"4cbb6ca2e07a2282",
+			"type":"text",
+			"text":"# Why is The Pressure Pulse Narrower than the Current Pulse?\n\n1. **Pressure wave is proportional to a change in current:**\n   - A Lorentz force is generated due to Eddy currents which are proportional to the EMF.  $$p\\propto f_{\\text{Lorentz}}\\propto J_{\\text{eddy}} \\propto \\mathcal{E}_{\\text{emf}} $$\n   - The EMF, however, is proportional to the change in magnetic flux which is proportional to current pulse$$\\mathcal{E}_{\\text{emf}}\\propto \\frac{\\partial \\Phi_{B}}{\\partial t} \\propto \\frac{\\partial I}\n\t{\\partial t}$$\n\t- which means $$\\large\\boxed{p(t)\\propto\\frac{\\partial I(t)}\n\t{\\partial t}}$$\n1. **Nonlinear propagation can make the pulse narrower**\n\t- For high pressure values, material response need to be linear and different frequency components may travel at varying velocities resulting in a pulse that becomes narrower as it propagates.\n",
+			"styleAttributes":{},
+			"x":-800,
+			"y":-330,
+			"width":560,
+			"height":640
+		},
+		{
+			"id":"75f497253e09b69e",
+			"type":"text",
+			"text":"# Acoustic GRIN Material\n\n- Find the Fourier transform of the pressure waveform\n- Convert from spectral frequency to wavelength to see which wavelengths are present\n\t- wavelength too short might pose a problem in the layering of the GRIN material\n",
+			"styleAttributes":{},
+			"x":480,
+			"y":-310,
+			"width":600,
+			"height":600
+		},
+		{
+			"id":"c04a831d5257129d",
+			"type":"text",
+			"text":"# PEMF\n",
+			"styleAttributes":{},
+			"x":-800,
+			"y":-930,
+			"width":560,
+			"height":320
+		},
+		{"id":"a3297529a295927d","type":"file","file":"_Import/Hikkonu/Electromagnetic Transducer.md","x":-1920,"y":-1170,"width":720,"height":690},
+		{"id":"88f8147d93110901","type":"file","file":"_Import/Hikkonu/MISC/Pasted image 20250715113517.png","x":-2960,"y":-1170,"width":837,"height":400}
+	],
+	"edges":[
+		{
+			"id":"d4825f7c98aab7de",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4cbb6ca2e07a2282",
+			"fromSide":"right",
+			"toNode":"75f497253e09b69e",
+			"toSide":"left"
+		},
+		{
+			"id":"02fa6eae24635b2c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4cbb6ca2e07a2282",
+			"fromSide":"top",
+			"toNode":"c04a831d5257129d",
+			"toSide":"bottom"
+		},
+		{
+			"id":"5b76ed852eb16bcf",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a3297529a295927d",
+			"fromSide":"top",
+			"toNode":"bc84cd54039fcb60",
+			"toSide":"bottom"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"6862dd8e6e82a174"
+	}
+}

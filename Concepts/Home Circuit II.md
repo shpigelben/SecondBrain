@@ -14,8 +14,8 @@ tags:
 |  6  |    lateral raises    |  12  |      5      |
 |  7  | back bridge pushups  |  3   |      ~      |
 
-- [ ] 1
-- [ ] 2
-- [ ] 3
+- [x] 1
+- [x] 2
+- [x] 3
 - [ ] 4
 - [ ] 5

@@ -12,11 +12,10 @@ views:
       - formula.size [mb]
       - file.ext
     sort:
-      - property: formula.size [mb]
-        direction: ASC
       - property: file.ext
         direction: ASC
-    limit: 10
+      - property: formula.size [mb]
+        direction: DESC
     columnSize:
       file.name: 218
       file.backlinks: 214

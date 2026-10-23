@@ -1,0 +1,9 @@
+{
+  "id": "askesis",
+  "name": "Askesis",
+  "version": "0.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "A calendar of daily notes that doubles as a heatmap for binary daily challenges, every entry kept in frontmatter.",
+  "author": "Ben Shpigel",
+  "isDesktopOnly": false
+}

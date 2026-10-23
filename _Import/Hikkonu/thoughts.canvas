@@ -1,0 +1,52 @@
+{
+	"nodes":[
+		{
+			"id":"75ad09d0d0d61294",
+			"type":"text",
+			"text":"Couple of questions: \n\n1. To my eyes, given the masses measured, it appeared like the Alumina powder is more like 1/3 that total volume and not the intended 1/5.\n2. Which is better to hold the mixture inside the vacuum chamber before casting - a plastic cup or a glass cup?\n3. Is it a good idea to use a syringe to insert the mixture into the cast instead of pouring?",
+			"styleAttributes":{},
+			"x":-500,
+			"y":-680,
+			"width":460,
+			"height":260,
+			"color":"5"
+		},
+		{
+			"id":"26f8f15fae28f29c",
+			"type":"text",
+			"text":"### **1) “Looks like ~1/3 not 1/5” — why?**\n\n- **Powder bulk vs true density:** We target alumina **volume fraction in the final composite** using the **true density** (~3.95 g/cm³). Dry alumina powder has a much lower **bulk density** (often ~0.7–1.2 g/cm³), so **it looks much “bigger” before wetting**. Once mixed, silicone fills inter-particle voids and the apparent volume shrinks.\n    \n- **Air & foaming:** During mixing/vacuum, foaming can temporarily expand volume; after collapse it may still **trap micro-voids** near walls that visually exaggerate the filler fraction.\n    \n- **Settling/stratification:** Vibration or long pot life can let alumina settle, making parts of the mold look “powder-rich.”\n    \n- **How to verify actual vol% (reliable):**\n    \n    Compute after cure from masses and true densities:\n\n    $$\\phi_{\\text{Al2O3}}=\\frac{m_a/\\rho_a}{(m_a/\\rho_a)+(m_s/\\rho_s)}$$\n    \n    (Use your measured m_a,m_s, \\rho_a\\approx3.95, \\rho_s from datasheet.)\n    \n    Or measure **displacement volume** of the cured part and back-calc.\n    \n\n  \n\n**Mitigations:** Pre-wet powder into part A (paste first), minimize over-vibration, use shorter pot life or slight thixotropy, and degas mix **and** filled mold briefly.\n\n---\n\n### **2) Container in the vacuum chamber: plastic vs glass?**\n\n- **Best overall:** **Borosilicate glass beaker** (rigid, low outgassing, won’t collapse under vacuum, easy to scrape).\n    \n- **Plastic (PP/PE) cup:** OK and convenient, silicone releases easily; but thin walls can **bow** under vacuum, promoting re-entrainment of bubbles and making mixing harder. Some plastics outgas more and can carry static (powder cling).\n    \n- **Tips:** Use a **wide, shallow** container to shorten bubble rise distance; avoid styrene/PS; if using plastic, pick **thick PP** lab beakers.\n    \n\n---\n\n### **3) Syringe injection vs pouring?**\n\n- **Yes, good idea**—with the right hardware. Syringe injection:\n    \n    - Reduces bubble entrapment in narrow features and lets you **fill from the bottom up**.\n        \n    - Needs **large-bore**: 20–60 mL syringe with **catheter tip** or Luer-Lock + **8–10 ga blunt** needle; for very viscous, a **piping bag** (pastry bag) works great.\n        \n    - Load slowly to avoid trapping air; you can **vacuum the loaded syringe briefly** (plunger up) to strip bubbles.\n        \n    \n- **When to pour instead:** Very low viscosity or large, open molds. If pouring, do a **thin stream from height** and **post-fill vibrate** lightly.\n    \n\n---\n\nIf you share your actual measured masses and silicone density, I can compute your **true final volume fraction** and suggest tweaks (e.g., optimal vibration time) to minimize settling.",
+			"styleAttributes":{},
+			"x":-500,
+			"y":-260,
+			"width":580,
+			"height":720,
+			"color":"6"
+		},
+		{
+			"id":"80990c54672bf98c",
+			"type":"text",
+			"text":"# Rubber-Alumina Production\n\n- [ ] Use wider glass beaker with a comfortable pouring nozzle\n- [ ] Need a mechanical stirrer for better incorporation\n- [ ] Consider the difference between incorporating the powder into the different curing parts separately instead of blending the whole mixture together\n- [ ] Degassing should last longer\n- [ ] Consider casting using syringe\n- [ ] If possible - degass after casting\n- [ ] Preferable if curing can be done in an oven",
+			"styleAttributes":{},
+			"x":60,
+			"y":-740,
+			"width":480,
+			"height":340
+		},
+		{"id":"54807d6c6cd185b9","type":"file","file":"_Import/Hikkonu/MISC/Pasted image 20250819141246.png","x":1080,"y":-680,"width":694,"height":407}
+	],
+	"edges":[
+		{
+			"id":"c475462dbfbe71b6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"75ad09d0d0d61294",
+			"fromSide":"bottom",
+			"toNode":"26f8f15fae28f29c",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

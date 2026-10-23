@@ -1,7 +1,5 @@
 ---
 type: fleeting
-discipline: []
-field: []
 tags:
   - work
 ---

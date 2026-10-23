@@ -1,0 +1,5 @@
+---
+type: fleeting
+tags:
+  - idea
+---

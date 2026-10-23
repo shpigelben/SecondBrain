@@ -1,0 +1,82 @@
+{
+  "folder": "",
+  "roles": {
+    "text": {
+      "family": "Recoleta Alt",
+      "features": {},
+      "axes": {}
+    },
+    "headings": {
+      "family": "Recoleta Alt",
+      "features": {},
+      "axes": {}
+    },
+    "interface": {
+      "family": "Inter",
+      "features": {},
+      "axes": {}
+    },
+    "monospace": {
+      "family": "JetBrains Mono",
+      "features": {},
+      "axes": {}
+    }
+  },
+  "arrows": true,
+  "comparisons": false,
+  "packed": {
+    "Recoleta Alt": {
+      "features": {
+        "case": "Case-sensitive forms",
+        "frac": "Fractions",
+        "liga": "Standard ligatures",
+        "ordn": "Ordinals",
+        "salt": "Stylistic alternates",
+        "ss01": "Stylistic set 1"
+      },
+      "axes": {},
+      "faces": 7
+    },
+    "Inter": {
+      "features": {
+        "calt": "Contextual alternates",
+        "case": "Case-sensitive forms",
+        "cv01": "Character variant 1",
+        "cv02": "Character variant 2",
+        "cv03": "Character variant 3",
+        "cv04": "Character variant 4",
+        "cv05": "Character variant 5",
+        "cv06": "Character variant 6",
+        "cv07": "Character variant 7",
+        "cv08": "Character variant 8",
+        "cv09": "Character variant 9",
+        "cv10": "Character variant 10",
+        "dlig": "Discretionary ligatures",
+        "frac": "Fractions",
+        "liga": "Standard ligatures",
+        "ordn": "Ordinals",
+        "pnum": "Proportional figures",
+        "salt": "Stylistic alternates",
+        "ss01": "Stylistic set 1",
+        "ss02": "Stylistic set 2",
+        "subs": "Subscripts",
+        "sups": "Superscripts",
+        "tnum": "Tabular figures",
+        "zero": "Slashed zero",
+        "cpsp": "Capital spacing"
+      },
+      "axes": {},
+      "faces": 18
+    },
+    "JetBrains Mono": {
+      "features": {
+        "calt": "Contextual alternates",
+        "zero": "Slashed zero"
+      },
+      "axes": {},
+      "faces": 8
+    }
+  },
+  "packSig": "Recoleta Alt|.obsidian/Fonts/Recoleta/RecoletaAlt Black.woff2|39560|1752100272000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt Bold.woff2|43416|1752100272000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt Light.woff2|42844|1752100273000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt Medium.woff2|41336|1752100277000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt Regular.woff2|43452|1752100275000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt SemiBold.woff2|43696|1752100276000\nRecoleta Alt|.obsidian/Fonts/Recoleta/Recoleta Alt Thin.woff2|42276|1752100277000\nInter|.obsidian/Fonts/Inter/Inter-Black.otf|227788|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-BlackItalic.otf|236664|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Bold.otf|232056|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-BoldItalic.otf|240756|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-ExtraBold.otf|232716|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-ExtraBoldItalic.otf|241052|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-ExtraLight-BETA.otf|232848|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-ExtraLightItalic-BETA.otf|241632|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Italic.otf|235808|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Light-BETA.otf|231672|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-LightItalic-BETA.otf|240296|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Medium.otf|230788|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-MediumItalic.otf|240248|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Regular.otf|223164|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-SemiBold.otf|231416|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-SemiBoldItalic.otf|240564|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-Thin-BETA.otf|233700|1644030040000\nInter|.obsidian/Fonts/Inter/Inter-ThinItalic-BETA.otf|241720|1644030040000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoBold-51Xez.ttf|138692|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoBoldItalic-6YyW6.ttf|145004|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoExtrabold-ywLd5.ttf|139168|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoExtraboldItalic-9YKO5.ttf|145672|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoItalic-lg91X.ttf|141572|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoMedium-nRvBM.ttf|138276|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoMediumItalic-1GDgL.ttf|144528|1644030046000\nJetBrains Mono|.obsidian/Fonts/Jetbrains/JetbrainsMonoRegular-RpvmM.ttf|136708|1644030046000",
+  "packBytes": 7553973
+}

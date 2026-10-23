@@ -1,0 +1,48 @@
+filters:
+  and:
+    - type == "journal"
+    - date >= date("2026-10-22")
+properties:
+  note.no_sugar:
+    displayName: No sugar
+  note.thesis_10m:
+    displayName: Thesis 10m
+  note.workout:
+    displayName: Workout
+  note.workout_type:
+    displayName: Type
+  note.no_sugar_note:
+    displayName: Sugar note
+  note.thesis_10m_note:
+    displayName: Thesis note
+  note.workout_note:
+    displayName: Workout note
+views:
+  - type: table
+    name: Last 30 days
+    filters:
+      and:
+        - date >= today() - "30d"
+    order:
+      - file.name
+      - no_sugar
+      - thesis_10m
+      - workout
+      - workout_type
+      - no_sugar_note
+      - thesis_10m_note
+      - workout_note
+    sort:
+      - property: date
+        direction: DESC
+  - type: table
+    name: All
+    order:
+      - file.name
+      - no_sugar
+      - thesis_10m
+      - workout
+      - workout_type
+    sort:
+      - property: date
+        direction: DESC

@@ -1,5 +1,6 @@
 ---
 type: journal
+date: <% moment(tp.file.title, "DD-MM-YY").format("YYYY-MM-DD") %>
 ---
 <%*
 const file = tp.file.find_tfile("Quotes");
@@ -12,5 +13,3 @@ tR += quotes[Math.floor(Math.random() * quotes.length)] ?? "";
 %>
 
 ![[Today's Fleeting Notes.base]]
-
-![[Daily Tasks.base]]

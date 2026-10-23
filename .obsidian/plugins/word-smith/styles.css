@@ -1,6 +1,6 @@
 :root {
 
-	--ws-stylesheet-version: 579;
+	--ws-stylesheet-version: 580;
 
 	--ws-bg:   #050505;
 	--ws-text: #ffb000;
@@ -767,9 +767,12 @@ body.ws-bar-anim .ws-status-bar {
 .ws-bar { position: relative; display: block; overflow: hidden; border-radius: calc(var(--radius-s, 4px) / 2); }
 .ws-bar-fill { position: relative; display: block; height: 100%; width: calc(var(--ws-bar-pct, 0) * 1%); border-radius: inherit; background-color: currentColor; }
 
+.ws-dailytok-gauge,
 .ws-goaltok-gauge { display: inline-block; margin-right: 0.45em; vertical-align: 0.05em; line-height: 0; }
 
+.ws-dailytok-gauge .ws-bar,
 .ws-goaltok-gauge .ws-bar { width: 3.1em; height: 0.5em; }
+.ws-dailytok-gauge .ws-bar::before,
 .ws-goaltok-gauge .ws-bar::before { content: ""; position: absolute; inset: 0; background-color: currentColor; opacity: 0.25; }
 
 .ws-wpmtok { font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -779,9 +782,15 @@ body.ws-bar-anim .ws-status-bar {
 .ws-wpm-needle { transform-box: view-box; transform-origin: 12px 14px; transform: rotate(calc(var(--ws-wpm-deg, -120) * 1deg)); transition: transform 200ms linear; }
 @media (prefers-reduced-motion: reduce) { .ws-wpm-needle { transition: none; } }
 
+.ws-dailytok { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ws-dailytok.is-pressable { cursor: pointer; }
+.ws-dailytok-icon { display: inline-flex; vertical-align: -0.12em; margin-right: 0.3em; line-height: 0; }
+.ws-dailytok-icon .svg-icon { width: 1em; height: 1em; }
+
 .ws-goaltok-icon { display: inline-flex; vertical-align: -0.12em; line-height: 0; }
 .ws-goaltok-icon .svg-icon { width: 1em; height: 1em; }
 
+.ws-dailytok.is-bare .ws-dailytok-gauge,
 .ws-goaltok.is-bare .ws-goaltok-gauge { margin-right: 0; }
 
 .ws-goal-panel {
@@ -819,12 +828,26 @@ body.ws-bar-anim .ws-status-bar {
 .ws-goal-panel-days { display: flex; align-items: center; gap: var(--size-2-2); --icon-size: var(--icon-xs); }
 .ws-goal-panel-glass { display: flex; }
 
+.ws-org-table td.is-goal.is-dl { text-align: start; white-space: nowrap; }
+.ws-org-dl-days { display: inline-block; min-width: var(--ws-org-dl-w, 9ch); }
+.ws-org-dl-date { color: var(--text-muted); }
+
+.ws-org-dl-dot { color: var(--text-muted); white-space: pre; }
+.ws-org-dl-days.is-late,
+.ws-org-table td.is-goal.is-late { color: var(--text-error); }
+
 .ws-goal-panel-days.is-late { color: var(--text-error); }
 
 .ws-goal-panel-row.is-note .ws-bar-fill { opacity: 0.5; }
 
 .ws-goal-panel-row.is-today .ws-bar-fill { background-color: var(--text-normal); opacity: 1; }
 .ws-goal-panel-pace { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--background-modifier-border); color: var(--text-muted); }
+
+.ws-goal-panel.ws-daily-panel:focus-within { z-index: 10001; }
+.ws-daily-panel-set { display: flex; align-items: center; gap: var(--size-4-2); margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--background-modifier-border); }
+.ws-daily-panel-goal { width: 10ch; font-variant-numeric: tabular-nums; text-align: right; }
+.ws-daily-panel-unit { flex: 1 1 auto; color: var(--text-muted); white-space: nowrap; }
+.ws-daily-panel-reset { --icon-size: var(--icon-s); }
 
 .ws-status-row {
 	display: flex;

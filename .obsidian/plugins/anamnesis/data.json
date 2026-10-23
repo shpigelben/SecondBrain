@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "typeKey": "type",
+    "typeValue": "fleeting",
+    "excludeTags": [
+      "daily-minimum"
+    ],
+    "ladder": [
+      3,
+      7,
+      21
+    ],
+    "archiveFolder": "Fleeting/Archive",
+    "retypeOptions": [
+      "concept",
+      "puzzle",
+      "task",
+      "book",
+      "moc"
+    ],
+    "mergeTargetType": "concept",
+    "mergeAppend": true,
+    "icon": "wind",
+    "recallEnabled": true,
+    "recallIcon": "brain",
+    "recallTypes": [
+      "concept",
+      "puzzle"
+    ],
+    "retention": 0.85,
+    "newPerDay": 3,
+    "reviewsPerDay": 8,
+    "maxInterval": 365
+  },
+  "current": "Fleeting/Interview Questions.md",
+  "tagFilter": [],
+  "log": [
+    {
+      "date": "2026-10-21",
+      "path": "Fleeting/What to read next?.md",
+      "title": "What to read next?",
+      "outcome": "let-go",
+      "snoozes": 0
+    }
+  ],
+  "recallFilter": {
+    "types": [],
+    "subjects": []
+  },
+  "recallLog": [
+    {
+      "date": "2026-10-23",
+      "path": "Concepts/Zeroth Law of Thermodynamics.md",
+      "grade": "shaky"
+    }
+  ]
+}

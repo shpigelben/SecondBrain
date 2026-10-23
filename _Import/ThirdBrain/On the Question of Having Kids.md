@@ -1,0 +1,10 @@
+Do we have the right to force life upon a baby? This paradoxical question has been posed to me by a friend who is, in general, against having kids. His journey through life has reportedly been a miserable one, accompanied by depression, internal suffering and general dissatisfaction. His predisposition makes it understandable why he would think the way he does:
+
+- Confirmation bias - The inability to properly cope with life makes the dilemma of having children easier. And to come to terms with the understanding of not being able to bring children or the inability to raise one it is easier to reinforce the world view in which bringing children is somewhat immoral. This shifts the weight from "I don't want to bring children because it's hard/time-consuming/etc" to something that does not stem from self-centeredness and puts a moral spin to it.
+- Negative world view - Having dealt with depression for most of his adult life, and having developed a very dark and pessimistic outlook on life it is understandable why, even with wanting to raise kind, he would be apprehensive about bringing kids into the world the he considers a bad place. Why subject someone who's supposed to be the most precious being to such a fate?
+
+The second point is the more common (most people won't admit the first). It is also more relatable. While I personally think that life is full of potential for happiness and fulfillment, I also recognize it's capacity for suffering and misery. Having made the choice of bringing a kid into the world is in some way a risk that we take on their account, it is in a sense the most important decision in life (literally) that we make for them without ever hacing consulted them. 
+
+___
+Challenge-free life -> often meaningless -> dull, boring
+Over challenging life -> full of frustration -> dissatisfying

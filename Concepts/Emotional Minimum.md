@@ -1,5 +1,5 @@
 ---
-type: fleeing
+type: fleeting
 tags:
   - daily-minimum
 ---

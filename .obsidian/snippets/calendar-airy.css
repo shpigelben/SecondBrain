@@ -46,7 +46,7 @@
 
 #calendar-container .nav { margin: 0.2em 0 0.55em; padding: 0 0.3em; }
 #calendar-container .title {
-    font-family: var(--font-text);
+    font-family: var(--font-interface);
     font-style: normal;
     font-size: 1.4em;
     font-weight: 400;

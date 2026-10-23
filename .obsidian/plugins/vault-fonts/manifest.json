@@ -1,0 +1,9 @@
+{
+  "id": "vault-fonts",
+  "name": "Vault Fonts",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Loads font files stored inside the vault and applies them to the editor, headings, interface and code, on any device, installed or not. Includes OpenType feature controls and arrow ligatures.",
+  "author": "Ben Shpigel",
+  "isDesktopOnly": false
+}

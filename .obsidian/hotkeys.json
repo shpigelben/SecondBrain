@@ -160,5 +160,21 @@
       ],
       "key": "R"
     }
+  ],
+  "word-smith:toggle-retro-bar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "word-smith:toggle-letterbox": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
   ]
 }

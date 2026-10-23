@@ -1,5 +1,7 @@
 ---
 type: fleeting
+tags:
+  - life
 ---
 > Who you *think* you are is defined by what you do. Who you *really* are is revealed when you finally stop doing.
 

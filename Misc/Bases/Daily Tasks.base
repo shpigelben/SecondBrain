@@ -18,12 +18,11 @@ views:
   - type: table
     name: Tasks
     order:
-      - file.name
       - done
-    sort:
-      - property: done
-        direction: ASC
+      - file.name
+    sort: []
     columnSize:
-      file.name: 507
+      note.done: 80
+      file.name: 516
     indentProperties: false
     separator: " -> "

@@ -3,13 +3,16 @@
   "obsidian-excalidraw-plugin",
   "calendar",
   "obsidian-latex-suite",
-  "obsidian-spaced-repetition",
   "excalidraw-extras",
   "cursor-smith",
   "obsidian-hider",
   "obsidian-rtl",
   "image-text-wrap",
+  "sketchpad",
+  "obsidian-tasks-plugin",
+  "minimal-base-embeds",
   "templater-obsidian",
-  "window-controls",
-  "minimal-base-embeds"
+  "anamnesis",
+  "askesis",
+  "vault-fonts"
 ]

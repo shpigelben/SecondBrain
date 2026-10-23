@@ -8,19 +8,10 @@ notes outside them.
 ### 
 
 - [ ] Home.md
-- [ ] LCD Polarizer Physics.md
-- [ ] LLMs as a Link to Human Knowledge.md
 - [ ] Reading List.md
 
 ### order: /
 
-- Dynamical Systems in Work.md
-- Misc/- Home.md
-- How Bolometers Work?.md
-- Is External Memory Detrimental?.md
-- LCD Polarizer Physics.md
-- LLMs as a Link to Human Knowledge.md
-- Neural Healing.md
 - Reading List.md
 - Voronoi Diagram.log
 

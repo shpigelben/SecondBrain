@@ -1,0 +1,768 @@
+/* ---------------------------------------------------------
+   Askesis · calendar, challenge strips, the day sheet
+   The month follows calendar-airy: interface font, a light
+   month title with an italic year, small spaced weekday labels
+   over a hairline, today's column marked in accent. Under it,
+   a quiet "Challenges" bar opens GitHub-style strips.
+   In the strips, done days are filled with ink; amber marks
+   only today and the corner of a day that carries a note.
+--------------------------------------------------------- */
+
+.askesis,
+.askesis-sheet {
+    --ak-cell: color-mix(in srgb, var(--text-normal) 8%, transparent);
+    --ak-done: color-mix(in srgb, var(--text-normal) 78%, var(--background-secondary));
+    --ak-miss: var(--text-faint);
+    --ak-accent: var(--interactive-accent);
+    --ak-ink: color-mix(in srgb, var(--interactive-accent) 75%, var(--text-normal));
+    --ak-tint: color-mix(in srgb, var(--interactive-accent) 18%, transparent);
+    --ak-border: var(--background-modifier-border);
+    --ak-fade: 150ms ease;
+    direction: ltr;
+    text-align: left;
+    font-variant-numeric: tabular-nums;
+}
+
+.askesis {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0.4em 0 0.8em;
+    container-type: inline-size;
+}
+
+/* ---------- Shared bits ---------- */
+
+.askesis-label {
+    font-size: var(--font-ui-smaller);
+    font-weight: 500;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.18em;
+    color: var(--text-faint);
+}
+
+.askesis-empty {
+    font-style: italic;
+    color: var(--text-faint);
+}
+
+.askesis-mono {
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+}
+
+.askesis-stat {
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.askesis button.askesis-day,
+.askesis button.askesis-toggle,
+.askesis button.askesis-name,
+.askesis button.askesis-add,
+.askesis button.askesis-jump {
+    all: unset;
+    box-sizing: border-box;
+    cursor: var(--cursor);
+}
+
+.askesis-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.askesis-row-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* ---------- The calendar view ---------- */
+
+.workspace-leaf-content[data-type="askesis-calendar"] .view-content.askesis-cal-view {
+    padding: 4px 6px 12px;
+}
+
+.askesis-cal {
+    margin: 0;
+    gap: 0;
+    font-family: var(--font-interface);
+    container-type: normal;
+}
+
+.askesis-cal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.2em 0 0.55em;
+    padding: 0 0.3em;
+}
+
+.askesis-cal-title {
+    min-width: 0;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.askesis-cal-year {
+    margin-left: 0.3em;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.askesis-cal-nav {
+    display: flex;
+    align-items: center;
+}
+
+.askesis .askesis-cal-arrow {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0;
+    color: var(--text-faint);
+}
+
+.askesis-cal-arrow svg {
+    width: 1em;
+    height: 1em;
+}
+
+.askesis .askesis-cal-arrow.is-hidden {
+    visibility: hidden;
+}
+
+.askesis-cal-wds,
+.askesis-cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    column-gap: 0.25em;
+}
+
+.askesis-cal-wds {
+    border-bottom: 1px solid var(--ak-border);
+}
+
+.askesis-cal-wd {
+    margin-bottom: -1px;
+    padding: 0.2em 0 0.9em;
+    text-align: center;
+    font-size: 0.55em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--text-faint);
+}
+
+.askesis-cal-wd.is-today {
+    color: var(--ak-ink);
+    background: linear-gradient(var(--ak-accent), var(--ak-accent)) center bottom / 3.3em 1.5px no-repeat;
+}
+
+.askesis-cal-grid {
+    row-gap: 0.25em;
+    padding-top: 0.5em;
+}
+
+.askesis .askesis-day {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6em 0 0.7em;
+    border-radius: 0.6em;
+    font-size: 0.85em;
+    line-height: 1;
+    color: var(--text-normal);
+    transition: background-color var(--ak-fade), color var(--ak-fade);
+}
+
+.askesis .askesis-day:hover {
+    background: var(--background-modifier-hover);
+}
+
+.askesis .askesis-day.is-adjacent {
+    color: var(--text-faint);
+}
+
+.askesis .askesis-day.has-file::before {
+    content: "";
+    position: absolute;
+    bottom: 0.3em;
+    left: 50%;
+    width: 0.32em;
+    height: 0.32em;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background: var(--text-faint);
+}
+
+.askesis .askesis-day.is-today {
+    background: var(--ak-tint);
+    color: var(--ak-ink);
+    font-weight: 600;
+}
+
+.askesis .askesis-day.is-open {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.askesis .askesis-day.is-open:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.askesis .askesis-day.is-open::before {
+    background: currentColor;
+    opacity: 0.6;
+}
+
+.askesis button.askesis-day:focus-visible,
+.askesis button.askesis-toggle:focus-visible,
+.askesis button.askesis-name:focus-visible {
+    outline: 2px solid var(--ak-accent);
+    outline-offset: 2px;
+}
+
+/* The bar that opens the strips */
+
+.askesis button.askesis-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0.7em;
+    padding: 0.55em 0.3em 0.1em;
+    border-top: 1px solid var(--ak-border);
+}
+
+.askesis-toggle .askesis-label {
+    flex: 1;
+    transition: color var(--ak-fade);
+}
+
+.askesis button.askesis-toggle:hover .askesis-label,
+.askesis-toggle.is-open .askesis-label {
+    color: var(--text-muted);
+}
+
+.askesis-toggle-marks {
+    display: flex;
+    gap: 3px;
+}
+
+.askesis-chevron {
+    display: flex;
+    color: var(--text-faint);
+    transition: transform var(--ak-fade);
+}
+
+.askesis-chevron svg {
+    width: 14px;
+    height: 14px;
+}
+
+.askesis-toggle.is-open .askesis-chevron {
+    transform: rotate(180deg);
+}
+
+.askesis-mark {
+    width: 8px;
+    height: 8px;
+    flex: none;
+    border-radius: 2px;
+    background: var(--ak-cell);
+}
+
+.askesis-mark.is-empty {
+    background: transparent;
+    box-shadow: inset 0 0 0 1.25px var(--ak-accent);
+}
+
+.askesis-mark.is-done {
+    background: var(--ak-done);
+}
+
+.askesis-mark.is-miss {
+    position: relative;
+}
+
+.askesis-mark.is-miss::before,
+.askesis .askesis-cell.is-miss::before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 50%;
+    height: 1.5px;
+    margin-top: -0.75px;
+    border-radius: 1px;
+    background: var(--ak-miss);
+}
+
+/* The strips */
+
+.askesis-challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0.9em 0.3em 0;
+}
+
+.askesis button.askesis-name {
+    font-size: 0.85em;
+    color: var(--text-normal);
+}
+
+.askesis button.askesis-name:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--ak-border);
+    text-underline-offset: 3px;
+}
+
+.askesis-strip {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto repeat(7, auto);
+    grid-template-columns: repeat(var(--weeks, 20), minmax(0, 1fr));
+    gap: 3px;
+}
+
+.askesis-strip .askesis-month {
+    height: 13px;
+    font-size: 9.5px;
+    line-height: 13px;
+    white-space: nowrap;
+    color: var(--text-faint);
+}
+
+.askesis .askesis-strip .askesis-cell {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.askesis button.askesis-add {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    align-self: flex-start;
+    font-size: 0.8em;
+    color: var(--text-faint);
+    transition: color var(--ak-fade);
+}
+
+.askesis button.askesis-add:hover {
+    color: var(--ak-ink);
+}
+
+.askesis-add svg {
+    width: 12px;
+    height: 12px;
+}
+
+/* ---------- Cells (strips and year grids) ---------- */
+
+.askesis .askesis-cell {
+    appearance: none;
+    display: block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 2.5px;
+    box-shadow: none;
+    background: var(--ak-cell);
+    cursor: default;
+}
+
+.askesis button.askesis-cell {
+    cursor: var(--cursor);
+}
+
+.askesis button.askesis-cell:hover {
+    filter: brightness(0.92);
+}
+
+.theme-dark .askesis button.askesis-cell:hover {
+    filter: brightness(1.25);
+}
+
+.askesis .askesis-cell.is-done,
+.askesis .askesis-cell.has-file {
+    background: var(--ak-done);
+}
+
+.askesis .askesis-cell.is-off,
+.askesis .askesis-cell.is-before {
+    background: transparent;
+}
+
+.askesis .askesis-cell.is-today {
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 0 0 2.2px var(--ak-accent);
+}
+
+.askesis .askesis-cell.is-today.is-empty {
+    background: transparent;
+    box-shadow: inset 0 0 0 1.5px var(--ak-accent);
+}
+
+.askesis .askesis-cell.has-note::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 4px solid var(--ak-accent);
+    border-left: 4px solid transparent;
+    border-top-right-radius: 2.5px;
+}
+
+.askesis button.askesis-cell:focus-visible {
+    outline: 2px solid var(--ak-accent);
+    outline-offset: 2px;
+}
+
+/* ---------- Challenge notes: the full year ---------- */
+
+/* One grid filled column by column: a label column, then 53 weeks of a
+   month label over seven days. It fills the note's width; on a narrow
+   screen it falls back to small cells that scroll. */
+.askesis-heat-scroll {
+    padding: 4px 2px 6px;
+}
+
+.askesis-heat {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1.4em repeat(7, auto);
+    grid-template-columns: 2.4em;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 3px;
+    width: 100%;
+}
+
+.askesis .askesis-heat .askesis-cell {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.askesis-heat-day,
+.askesis-heat .askesis-month {
+    align-self: center;
+    font-size: 10px;
+    white-space: nowrap;
+    color: var(--text-faint);
+}
+
+@container (max-width: 560px) {
+    .askesis-heat-scroll {
+        overflow-x: auto;
+    }
+
+    .askesis-heat {
+        width: max-content;
+        grid-template-rows: 16px repeat(7, 12px);
+        grid-template-columns: 26px;
+        grid-auto-columns: 12px;
+    }
+
+    .askesis .askesis-heat .askesis-cell {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.askesis-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+}
+
+.askesis-legend > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.askesis .askesis-legend .askesis-cell {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+
+a.askesis-title {
+    color: var(--text-normal);
+    text-decoration: none;
+}
+
+.askesis-meta {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.askesis-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-block: 1px solid var(--ak-border);
+}
+
+.askesis-stat-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 8px 12px;
+}
+
+.askesis-stat-box:first-child {
+    padding-left: 0;
+}
+
+.askesis-stat-box + .askesis-stat-box {
+    border-left: 1px solid var(--ak-border);
+}
+
+.askesis-stat-value {
+    font-size: 1.5em;
+    line-height: 1.3;
+}
+
+.askesis-stat-value.is-text {
+    font-size: 1em;
+    line-height: 1.5;
+    padding-top: 0.35em;
+}
+
+.askesis-unit {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.is-phone .askesis-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.is-phone .askesis-stat-box:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+}
+
+.is-phone .askesis-stat-box:nth-child(n + 3) {
+    border-top: 1px solid var(--ak-border);
+}
+
+.askesis-notes ol {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+}
+
+.askesis-notes li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--ak-border);
+}
+
+.askesis-notes .askesis-note-text {
+    grid-column: 1 / -1;
+    font-style: italic;
+}
+
+.askesis-notes .askesis-note-text p {
+    margin: 0;
+}
+
+.askesis button.askesis-jump:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--ak-border);
+    text-underline-offset: 3px;
+}
+
+.askesis-end {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--ak-border);
+}
+
+/* ---------- The day sheet ---------- */
+
+.askesis-sheet {
+    position: fixed;
+    z-index: var(--layer-popover);
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 16px;
+    font-family: var(--font-text);
+    background: var(--background-primary);
+    border: 1px solid var(--ak-border);
+    border-radius: 12px;
+    box-shadow: var(--shadow-l);
+}
+
+.askesis-sheet.is-phone {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    z-index: var(--layer-modal);
+    border-bottom: 0;
+    border-radius: 16px 16px 0 0;
+    padding: 16px 18px calc(18px + env(safe-area-inset-bottom, 0px));
+}
+
+.askesis-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: calc(var(--layer-modal) - 1);
+    background: var(--background-modifier-cover);
+}
+
+.askesis-sheet-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.askesis-sheet-date {
+    font-size: 1.1em;
+}
+
+.askesis-sheet-nav {
+    display: flex;
+    margin: -4px -6px 0 0;
+}
+
+.askesis-sheet .askesis-icon:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.askesis-seg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.askesis-sheet button.askesis-opt,
+.askesis-sheet button.askesis-chip {
+    font-family: var(--font-text);
+    font-size: 1em;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid var(--ak-border);
+    color: var(--text-normal);
+    cursor: var(--cursor);
+}
+
+.askesis-sheet button.askesis-opt {
+    height: auto;
+    min-height: 44px;
+    border-radius: 8px;
+}
+
+.askesis-sheet button.askesis-opt:hover,
+.askesis-sheet button.askesis-chip:hover {
+    border-color: var(--text-faint);
+}
+
+.askesis-sheet button.askesis-opt.is-done,
+.askesis-sheet button.askesis-chip.is-on {
+    background: var(--ak-done);
+    border-color: var(--ak-done);
+    color: var(--background-primary);
+}
+
+.askesis-sheet button.askesis-opt.is-miss {
+    border-color: var(--text-normal);
+}
+
+.askesis-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.askesis-sheet button.askesis-chip {
+    height: auto;
+    min-height: 34px;
+    padding: 4px 13px;
+    border-radius: 999px;
+}
+
+.askesis-sheet textarea.askesis-note {
+    width: 100%;
+    min-height: 60px;
+    resize: vertical;
+    font-family: var(--font-text);
+    font-size: 1em;
+    background: var(--background-secondary);
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.askesis-sheet textarea.askesis-note:focus {
+    border-color: var(--ak-border);
+    box-shadow: none;
+}
+
+.askesis-sheet-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+}
+
+.askesis-sheet a.askesis-file {
+    color: var(--text-muted);
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+}
+
+.askesis-sheet a.askesis-file:hover {
+    color: var(--ak-ink);
+}
+
+.askesis-sheet button.askesis-link {
+    all: unset;
+    cursor: var(--cursor);
+    color: var(--text-faint);
+    transition: color var(--ak-fade);
+}
+
+.askesis-sheet button.askesis-link:hover {
+    color: var(--ak-ink);
+}
+
+/* ---------- New challenge modal ---------- */
+
+.askesis-error {
+    min-height: 1.2em;
+    color: var(--text-error);
+    font-size: var(--font-ui-small);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .askesis *,
+    .askesis-sheet * {
+        transition: none !important;
+    }
+}
